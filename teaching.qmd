@@ -1,0 +1,27 @@
+---
+title: "Teaching"
+toc: false
+page-layout: full
+---
+
+I currently teach statistics, data science, and mathematics at Fitchburg State University.
+
+# Courses Taught at Fitchburg State
+
+## Statistics
+
+### MATH 1700 Applied Statistics
+
+Taught every semester Fall 2021 - Spring 2026
+
+This is an algebra-based introductory statistics course for students in social sciences and health sciences. I use specifications grading and a [Process-Oriented Guided Inquiry Learning (POGIL)](https://www.pogil.org/)-esque approach, with most of class time spent working through new concepts in small groups.
+
+Related materials: Spring 2026 syllabus, activity introducing confidence intervals, Mathfest 2023 talk about critique assignments
+
+### MATH 2800 Introduction to Statistical Analysis
+
+Taught Fall 2023 and every semester Fall 2024 - Spring 2026
+
+This is an introductory statistics course for students who have had precalculus (computer science, CIS, life/earth sciences, math majors). In-class work follows the same POGIL-ish model I use in Applied Statistics, but the course is based in R, uses simulation-based inference throughout, and covers additional topics.
+
+Links to related material: Spring 2026 syllabus

@@ -9,8 +9,29 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "temp-site",
+    "title": "Jessie Oehrlein",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "I’m Jessie Oehrlein. I am an assistant professor of mathematics at Fitchburg State University, where I mostly teach statistics and data analysis. I use POGIL and other inquiry-based methods as the core of my teaching. My research interests are in atmospheric science, particularly polar stratosphere-troposphere interaction, and scholarship of teaching & learning in math, stats, and computer science.\nBefore Fitchburg State, I previously taught math, statistics, and computer science at the undergraduate level at Columbia University and LaGuardia Community College, and I’ve taught K-12 students everything from combinatorics to Soviet ballet history through Art of Problem Solving, Wave Learning Festival, and Columbia/MIT Splash events.\nMy PhD work was advised by Prof. Lorenzo Polvani and Dr. Gabriel Chiodo at Columbia University. Prior to that, I graduated from Franklin W. Olin College of Engineering with a degree in mechanical engineering.\nIn my free time, I enjoy ballet and modern dance, watching entirely too many sports, and riding roller coasters. As of January 2026, I have been on 256 roller coasters in four countries. My 250th was Underground at Adventureland, and my 50th wooden roller coaster was Great American Scream Machine at Six Flags Over Georgia."
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Jessie Oehrlein",
+    "section": "",
+    "text": "I’m Jessie Oehrlein. I am an assistant professor of mathematics at Fitchburg State University, where I mostly teach statistics and data analysis. I use POGIL and other inquiry-based methods as the core of my teaching. My research interests are in atmospheric science, particularly polar stratosphere-troposphere interaction, and scholarship of teaching & learning in math, stats, and computer science.\nBefore Fitchburg State, I previously taught math, statistics, and computer science at the undergraduate level at Columbia University and LaGuardia Community College, and I’ve taught K-12 students everything from combinatorics to Soviet ballet history through Art of Problem Solving, Wave Learning Festival, and Columbia/MIT Splash events.\nMy PhD work was advised by Prof. Lorenzo Polvani and Dr. Gabriel Chiodo at Columbia University. Prior to that, I graduated from Franklin W. Olin College of Engineering with a degree in mechanical engineering.\nIn my free time, I enjoy ballet and modern dance, watching entirely too many sports, and riding roller coasters. As of January 2026, I have been on 256 roller coasters in four countries. My 250th was Underground at Adventureland, and my 50th wooden roller coaster was Great American Scream Machine at Six Flags Over Georgia."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I currently teach statistics, data science, and mathematics at Fitchburg State University."
+  },
+  {
+    "objectID": "teaching.html#statistics",
+    "href": "teaching.html#statistics",
+    "title": "Teaching",
+    "section": "Statistics",
+    "text": "Statistics\n\nMATH 1700 Applied Statistics\nTaught every semester Fall 2021 - Spring 2026\nThis is an algebra-based introductory statistics course for students in social sciences and health sciences. I use specifications grading and a Process-Oriented Guided Inquiry Learning (POGIL)-esque approach, with most of class time spent working through new concepts in small groups.\nRelated materials: Spring 2026 syllabus, activity introducing confidence intervals, Mathfest 2023 talk about critique assignments\n\n\nMATH 2800 Introduction to Statistical Analysis\nTaught Fall 2023 and every semester Fall 2024 - Spring 2026\nThis is an introductory statistics course for students who have had precalculus (computer science, CIS, life/earth sciences, math majors). In-class work follows the same POGIL-ish model I use in Applied Statistics, but the course is based in R, uses simulation-based inference throughout, and covers additional topics.\nLinks to related material: Spring 2026 syllabus"
   }
 ]
