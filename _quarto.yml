@@ -10,6 +10,16 @@ website:
         text: Home
       - href: teaching.qmd
         text: Teaching
+      - href: research.qmd
+        text: Research
+      - href: service.qmd
+        text: Service
+      - href: enrichment.qmd
+        text: Enrichment
+      - href: fun.qmd
+        text: Fun
+      - href: blog.qmd
+        text: Blog
 
 format:
   html:

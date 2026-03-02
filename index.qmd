@@ -23,9 +23,9 @@ comments: false
 
 ## Bio
 
-I'm Jessie Oehrlein. I am an assistant professor of mathematics at Fitchburg State University, where I mostly teach statistics and data analysis. I use [POGIL](https://www.pogil.org/) and other inquiry-based methods as the core of my teaching. My research interests are in atmospheric science, particularly polar stratosphere-troposphere interaction, and scholarship of teaching & learning in math, stats, and computer science.
+I'm Jessie Oehrlein. I am an assistant professor of mathematics at [Fitchburg State University](https://www.fitchburgstate.edu/), where I mostly teach statistics and data analysis. I use [POGIL](https://www.pogil.org/) and other inquiry-based methods as the core of my teaching. My research interests are in atmospheric science, particularly polar stratosphere-troposphere interaction, and scholarship of teaching & learning in math, stats, and computer science.
 
-Before Fitchburg State, I previously taught math, statistics, and computer science at the undergraduate level at Columbia University and LaGuardia Community College, and I've taught K-12 students everything from combinatorics to Soviet ballet history through Art of Problem Solving, Wave Learning Festival, and Columbia/MIT Splash events.
+Before Fitchburg State, I previously taught math, statistics, and computer science at the undergraduate level at Columbia University and LaGuardia Community College, and I've taught K-12 students everything from combinatorics to Soviet ballet history in a variety of in-person and online enrichment settings.
 
 My PhD work was advised by [Prof. Lorenzo Polvani](http://www.columbia.edu/~lmp/) and [Dr. Gabriel Chiodo](http://www.gabrielchiodo.com/) at Columbia University. Prior to that, I graduated from Franklin W. Olin College of Engineering with a degree in mechanical engineering.
 

@@ -4,7 +4,9 @@ toc: false
 page-layout: full
 ---
 
-I currently teach statistics, data science, and mathematics at Fitchburg State University.
+This page is under construction.
+
+I currently teach statistics, data science, and mathematics at Fitchburg State University. I use a variety of inquiry-based methods and alternative grading approaches across courses.
 
 # Courses Taught at Fitchburg State
 
@@ -14,7 +16,7 @@ I currently teach statistics, data science, and mathematics at Fitchburg State U
 
 Taught every semester Fall 2021 - Spring 2026
 
-This is an algebra-based introductory statistics course for students in social sciences and health sciences. I use specifications grading and a [Process-Oriented Guided Inquiry Learning (POGIL)](https://www.pogil.org/)-esque approach, with most of class time spent working through new concepts in small groups.
+This is an algebra-based introductory statistics course for students in social sciences and health sciences. I use a [Process-Oriented Guided Inquiry Learning (POGIL)](https://www.pogil.org/)-esque approach, with most of class time spent working through new concepts in small groups. Assessment includes both standards-based and specifications grading aspects.
 
 Related materials: Spring 2026 syllabus, activity introducing confidence intervals, Mathfest 2023 talk about critique assignments
 
@@ -22,6 +24,90 @@ Related materials: Spring 2026 syllabus, activity introducing confidence interva
 
 Taught Fall 2023 and every semester Fall 2024 - Spring 2026
 
-This is an introductory statistics course for students who have had precalculus (computer science, CIS, life/earth sciences, math majors). In-class work follows the same POGIL-ish model I use in Applied Statistics, but the course is based in R, uses simulation-based inference throughout, and covers additional topics.
+This is an introductory statistics course for students who have had precalculus (computer science, CIS, life/earth sciences, math majors). In-class work follows the same POGIL-ish model I use in Applied Statistics, but the course is based in R, uses simulation-based inference throughout, and covers additional topics. This course uses specifications grading.
 
 Links to related material: Spring 2026 syllabus
+
+### MATH 3003 Advanced Statistics
+
+Taught Fall 2023 and Fall 2025
+
+This course builds on an introductory statistics course to explore further topics in regression. The Fall 2025 version involved in-depth explorations of multiple linear regression and logistic regression (including ordinal and multinomial regression), with briefer discussions of count regression, ANOVA, and survival analysis. The course is built around student projects and uses specifications grading.
+
+Links to related material: Fall 2025 syllabus
+
+### MATH 3900 Mathematics Seminar: Time-Series Analysis
+
+Taught Spring 2023
+
+This is a repeatable, one credit class for math majors. In Spring 2023, I focused the course on time series and forecasting.
+
+Links to related material: Spring 2023 syllabus
+
+### MATH 4200 Probability & Statistics I
+
+Taught Fall 2022, Fall 2024, Fall 2025
+
+This is an upper-level probability course and is required for math majors with concentrations in statistical modeling or secondary education. I use a inquiry-based approach driven by student presentations. The assessment in the course is based on specifications grading.
+
+Links to related materials: syllabus, eCOTS 2024 &Beyond slides
+
+### MATH 4250 Probability & Statistics II
+
+Taught Spring 2023, Spring 2025
+
+This is a mathematical statistics course, continuing on from Math 4200 in the fall. The first half of the course covers the mathematical foundations of frequentist statistics, and the second half of the course covers Bayesian statistics.
+
+Links to related materials: Spring 2025 syllabus
+
+## Data Science
+
+### DATA 2000 Principles of Data Analysis
+
+Taught Spring 2024, Spring 2025, Spring 2026
+
+PoDA is an introductory data analysis & data science course covering data visualization, data cleaning & wrangling, and a broad overview of regression, classification, and clustering. The course is structured to emphasize the design principles for data analysis as formulated in [McGowan et al. 2023](https://www.tandfonline.com/doi/full/10.1080/10618600.2022.2104290) and is built around in-class case studies and student projects.
+
+Links to related materials: Spring 2026 syllabus, visualization storyboard project, activity introducing visual cues, Mathfest 2025 talk about building process skills
+
+## Mathematics
+
+### MATH 1250 SI Functions Corequisite
+
+Taught Fall 2022
+
+This is a corequisite support section for Functions, focused on just-in-time review, practicing new skills and ideas, and developing problem-solving and math confidence. I tried to include some modeling skills on a regular basis.
+
+Links to related materials: Fall 2022 information sheet, JMM presentation slides.
+
+### MATH 1600 Informal Mathematical Modeling
+
+Taught Spring 2022
+
+This is an algebra course for elementary and special education majors. It uses an inquiry-based approach and includes both math and pedagogy content. The central assignments of the course were two projects and a portfolio.
+
+Links to related materials: Spring 2022 syllabus, picture book project assignment.
+
+### MATH 1900 Discrete Mathematics
+
+Taught Fall 2021 (and returning Fall 2026!)
+
+This is a course covering sets, logic, counting, functions/relations, and graph theory for computer science, computer information systems, electrical engineering technology, and game design majors.
+
+Links to related materials: Fall 2021 syllabus, sample extension assignment.
+
+### MATH 3350 Multivariate Calculus
+
+Taught Spring 2024
+
+This is a multivariable and vector calculus course.
+
+Links to related materials: syllabus, portfolio assignment, Mathfest 2024 talk about doing POGIL better in the course
+
+### MATH 3900 Mathematics Seminar: Math of Climate
+
+Taught Spring 2026
+
+This is a repeatable, one credit class for math majors. In Spring 2026, the course focused on mathematics of the Earth system, including dynamical systems, chaos, time series analysis, extreme value theory, and attribution.
+
+Links to related materials: Spring 2026 course website

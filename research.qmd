@@ -1,0 +1,29 @@
+---
+title: "Research and Assessment"
+toc: false
+page-layout: full
+---
+
+This page is under construction.
+
+# Current Projects
+
+## Education and Assessment
+
+-   Collaboration Curriculum with Dr. Emily Wang (Oberlin College) and Dr. Ashley Walker (Google)
+
+-   Collaboration and Parsons Problems with Dr. Emily Wang (Oberlin College)
+
+-   TITLE HERE with Aidan Thompson (Fitchburg State '27)
+
+-   TITLE HERE with Aidan Thompson (Fitchburg State '27)
+
+-   TITLE HERE with Dr. Amy Wehe (Fitchburg State)
+
+# Past Projects 
+
+## Atmospheric Science
+
+## Education and Assessment
+
+## Graph Theory
