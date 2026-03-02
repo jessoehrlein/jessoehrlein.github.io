@@ -25,14 +25,14 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "I currently teach statistics, data science, and mathematics at Fitchburg State University."
+    "text": "This page is under construction.\nI currently teach statistics, data science, and mathematics at Fitchburg State University. I use a variety of inquiry-based methods and alternative grading approaches across courses."
   },
   {
     "objectID": "teaching.html#statistics",
     "href": "teaching.html#statistics",
     "title": "Teaching",
     "section": "Statistics",
-    "text": "Statistics\n\nMATH 1700 Applied Statistics\nTaught every semester Fall 2021 - Spring 2026\nThis is an algebra-based introductory statistics course for students in social sciences and health sciences. I use specifications grading and a Process-Oriented Guided Inquiry Learning (POGIL)-esque approach, with most of class time spent working through new concepts in small groups.\nRelated materials: Spring 2026 syllabus, activity introducing confidence intervals, Mathfest 2023 talk about critique assignments\n\n\nMATH 2800 Introduction to Statistical Analysis\nTaught Fall 2023 and every semester Fall 2024 - Spring 2026\nThis is an introductory statistics course for students who have had precalculus (computer science, CIS, life/earth sciences, math majors). In-class work follows the same POGIL-ish model I use in Applied Statistics, but the course is based in R, uses simulation-based inference throughout, and covers additional topics.\nLinks to related material: Spring 2026 syllabus"
+    "text": "Statistics\n\nMATH 1700 Applied Statistics\nTaught every semester Fall 2021 - Spring 2026\nThis is an algebra-based introductory statistics course for students in social sciences and health sciences. I use a Process-Oriented Guided Inquiry Learning (POGIL)-esque approach, with most of class time spent working through new concepts in small groups. Assessment includes both standards-based and specifications grading aspects.\nRelated materials: Spring 2026 syllabus, activity introducing confidence intervals, Mathfest 2023 talk about critique assignments\n\n\nMATH 2800 Introduction to Statistical Analysis\nTaught Fall 2023 and every semester Fall 2024 - Spring 2026\nThis is an introductory statistics course for students who have had precalculus (computer science, CIS, life/earth sciences, math majors). In-class work follows the same POGIL-ish model I use in Applied Statistics, but the course is based in R, uses simulation-based inference throughout, and covers additional topics. This course uses specifications grading.\nLinks to related material: Spring 2026 syllabus\n\n\nMATH 3003 Advanced Statistics\nTaught Fall 2023 and Fall 2025\nThis course builds on an introductory statistics course to explore further topics in regression. The Fall 2025 version involved in-depth explorations of multiple linear regression and logistic regression (including ordinal and multinomial regression), with briefer discussions of count regression, ANOVA, and survival analysis. The course is built around student projects and uses specifications grading.\nLinks to related material: Fall 2025 syllabus\n\n\nMATH 3900 Mathematics Seminar: Time-Series Analysis\nTaught Spring 2023\nThis is a repeatable, one credit class for math majors. In Spring 2023, I focused the course on time series and forecasting.\nLinks to related material: Spring 2023 syllabus\n\n\nMATH 4200 Probability & Statistics I\nTaught Fall 2022, Fall 2024, Fall 2025\nThis is an upper-level probability course and is required for math majors with concentrations in statistical modeling or secondary education. I use a inquiry-based approach driven by student presentations. The assessment in the course is based on specifications grading.\nLinks to related materials: syllabus, eCOTS 2024 &Beyond slides\n\n\nMATH 4250 Probability & Statistics II\nTaught Spring 2023, Spring 2025\nThis is a mathematical statistics course, continuing on from Math 4200 in the fall. The first half of the course covers the mathematical foundations of frequentist statistics, and the second half of the course covers Bayesian statistics.\nLinks to related materials: Spring 2025 syllabus"
   },
   {
     "objectID": "fun.html",
@@ -88,7 +88,7 @@
     "href": "fun.html#books",
     "title": "Fun",
     "section": "Books",
-    "text": "Books"
+    "text": "Books\n(put some favorite books here)"
   },
   {
     "objectID": "blog.html",
@@ -96,5 +96,68 @@
     "title": "Math in the Sky",
     "section": "",
     "text": "No matching items"
+  },
+  {
+    "objectID": "teaching.html#data-science",
+    "href": "teaching.html#data-science",
+    "title": "Teaching",
+    "section": "Data Science",
+    "text": "Data Science\n\nDATA 2000 Principles of Data Analysis\nTaught Spring 2024, Spring 2025, Spring 2026\nPoDA is an introductory data analysis & data science course covering data visualization, data cleaning & wrangling, and a broad overview of regression, classification, and clustering. The course is structured to emphasize the design principles for data analysis as formulated in McGowan et al. 2023 and is built around in-class case studies and student projects.\nLinks to related materials: Spring 2026 syllabus, visualization storyboard project, activity introducing visual cues, Mathfest 2025 talk about building process skills"
+  },
+  {
+    "objectID": "teaching.html#mathematics",
+    "href": "teaching.html#mathematics",
+    "title": "Teaching",
+    "section": "Mathematics",
+    "text": "Mathematics\n\nMATH 1250 SI Functions Corequisite\nTaught Fall 2022\nThis is a corequisite support section for Functions, focused on just-in-time review, practicing new skills and ideas, and developing problem-solving and math confidence. I tried to include some modeling skills on a regular basis.\nLinks to related materials: Fall 2022 information sheet, JMM presentation slides.\n\n\nMATH 1600 Informal Mathematical Modeling\nTaught Spring 2022\nThis is an algebra course for elementary and special education majors. It uses an inquiry-based approach and includes both math and pedagogy content. The central assignments of the course were two projects and a portfolio.\nLinks to related materials: Spring 2022 syllabus, picture book project assignment.\n\n\nMATH 1900 Discrete Mathematics\nTaught Fall 2021 (and returning Fall 2026!)\nThis is a course covering sets, logic, counting, functions/relations, and graph theory for computer science, computer information systems, electrical engineering technology, and game design majors.\nLinks to related materials: Fall 2021 syllabus, sample extension assignment.\n\n\nMATH 3350 Multivariate Calculus\nTaught Spring 2024\nThis is a multivariable and vector calculus course.\nLinks to related materials: syllabus, portfolio assignment, Mathfest 2024 talk about doing POGIL better in the course\n\n\nMATH 3900 Mathematics Seminar: Math of Climate\nTaught Spring 2026\nThis is a repeatable, one credit class for math majors. In Spring 2026, the course focused on mathematics of the Earth system, including dynamical systems, chaos, time series analysis, extreme value theory, and attribution.\nLinks to related materials: Spring 2026 course website"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research and Assessment",
+    "section": "",
+    "text": "This page is under construction."
+  },
+  {
+    "objectID": "research.html#education-and-assessment",
+    "href": "research.html#education-and-assessment",
+    "title": "Research and Assessment",
+    "section": "Education and Assessment",
+    "text": "Education and Assessment\n\nCollaboration Curriculum with Dr. Emily Wang (Oberlin College) and Dr. Ashley Walker (Google)\nCollaboration and Parsons Problems with Dr. Emily Wang (Oberlin College)\nTITLE HERE with Aidan Thompson (Fitchburg State ’27)\nTITLE HERE with Aidan Thompson (Fitchburg State ’27)\nTITLE HERE with Dr. Amy Wehe (Fitchburg State)"
+  },
+  {
+    "objectID": "research.html#atmospheric-science",
+    "href": "research.html#atmospheric-science",
+    "title": "Research and Assessment",
+    "section": "Atmospheric Science",
+    "text": "Atmospheric Science"
+  },
+  {
+    "objectID": "research.html#education-and-assessment-1",
+    "href": "research.html#education-and-assessment-1",
+    "title": "Research and Assessment",
+    "section": "Education and Assessment",
+    "text": "Education and Assessment"
+  },
+  {
+    "objectID": "research.html#graph-theory",
+    "href": "research.html#graph-theory",
+    "title": "Research and Assessment",
+    "section": "Graph Theory",
+    "text": "Graph Theory"
+  },
+  {
+    "objectID": "service.html",
+    "href": "service.html",
+    "title": "Service",
+    "section": "",
+    "text": "This page is under construction.\nFor a full list of service activities, see my CV.\n\nProfessional Communities\n\nMathematical Association of America (MAA) Membership Committee, member 2023-29 and chair 2026-29\nAmerican Meteorological Society (AMS) Committee on Middle Atmosphere, member 2025-28\n\n\n\nUniversity and Departmental Service"
+  },
+  {
+    "objectID": "fun.html#cross-stitch-and-blackwork",
+    "href": "fun.html#cross-stitch-and-blackwork",
+    "title": "Fun",
+    "section": "Cross Stitch and Blackwork",
+    "text": "Cross Stitch and Blackwork\n(put some photos here)"
   }
 ]
