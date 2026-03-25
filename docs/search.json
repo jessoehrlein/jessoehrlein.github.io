@@ -88,7 +88,7 @@
     "href": "fun.html#books",
     "title": "Fun",
     "section": "Books",
-    "text": "Books\n(put some favorite books here)"
+    "text": "Books\nA few books that mean a lot to me:\n\nThe Incandescent by Emily Tesh\nSea Foam & Silence by S.L. Dove Cooper\nComme un Roman by Daniel Pennac\nWe Should Be So Lucky by Cat Sebastian\nFire by Kristin Cashore"
   },
   {
     "objectID": "blog.html",
@@ -158,7 +158,7 @@
     "href": "fun.html#cross-stitch-and-blackwork",
     "title": "Fun",
     "section": "Cross Stitch and Blackwork",
-    "text": "Cross Stitch and Blackwork\n(put some photos here)"
+    "text": "Cross Stitch and Blackwork\nI stitch in my free time (and sometimes during meetings). I’ve been doing cross stitch off and on for about 25 years, and I’ve recently started trying blackwork!"
   },
   {
     "objectID": "research.html#student-projects-supervising",
@@ -194,5 +194,47 @@
     "title": "Teaching",
     "section": "Mathematics",
     "text": "Mathematics\n\nAPMA E2000: Multivariable Calculus for Engineering and Applied Science\nTA, Fall 2019 and Spring 2020\nThis is a one-semester multivariable and vector calculus course for engineering students. In recitations, I focused on problem solving, identifying key ideas, and connecting representations.\nLinks to related materials: Spring 2020 recitation information sheet, sample in-class activity, blog posts."
+  },
+  {
+    "objectID": "enrichment.html#climate-and-chaos",
+    "href": "enrichment.html#climate-and-chaos",
+    "title": "Enrichment Teaching",
+    "section": "Climate and Chaos",
+    "text": "Climate and Chaos\nClimate and Chaos was a class focused on discrete dynamical systems with connections to Earth’s atmosphere, especially energy balance models, atmospheric stability, and convection.\nRelated materials: sample homeworks"
+  },
+  {
+    "objectID": "enrichment.html#algorithms",
+    "href": "enrichment.html#algorithms",
+    "title": "Enrichment Teaching",
+    "section": "Algorithms",
+    "text": "Algorithms\nThis was a class focused on developing and evaluating algorithms. The class started with activities exploring what a good algorithm is and then moved into developing sorting and graph search algorithms, looking at big-O notation along the way. One of my favorite moments of the course was students coming up with the idea of log base 2 themselves in order to talk about what was happening in mergesort.\nRelated materials: sample homeworks"
+  },
+  {
+    "objectID": "enrichment.html#bridges-maps-and-networks",
+    "href": "enrichment.html#bridges-maps-and-networks",
+    "title": "Enrichment Teaching",
+    "section": "Bridges, Maps, and Networks",
+    "text": "Bridges, Maps, and Networks"
+  },
+  {
+    "objectID": "enrichment.html#how-to-mathematically-guard-an-art-gallery",
+    "href": "enrichment.html#how-to-mathematically-guard-an-art-gallery",
+    "title": "Enrichment Teaching",
+    "section": "How to (Mathematically) Guard an Art Gallery",
+    "text": "How to (Mathematically) Guard an Art Gallery"
+  },
+  {
+    "objectID": "enrichment.html#introduction-to-mathematical-modeling",
+    "href": "enrichment.html#introduction-to-mathematical-modeling",
+    "title": "Enrichment Teaching",
+    "section": "Introduction to Mathematical Modeling",
+    "text": "Introduction to Mathematical Modeling"
+  },
+  {
+    "objectID": "enrichment.html#from-swans-to-spartacus-soviet-ballet-history",
+    "href": "enrichment.html#from-swans-to-spartacus-soviet-ballet-history",
+    "title": "Enrichment Teaching",
+    "section": "From Swans to Spartacus: Soviet Ballet History",
+    "text": "From Swans to Spartacus: Soviet Ballet History"
   }
 ]
