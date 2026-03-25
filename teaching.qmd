@@ -1,14 +1,13 @@
 ---
 title: "Teaching"
-toc: false
 page-layout: full
 ---
 
 This page is under construction.
 
-I currently teach statistics, data science, and mathematics at Fitchburg State University. I use a variety of inquiry-based methods and alternative grading approaches across courses.
+I am currently an Assistant Professor of Mathematics at Fitchburg State University, where I teach statistics, data science, and mathematics. I use a variety of inquiry-based methods and alternative grading approaches across courses.
 
-# Courses Taught at Fitchburg State
+# Courses Taught at Fitchburg State (2021-present)
 
 ## Statistics
 
@@ -111,3 +110,47 @@ Taught Spring 2026
 This is a repeatable, one credit class for math majors. In Spring 2026, the course focused on mathematics of the Earth system, including dynamical systems, chaos, time series analysis, extreme value theory, and attribution.
 
 Links to related materials: Spring 2026 course website
+
+# Courses Taught at LaGuardia Community College (2020, Adjunct Lecturer)
+
+## Computer Science
+
+### MAC 281 Discrete Structures
+
+Taught Spring 2020
+
+This course in the computer science department covers algorithms and graph theory and is designed for students who have taken a semester of discrete math and at least one programming course. I used small group activities as well as polling and individual messages within lecture. This course also used a mix of standards-based and specifications grading.
+
+Links to related materials: syllabus, sample project assignments, blog post.
+
+### MAC 286 Data Structures
+
+Taught Fall 2020
+
+In this course, students describe, implement, and use a variety of data structures, as well as choosing appropriate data structures for an application and tracing and debugging code related to data structures. I used specifications grading and a mix of small group activities and polling/individual messages within lecture.
+
+Links to related materials: syllabus.
+
+# Courses Taught at Columbia University (2019-2020)
+
+## Statistics
+
+### Introduction to Statistics, Academic Success Programs Summer Bridge Program
+
+Instructor of record, Summer 2019
+
+This is a four-week introductory, algebra-based statistics course for non-engineering students in a program for entering Columbia first-year undergrads in the Higher Education or National Opportunity Programs.
+
+Links to related materials: syllabus, sample class discussion material, blog post.
+
+## Mathematics
+
+### APMA E2000: Multivariable Calculus for Engineering and Applied Science
+
+TA, Fall 2019 and Spring 2020
+
+This is a one-semester multivariable and vector calculus course for engineering students. In recitations, I focused on problem solving, identifying key ideas, and connecting representations.
+
+Links to related materials: Spring 2020 recitation information sheet, sample in-class activity, blog posts.
+
+# Teaching-Related Presentations

@@ -12,18 +12,26 @@ This page is under construction.
 
 -   Collaboration Curriculum with Dr. Emily Wang (Oberlin College) and Dr. Ashley Walker (Google)
 
--   Collaboration and Parsons Problems with Dr. Emily Wang (Oberlin College)
-
--   TITLE HERE with Aidan Thompson (Fitchburg State '27)
-
--   TITLE HERE with Aidan Thompson (Fitchburg State '27)
+-   Collaborative Learning with Parsons Problems in Math and Computer Science Education with Dr. Emily Wang (Oberlin College)
 
 -   TITLE HERE with Dr. Amy Wehe (Fitchburg State)
+
+## Student Projects Supervising
+
+-   Fitchburg State University Undergraduate Decision-Making about Graduate Study by Aidan Thompson (Fitchburg State '27)
+
+-   Forecasting Academic Risk: A Data-Driven Evaluation of Student Alerts and Support Systems by Aidan Thompson (Fitchburg State '27)
 
 # Past Projects 
 
 ## Atmospheric Science
 
 ## Education and Assessment
+
+## Student Projects Supervised
+
+-   Creating a Study Guide for the Actuarial P Exam by Cooper Rogers (Fitchburg State '24)
+
+-   Are MLB MVP Voters Getting Better? by Ben Wiita (Fitchburg State '24)
 
 ## Graph Theory

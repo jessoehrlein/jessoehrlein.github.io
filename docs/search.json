@@ -25,7 +25,7 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "This page is under construction.\nI currently teach statistics, data science, and mathematics at Fitchburg State University. I use a variety of inquiry-based methods and alternative grading approaches across courses."
+    "text": "This page is under construction.\nI am currently an Assistant Professor of Mathematics at Fitchburg State University, where I teach statistics, data science, and mathematics. I use a variety of inquiry-based methods and alternative grading approaches across courses."
   },
   {
     "objectID": "teaching.html#statistics",
@@ -123,7 +123,7 @@
     "href": "research.html#education-and-assessment",
     "title": "Research and Assessment",
     "section": "Education and Assessment",
-    "text": "Education and Assessment\n\nCollaboration Curriculum with Dr. Emily Wang (Oberlin College) and Dr. Ashley Walker (Google)\nCollaboration and Parsons Problems with Dr. Emily Wang (Oberlin College)\nTITLE HERE with Aidan Thompson (Fitchburg State ’27)\nTITLE HERE with Aidan Thompson (Fitchburg State ’27)\nTITLE HERE with Dr. Amy Wehe (Fitchburg State)"
+    "text": "Education and Assessment\n\nCollaboration Curriculum with Dr. Emily Wang (Oberlin College) and Dr. Ashley Walker (Google)\nCollaborative Learning with Parsons Problems in Math and Computer Science Education with Dr. Emily Wang (Oberlin College)\nTITLE HERE with Dr. Amy Wehe (Fitchburg State)"
   },
   {
     "objectID": "research.html#atmospheric-science",
@@ -159,5 +159,40 @@
     "title": "Fun",
     "section": "Cross Stitch and Blackwork",
     "text": "Cross Stitch and Blackwork\n(put some photos here)"
+  },
+  {
+    "objectID": "research.html#student-projects-supervising",
+    "href": "research.html#student-projects-supervising",
+    "title": "Research and Assessment",
+    "section": "Student Projects Supervising",
+    "text": "Student Projects Supervising\n\nFitchburg State University Undergraduate Decision-Making about Graduate Study by Aidan Thompson (Fitchburg State ’27)\nForecasting Academic Risk: A Data-Driven Evaluation of Student Alerts and Support Systems by Aidan Thompson (Fitchburg State ’27)"
+  },
+  {
+    "objectID": "research.html#student-projects-supervised",
+    "href": "research.html#student-projects-supervised",
+    "title": "Research and Assessment",
+    "section": "Student Projects Supervised",
+    "text": "Student Projects Supervised\n\nCreating a Study Guide for the Actuarial P Exam by Cooper Rogers (Fitchburg State ’24)\nAre MLB MVP Voters Getting Better? by Ben Wiita (Fitchburg State ’24)"
+  },
+  {
+    "objectID": "teaching.html#computer-science",
+    "href": "teaching.html#computer-science",
+    "title": "Teaching",
+    "section": "Computer Science",
+    "text": "Computer Science\n\nMAC 281 Discrete Structures\nTaught Spring 2020\nThis course in the computer science department covers algorithms and graph theory and is designed for students who have taken a semester of discrete math and at least one programming course. I used small group activities as well as polling and individual messages within lecture. This course also used a mix of standards-based and specifications grading.\nLinks to related materials: syllabus, sample project assignments, blog post.\n\n\nMAC 286 Data Structures\nTaught Fall 2020\nIn this course, students describe, implement, and use a variety of data structures, as well as choosing appropriate data structures for an application and tracing and debugging code related to data structures. I used specifications grading and a mix of small group activities and polling/individual messages within lecture.\nLinks to related materials: syllabus."
+  },
+  {
+    "objectID": "teaching.html#statistics-1",
+    "href": "teaching.html#statistics-1",
+    "title": "Teaching",
+    "section": "Statistics",
+    "text": "Statistics\n\nIntroduction to Statistics, Academic Success Programs Summer Bridge Program\nInstructor of record, Summer 2019\nThis is a four-week introductory, algebra-based statistics course for non-engineering students in a program for entering Columbia first-year undergrads in the Higher Education or National Opportunity Programs.\nLinks to related materials: syllabus, sample class discussion material, blog post."
+  },
+  {
+    "objectID": "teaching.html#mathematics-1",
+    "href": "teaching.html#mathematics-1",
+    "title": "Teaching",
+    "section": "Mathematics",
+    "text": "Mathematics\n\nAPMA E2000: Multivariable Calculus for Engineering and Applied Science\nTA, Fall 2019 and Spring 2020\nThis is a one-semester multivariable and vector calculus course for engineering students. In recitations, I focused on problem solving, identifying key ideas, and connecting representations.\nLinks to related materials: Spring 2020 recitation information sheet, sample in-class activity, blog posts."
   }
 ]
