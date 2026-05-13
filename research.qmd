@@ -4,29 +4,63 @@ toc: false
 page-layout: full
 ---
 
-This page is under construction.
+Below is information on my research interests and some of my current and past projects. See related work in Publications and Presentations (in progress).
 
 # Current Projects
 
 ## Education and Assessment
 
--   Collaboration Curriculum with Dr. Emily Wang (Oberlin College) and Dr. Ashley Walker (Google)
+My education & assessment interests are in supporting student success in statistics, mathematics, and computing classrooms, whether that is at the scale of a single activity like Parsons Problems or a state-wide structure like Math Pathways in Massachusetts.
 
--   Collaborative Learning with Parsons Problems in Math and Computer Science Education with Dr. Emily Wang (Oberlin College)
+-   Collaboration Curriculum with Prof. Emily Wang (Oberlin College) and Dr. Ashley Walker (Google)
 
--   TITLE HERE with Dr. Amy Wehe (Fitchburg State)
+-   Collaborative Learning with Parsons Problems in Math and Computer Science Education with Prof. Emily Wang (Oberlin College)
+
+-   Assessing the Success of Transfer from Community College to State Universities in Massachusetts with Prof. Amy Wehe (Fitchburg State)
 
 ## Student Projects Supervising
+
+I enjoy supervising and collaborating with student on research! If you are interested in work related to statistics, data analysis, math or math-adjacent education/assessment, or atmospheric science, let's talk.
 
 -   Fitchburg State University Undergraduate Decision-Making about Graduate Study by Aidan Thompson (Fitchburg State '27)
 
 -   Forecasting Academic Risk: A Data-Driven Evaluation of Student Alerts and Support Systems by Aidan Thompson (Fitchburg State '27)
 
-# Past Projects 
+# Past Projects
 
 ## Atmospheric Science
 
+### Stratosphere-Troposphere Interaction
+
+My doctoral work focused on sudden stratospheric warmings, their interactions with other phenomena, their surface impacts, and their variability.
+
+In the polar region, the stratosphere is the layer of the atmosphere from about 10 to 50 km above the surface. The region of typically strong west-to-east winds in the mid-to-upper polar stratosphere during winter forms the stratospheric polar vortex. However, planetary waves originating below the stratosphere can interact with and disrupt this vortex. When these disruptions are sufficiently strong, we call them sudden stratospheric warmings, due to the spike in temperature of the polar stratosphere of 20-30 Kelvin over a short period of time.\
+\
+These events happen at about 30 km above the surface, but they can have important and long-lasting surface impacts. Better understanding sudden stratospheric warmings and their surface impacts thus gives us better understanding and potentially better prediction of winter climate throughout the North Atlantic region.
+
+My past projects include:
+
+-   Comparing the effects of El Niño and SSWs on North Atlantic winter climate with Dr. Gabriel Chiodo (CSIC) and Prof. Lorenzo Polvani (Columbia University)
+
+-   Determining the effects of ozone chemistry and transport on the polar vortex, SSWs, and their strong vortex counterparts with Dr. Gabriel Chiodo (CSIC) and Prof. Lorenzo Polvani (Columbia University)
+
+-   Using bootstrappiing of observed events to understand sources of variability in SSW composites with Prof. Lorenzo Polvani (Columbia University), Dr. Lantao Sun (Colorado State University), and Dr. Clara Deser (NCAR)
+
 ## Education and Assessment
+
+-   Assessment of Corequisite/Supplemental Instruction Courses for Introductory Mathematics at Fitchburg State
+
+-   Assessment of Mathematics Placement at Fitchburg State
+
+-   Introducing Experimental Design to Promote Active Learning with Prof. Yev Yesilevsky (Columbia University), Annika Thomas (MIT), Dr. Melissa A. Wright (Barnard College), and Michael Tarnow (Columbia University)
+
+## Statistician on Campus
+
+I am happy to support faculty colleagues' projects in thinking about data collection, statistical analysis, and data communication. The projects below are those that have led to co-authorship.
+
+-   Effects of Including Rehearsal Push-ups to a Dynamic Warm-Up Prior to Completing a Maximal Push-up Test with Prof. Jason Talanian (Fitchburg State) and Brian Mgeni (Fitchburg State)
+
+-   Impacts of Intersectional Dual-Perspective VR Experiences on Empathy and Understanding of Microagressions with Prof. J.J. Sylvia IV (Fitchburg State) and Prof. Zachary Miner (Fitchburg State)
 
 ## Student Projects Supervised
 
@@ -34,4 +68,4 @@ This page is under construction.
 
 -   Are MLB MVP Voters Getting Better? by Ben Wiita (Fitchburg State '24)
 
-## Graph Theory
+-   Final Stratospheric Warmings and El Niño-Southern Oscillation by Johanna Doyle (Bronx High School of Science '22)

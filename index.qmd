@@ -19,8 +19,7 @@ about:
 comments: false
 ---
 
-::: {.column-page}
-
+::: column-page
 ## Bio
 
 I'm Jessie Oehrlein. I am an assistant professor of mathematics at [Fitchburg State University](https://www.fitchburgstate.edu/), where I mostly teach statistics and data analysis. I use [POGIL](https://www.pogil.org/) and other inquiry-based methods as the core of my teaching. My research interests are in atmospheric science, particularly polar stratosphere-troposphere interaction, and scholarship of teaching & learning in math, stats, and computer science.
@@ -30,5 +29,4 @@ Before Fitchburg State, I previously taught math, statistics, and computer scien
 My PhD work was advised by [Prof. Lorenzo Polvani](http://www.columbia.edu/~lmp/) and [Dr. Gabriel Chiodo](http://www.gabrielchiodo.com/) at Columbia University. Prior to that, I graduated from Franklin W. Olin College of Engineering with a degree in mechanical engineering.
 
 In my free time, I enjoy ballet and modern dance, watching entirely too many sports, and riding roller coasters. As of January 2026, I have been on 256 roller coasters in four countries. My 250th was [Underground at Adventureland](https://rcdb.com/215.htm), and my 50th wooden roller coaster was [Great American Scream Machine at Six Flags Over Georgia](https://rcdb.com/41.htm).
-
 :::
