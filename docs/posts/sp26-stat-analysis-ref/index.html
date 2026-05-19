@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jessie Oehrlein">
+<meta name="dcterms.date" content="2026-05-19">
+<meta name="description" content="End of semester reflections on two intro stats courses">
+
+<title>Jessie Oehrlein - Spring 2026 Reflections: Applied Statistics &amp; Stat Analysis</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Jessie Oehrlein</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching.html" rel="" target="">
+ <span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research.html" rel="" target="">
+ <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../service.html" rel="" target="">
+ <span class="menu-text">Service</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../enrichment.html" rel="" target="">
+ <span class="menu-text">Enrichment</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../fun.html" rel="" target="">
+ <span class="menu-text">Fun</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#applied-statistics" id="toc-applied-statistics" class="nav-link active" data-scroll-target="#applied-statistics">Applied Statistics</a>
+  <ul class="collapse">
+  <li><a href="#class-structure" id="toc-class-structure" class="nav-link" data-scroll-target="#class-structure">Class Structure</a></li>
+  <li><a href="#other-aspects-im-still-working-on" id="toc-other-aspects-im-still-working-on" class="nav-link" data-scroll-target="#other-aspects-im-still-working-on">Other Aspects I’m Still Working On</a></li>
+  <li><a href="#taking-a-break" id="toc-taking-a-break" class="nav-link" data-scroll-target="#taking-a-break">Taking a Break</a></li>
+  </ul></li>
+  <li><a href="#stat-analysis" id="toc-stat-analysis" class="nav-link" data-scroll-target="#stat-analysis">Stat Analysis</a>
+  <ul class="collapse">
+  <li><a href="#daily-class" id="toc-daily-class" class="nav-link" data-scroll-target="#daily-class">Daily Class</a></li>
+  <li><a href="#use-of-r" id="toc-use-of-r" class="nav-link" data-scroll-target="#use-of-r">Use of R</a></li>
+  <li><a href="#homeworksurveys" id="toc-homeworksurveys" class="nav-link" data-scroll-target="#homeworksurveys">Homework/Surveys</a></li>
+  <li><a href="#project" id="toc-project" class="nav-link" data-scroll-target="#project">Project</a></li>
+  <li><a href="#case-studies-interpretation-quizzes" id="toc-case-studies-interpretation-quizzes" class="nav-link" data-scroll-target="#case-studies-interpretation-quizzes">Case Studies &amp; Interpretation Quizzes</a></li>
+  </ul></li>
+  <li><a href="#overall" id="toc-overall" class="nav-link" data-scroll-target="#overall">Overall</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Spring 2026 Reflections: Applied Statistics &amp; Stat Analysis</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">intro stats</div>
+    <div class="quarto-category">teaching</div>
+    <div class="quarto-category">end of semester</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    End of semester reflections on two intro stats courses
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jessie Oehrlein </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 19, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p>This spring, I again taught two different flavors of introductory statistics: Applied Statistics (no mathematical prereq, mostly social sciences and health sciences students) and Statistical Analysis (college algebra/precalc prereq, mostly CS and CIS students). Below are some thoughts on how this semester went and what I’m considering for future semesters.</p>
+<section id="applied-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="applied-statistics">Applied Statistics</h2>
+<section id="class-structure" class="level3">
+<h3 class="anchored" data-anchor-id="class-structure">Class Structure</h3>
+<p>This was my 10th consecutive semester teaching Applied Stats. A lot of this looked like the structure I’d been using for the previous couple of semesters:</p>
+<ul>
+<li><p>A Do Now/entry ticket to start class, followed by some team activities (often in a POGIL style) for most of class time, and then an exit ticket at the end of class;</p></li>
+<li><p>A bundle of out-of-class assessments consisting of online homework graded on completion for practice, weekly surveys graded on completion for reflection &amp; communication with me about how things were going, regular Written Assignments focused on doing or interpreting data analyses, and standards-based quizzes.</p></li>
+</ul>
+<p>But that first bullet point obscures a substantial change that I made to the structure of the semester and class periods. Previously, the sequence of material looked something like this:</p>
+<p><img src="applied_stats_old_structure.png" class="img-fluid" alt="A sequence of topics starting with Data Basics &amp; Descriptive Stats, then Probability, then Inferential Stats, then Linear Regression, then Data Collection, with Foundational Math Skills below through most of the semester." width="404"></p>
+<p>I incorporated some spaced practice on homework and Do Nows, but class proceeded pretty linearly through topics. Class time between Do Nows and exit tickets was usually all new concepts, with a few scattered days dedicated to review and practice.</p>
+<p>Over the past few semesters, I had started to feel like some topics were building too quickly for many students. The big example of this was hypothesis testing. It didn’t feel like students had time to practice each of the individual components of hypothesis testing before they needed to build on it with the next one. They were still acquiring the skill of identifying or writing hypotheses when we started using hypotheses to talk about what p-values meant (even if I had tried to foreshadow that with lots of playing around with sampling distributions previously!). They were nowhere near successfully interpreting a p-value when we started using them as part of coming to a conclusion or evaluating evidence. A little bit of a spiral structure in the inference unit helped, but it wasn’t enough to prevent some students from feeling lost for an entire topic.</p>
+<p>I needed a structure that would give students more time to practice those ideas before they had to build on them. So I tried this:</p>
+<p><img src="applied_stats_new_structure.png" class="img-fluid" alt="Layers of topics. Data Basics &amp; Descriptive Stats lasts about twice as long as it did. Small chunks of Data Collection occur at the beginning, middle, and end of the semester. Probability stretches from a couple of weeks in to about 2/3 of the way through the semester. Inferential Stats starts about a week later and stretches through about 80% of the semester. Linear Regression starts before mid-semester and stretches almost to the end. Choosing Graphs &amp; Methods is at the very end. Foundational Math doesn't last as long as it did in the old version." width="404"></p>
+<p>Almost everything is stretched over more time, and there are always multiple “strands” happening in parallel. What this meant for individual class periods was that class didn’t look like a single POGIL-style activity anymore. I chopped up my POGIL activities into their constituent models/learning cycles, and most class periods consisted of activities on a couple different topics. There was also almost always some kind of review or practice activity beyond just the Do Now.</p>
+<p>After reading student reflections, thinking about my own experience of this shift, and seeing how students did, here’s a summary of how this went:</p>
+<ul>
+<li><p>Students did not universally notice that we were touching on multiple distinct topics in single class periods, but a lot of them did notice. Only a couple of them brought it up to me before I asked about it directly on the final reflection, though.</p></li>
+<li><p>Students liked circling back to topics for more practice. Like the assessment system, it made it okay to not get something the first time. A few students talked about it in their reflections as repetitive in a good way. That said, I think I need to be more strategic about the timing and nature of that practice, both in class and when there’s some spaced practice on homework, to get the most out of this aspect.</p></li>
+<li><p>The pace and transitions between topics in class were sometimes rough. The fact that we were moving on to an activity about something different made it more important for students or teams to “keep up” with the timing on each individual activity, and we’d sometimes move on before lots of students felt solid with an idea. (I think that was true before, but it was probably more obvious here.) The shifts between topics could also be abrupt.</p></li>
+<li><p>I was worried that this structure would make ideas feel less cohesive. I still think that might have happened overall, but a few students talked about feeling like they could really see the flow from previous ideas we practiced to the new ideas. Something I hadn’t thought about that a student brought up was that topics coming back for review meant they didn’t disappear and feel like just a one-off in the course.</p></li>
+<li><p>How students did on quiz skills is not a very conclusive indicator here. Of the 12 skills that were common across the two semesters, a higher percentage passed 4 of the last semester, a higher percentage passed 5 of them this semester (though one of those had a change that likely contributed), and the other 3 were quite similar in passing percentages. Those differences are pretty much equivalent to the differences between Spring 2025 and Fall 2025, when I changed very little.</p></li>
+<li><p>However, I added two new skills this semester related to data collection, now that it wasn’t smushed in the last couple of weeks of the semester. Both of those new skills had passing rates above two-thirds! Being able to add those in effectively feels like a win.</p></li>
+</ul>
+<p>I will try this again next spring when I teach Business Stats (same content, different population). I’m going to work more on planning out the pace and the practice. I’m also going to try to reincorporate some routines that I dropped while trying this experiment this semester: a weekly graph discussion and some regular learning inventory/brain dump-style activities.</p>
+</section>
+<section id="other-aspects-im-still-working-on" class="level3">
+<h3 class="anchored" data-anchor-id="other-aspects-im-still-working-on">Other Aspects I’m Still Working On</h3>
+<p>I tried increasing the frequency of Written Assignments this semester, making each individual assignment smaller. I don’t think this was the right move. Instead of getting everyone into a more regular rhythm, things just piled up more for both students and me. I’ll be going back to something more like what I was doing before, though I’m going to try to refresh the assignments a bit.</p>
+<p>Last spring and fall, I had tried having students keep and submit a vocab document through the semester. I tried a couple of different methods for this, and it didn’t work well either time. This semester I tried updating a collective document myself based on what the students came up with in their teams in class. I was not able to sustain this well, and it ended up feeling like me doing work I want the students to be doing. So I’m still working on how to make this an effective resource for students.</p>
+</section>
+<section id="taking-a-break" class="level3">
+<h3 class="anchored" data-anchor-id="taking-a-break">Taking a Break</h3>
+<p>I’m not teaching Applied Stats in the fall! It will be my first semester at Fitchburg State without teaching this course. It’s a little weird right now to tell myself to stop thinking about it, but I think it will be good to have some distance.</p>
+<p>When I come back to the course in the spring, it will technically be Business Stats instead of Applied Stats. Like I said above, this is the same course content with a different student population. I think that chance to work with students coming to statistics from a different direction will be an interesting reset, as well.</p>
+</section>
+</section>
+<section id="stat-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="stat-analysis">Stat Analysis</h2>
+<section id="daily-class" class="level3">
+<h3 class="anchored" data-anchor-id="daily-class">Daily Class</h3>
+<p>I kept a pretty similar in-class structure to the past, with a Do Now to start class, a POGIL-style or other team activity for most of class time, and an Exit Ticket at the end. I didn’t do a good job of setting expectations early of what working in teams should look like, so there was a lot of individual work here that made pacing rough. But overall, this felt pretty good.</p>
+</section>
+<section id="use-of-r" class="level3">
+<h3 class="anchored" data-anchor-id="use-of-r">Use of R</h3>
+<p>I feel pretty good about how I’m introducing new things in R through activities now. The aspect I’m still working on is scaffolding from there. Right now, there’s a big jump between the level of structure that I’m providing on in-class activities and R Exercises (homework in the first half of the semester) and what I ask of students in terms of figuring out what they need code-wise on the Projects and some of the Case Studies.</p>
+<p>So I need to make sure I’m including more practice opportunities with a level of support between “filling in some key blanks” and “write your code from scratch.” Some of that needs to happen in class. I’d also like to do a better job of modeling resource and documentation use for things like this.</p>
+</section>
+<section id="homeworksurveys" class="level3">
+<h3 class="anchored" data-anchor-id="homeworksurveys">Homework/Surveys</h3>
+<p>I kept the structure of a weekly check-in survey from last semester. Students engaged with some kind of extra resource and told me about it, and they also did two textbook problems (with a little bit of choice). Sometimes there was a creative/connection kind of question, and sometimes I nudged it more into a prep assignment if there was something I needed students to look at before class. I think the <a href="https://www.peter-keep.com/2026-04-17-iterations-of-homework-policies/">Practice Problem Reflections that Peter Keep wrote about</a> would be a good fit here, so I’ll try to move in that direction. I’m not sure how to combine that with the occasional need for it to double as class prep, but that’s figure-out-able.</p>
+</section>
+<section id="project" class="level3">
+<h3 class="anchored" data-anchor-id="project">Project</h3>
+<p>Last semester, I had students do one project with a bunch of parts, some focused on regression and some on inference. This semester, I separated it into two projects based on a single dataset. That kept the load of finding and choosing data low for students, but it allowed them a little more flexibility in progressing through the projects if they fell a bit behind. It was also easier to ask them to present one of their projects at the end of the semester than it was to be clear about what I meant by presenting one part of their project last semester.</p>
+<p>The other helpful change was compressing the projects to about half the semester instead of spreading them over the full semester. That resulted in more consistent engagement with the project, so I could have better conversations with students about their projects.</p>
+</section>
+<section id="case-studies-interpretation-quizzes" class="level3">
+<h3 class="anchored" data-anchor-id="case-studies-interpretation-quizzes">Case Studies &amp; Interpretation Quizzes</h3>
+<p>I’m still struggling a bit with assessment in this course. Last fall, I felt like I was missing a “middle” space between routine R and stats practice and the projects, so this semester I tried adding back in an adjusted version of some assessments I’d used previously. Students did three case studies in class, focused on doing a statistical analysis on a provided dataset, and then a week later they took an in-class test that focused on interpreting some different analyses that used the same dataset.</p>
+<p>The idea of sticking with the same dataset was removing the context fatigue of jumping among different data and situations. It also provided an opportunity for students to be familiar with the data and some of the factors that might be affecting it, so there wasn’t as much unevenness in students’ experience with contexts. This aspect didn’t go perfectly, but it was an improvement on my older versions of these quizzes, and students seemed to appreciate the coherence.</p>
+<p>But I ran into a few problems:</p>
+<ul>
+<li><p>Case Studies took <em>much</em> longer than I initially expected. A large part of this is related to the gap in R support that I mentioned above, which feels solvable. There’s a similar leap in some of the concepts, too, though. We hadn’t done enough work before the case studies in aspects like choosing graphs, comparing models, choosing methods, etc. I’m really glad that this gap was highlighted because I think those are really important aspects to include in the course, and part of my fall planning is incorporating them better. Finally, the bumpiness of teaming slowed these down, as well.</p></li>
+<li><p>I think I’m fighting with what I’m trying to measure and how on Interpretation Quizzes. These are useful kinds of questions to ask students, and I do want to know what they can come up with from their own brains on them. Seeing students’ work always told me a lot about where they were at, and some of the students mentioned in reflections that studying for the quizzes and reading my feedback afterwards was helpful. But the actual grading step never felt like what I actually wanted to be doing, even if the three big categories that served as my grades usually felt correct. It’s feeling more and more like I actually want this to be an oral exam; I want to have a conversation with students about these things. I just need to figure out if/how to make that work here.</p></li>
+</ul>
+<p>So this will probably look pretty different in the fall, but I haven’t figured out quite how yet.</p>
+</section>
+</section>
+<section id="overall" class="level2">
+<h2 class="anchored" data-anchor-id="overall">Overall</h2>
+<p>Across both of these courses, I feel like I’ve been learning what the skills students need practice with are, and the main thing I’m trying to work on is how to provide appropriate practice over time with those skills.</p>
+<p>That feels like something both really big and kind of basic. But looking over the past five years (as I will have to do in putting together my tenure portfolio for the fall 😱), I think it’s actually a lot of progress for that to be what I’m working on. I know overall how I want to teach these courses, and I feel good about how I introduce topics. It’s a really solid base to build on.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

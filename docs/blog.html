@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -154,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="end of semester">end of semester <span class="quarto-category-count">(1)</span></div><div class="category" data-category="intro stats">intro stats <span class="quarto-category-count">(1)</span></div><div class="category" data-category="teaching">teaching <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content page-columns page-full column-body" id="quarto-document-content">
 
@@ -184,7 +184,47 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="intro stats,teaching,end of semester" data-listing-date-sort="1779163200000" data-listing-file-modified-sort="1779233286457" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12">
+<div class="thumbnail">
+<p><a href="./posts/sp26-stat-analysis-ref/index.html"> <img src="./posts/sp26-stat-analysis-ref/applied_stats_new_structure.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/sp26-stat-analysis-ref/index.html">
+<h3 class="no-anchor listing-title">
+Spring 2026 Reflections: Applied Statistics &amp; Stat Analysis
+</h3>
+<div class="listing-subtitle">
 
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('intro stats'); return false;">
+intro stats
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('teaching'); return false;">
+teaching
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('end of semester'); return false;">
+end of semester
+</div>
+</div>
+<a href="./posts/sp26-stat-analysis-ref/index.html">
+<div class="listing-description">
+<p>End of semester reflections on two intro stats courses</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/sp26-stat-analysis-ref/index.html">
+<div class="listing-date">
+May 19, 2026
+</div>
+<div class="listing-author">
+Jessie Oehrlein
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
