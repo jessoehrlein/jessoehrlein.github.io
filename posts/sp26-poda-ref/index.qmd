@@ -2,7 +2,7 @@
 title: "Spring 2026 Reflections: Principles of Data Analysis"
 description: "End of semester reflections on an intro data science course"
 author: "Jessie Oehrlein"
-date: "5/22/2026"
+date: "5/27/2026"
 image: podato_image.png
 
 categories:
