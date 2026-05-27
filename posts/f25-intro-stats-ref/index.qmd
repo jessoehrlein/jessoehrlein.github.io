@@ -1,0 +1,50 @@
+---
+title: "Fall 2025 Reflections: Applied Statistics & Stat Analysis"
+description: "End of semester reflections on two intro stats courses"
+author: "Jessie Oehrlein"
+date: "1/9/2026"
+draft: false
+
+categories:
+  - intro stats
+  - teaching
+  - end of semester
+---
+
+This fall, I continued to teach two different flavors of introductory statistics: Applied Statistics (no mathematical prereq, mostly social sciences and health sciences students) and Statistical Analysis (college algebra/precalc prereq, mostly CS and CIS students). I\'m teaching both again this coming spring, so below are notes both on how the fall went and what I\'m thinking about for spring.
+
+## Applied Statistics
+
+I didn\'t change too much from the spring!
+
+-   I kept a pretty similar in-class structure, with a Do Now to start class, a POGIL-style or other team activity for most of class time, and an Exit Ticket at the end.
+
+-   I kept the weekly online homework, the regular Written Assignments, and the standards-based quizzes pretty much the same as well.
+
+-   I shifted from a weekly prep assignment back to a survey (now weekly instead of 2-3x weekly before I had Do Now/Exit Tickets). Those were too long initially, but I tried to correct that after midsemester feedback. I was worried before the semester about whether the weekly data visualization interpretation in the survey would feel disconnected from everything, and I think that did happen. I really need that visualization to be one that I bring into class as opposed to having a separate weekly graph discussion in class. That means students will see fewer graphs over the whole semester, but hopefully the engagement with them will be better.
+
+-   I also had a vocab document linked with the survey. I prompted students to update it every week, and I checked it three times during the semester. This did not work. Thinking through what I want from this, there are two main aspects: I want students to have one document of vocabulary that is easier to refer back to than their individual daily activities, and I want students to do the work of putting this vocab into terms that make sense to them. The latter should really be happening through activities in class. The former purpose of the vocab might be better served by a collective document. So I\'m going to work on using reporting-out to better draw thinking out from students in class, and then I can use that to build the collective document.
+
+-   I had grand plans to tie Written Assignments back into class better and also for Do Nows once a week to be learning inventory/brain dump style. I kind of gave up both of these for time reasons. I would like to not do that this coming spring.
+
+Midway through the semester, I was frustrated with how quickly some topics felt like they built and how much it seemed like I was just losing students for a whole topic (e.g. hypothesis testing). It wasn\'t the first time I\'d felt like this. Also, I\'d been reading [Dylan Kane\'s blogposts about strands](https://fivetwelvethirteen.substack.com/p/a-multi-stranded-math-curriculum?utm_source=post-email-title&publication_id=1659456&post_id=177799472&utm_campaign=email-post-title&isFreemail=true&r=sdgc&triedRedirect=true). So for the spring, I reorganized all the course topics to cover multiple smaller chunks in different strands (data collection, descriptive, parameter estimation, hypothesis testing, regression) in each class period. I am very nervous about this, but it felt like I needed to try *something*.
+
+I\'m also splitting the Written Assignments up to be shorter but weekly instead of 7-8 per semester. Sometimes they\'ll build on the data visualization from the previous survey. The goal is for them to feel less overwhelming, easier to revise when needed, and more integrated. I\'m also hoping to be clearer with students about how the quiz skills connect to the higher-level work on the Written Assignments.
+
+## Stat Analysis
+
+This also had a lot in common with the course last spring.
+
+-   I again kept a pretty similar in-class structure, with a Do Now to start class, a POGIL-style or other team activity for most of class time, and an Exit Ticket at the end.
+
+-   I removed the weekly online homework after it wasn\'t feeling as helpful/relevant to students. I switched the weekly prep assignment to a weekly survey, which included doing a couple of homework problems from the textbook. This was pretty effective, and I think it encouraged interaction with the textbook as well.
+
+-   I kept the weekly-ish R Exercises assignments for the first part of the semester, and I did a better (though not perfect) job having these focused on getting comfortable with R as opposed to being full on statistical analysis assignments. Something I want to emphasize more this coming semester is code style and one of the reasons for that style (in addition to good professional practice): aligning the style with how we think statistically.
+
+-   I eliminated the case study assignments from last semester, mostly because the R Exercises + Case Studies were a lot for students and a lot for me to grade. I also expanded students\' project to last the full semester, which made up for some of the outside-of-class statistical analysis that was lost when I dropped the case studies. Even with what felt like regular milestones to me, though, students weren\'t very consistently engaged with their projects. So I\'m recompressing it to kind of a middle length, with project work due most weeks in the last month and a half of the course.
+
+-   I eliminated the Interpretation Quizzes because of context fatigue involved in the structure of jumping into a bunch of contexts to do analysis. But I missed the in-class, \"this came from your own brain\" aspect of it.
+
+While thinking about how I could make some kind of in-class assessment work the way I wanted, I read [Jayme Dyer\'s blogpost](https://jaymedyer.substack.com/p/re-testing-before-testing-a-practice?utm_source=post-email-title&publication_id=1800634&post_id=183675103&utm_campaign=email-post-title&isFreemail=true&r=sdgc&triedRedirect=true&utm_medium=email) about in-class practice exams before an in-class essay exam. I was also thinking about in-class team case studies that I\'d tried in the past. So my plan now is an in-class team case study to introduce students to a dataset, some time in class that same day to talk through some sample responses to practice quiz-style questions, and then the next week the interpretation quiz will build on that same dataset. I still don\'t have a good mechanism for \"reattempt without penalty\" of these, though.
+
+In addition to changing the timeline of the project again, I\'m changing the format a little bit. This semester, I framed it as one project that involved both a regression analysis and some other kind of inferential analysis. In the spring, I\'m planning to frame it as two projects using the same dataset. Students will submit written reports for both projects, and at the end of the semester they\'ll orally present on just one of them.
