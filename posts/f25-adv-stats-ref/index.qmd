@@ -1,0 +1,28 @@
+---
+title: "Fall 2025 Reflections: Advanced Statistics"
+description: "End of semester reflections on a regression course"
+author: "Jessie Oehrlein"
+date: "1/9/2026"
+draft: false
+
+categories:
+  - regression
+  - teaching
+  - end of semester
+---
+
+This was my second time teaching Advanced Statistics. I was planning on following a similar structure with some new things mixed in, but it ended up feeling messier than the first time around. But I had excellent students, and so they still did great project work anyway.
+
+The topics that I kept from last time were multiple linear regression, logistic regression, ordinal regression, and multinomial regression in that order. Also similarly, there was a multiple linear regression and a logistic-ish (including ordinal or multinomial) project. In Fall 2023, I went from there to ANOVA with a third project, and then we briefly touched on a couple of other things while students mainly worked on final projects. This fall, we spent a week or so on count regression (Poisson and negative binomial) and a week or so on survival analysis, and there wasn't a third project before the final project. The rhythm of only three projects was better than trying to squeeze in four, and while there are things to improve about how I introduced and taught count regression and survival analysis, I was pretty happy with those being in there. I'd like to do a better job integrating ANOVA back into the multiple linear regression section.
+
+The thing that felt like the big addition to the course was using git for version control and collaboration, in the style of [Happy Git with R](https://happygitwithr.com/). This was bumpy in some expected ways, but overall went fine. I don't have any concerns about doing this again, but I need some better structures and expectations of the course around it. For timing and preference reasons, the second and final projects in the course ended up being individual, and I could have been much clearer about what I expected to see in students' repositories and the type of commit history I expected even for individual work.
+
+I think the first project was the big problem with the course this fall. It tried to do everything too quickly. Students were still at really different places in terms of getting comfortable with regression, modeling decisions, git, statistical writing, and R, and diving straight into a collaborative project that used all of those things was too much. The one good choice I made with the project was to give four dataset/topic options instead of asking teams to find and choose their own data. Not having to do that very distinct kind of work for the first project was helpful in terms of directing work towards the analysis and communication, and choosing a dataset as a team is also a tricky first hurdle. With that in mind, I think my plan for next time would be an individual multiple linear regression project with provided datasets, a team logistic-ish regression project with provided datasets, and then an open final project.
+
+On the logistic regression front, I had several students who had either taken Principles of Data Analysis with me or were in Intro to Data Science in the CS department at the same time, and so they were familiar with a more predictive approach to logistic regression. Those approaches spread through the class. Students executed and explained it all well, so that wasn't a problem, but I think I'd like to keep this class more tied to the descriptive and inferential sides of regression. The main things I need to do for that to happen, I think, are first, to talk more about those distinct uses of regression, and second, to help students feel confident in evaluating their models without moving to predictive measures.
+
+I was hoping to focus on statistical writing in the course, drawing on some resources that colleagues at Gustavus Adolphus and Winona State presented at USCOTS this summer. Some of that happened, but mostly early on. I had some thoughts about how to return to it throughout the course, but not a solid enough plan for it to happen when I reached the "plan one day ahead" part of the semester. I also tried having different audiences for the reports of the different projects, but I think that needed more examples and discussion to really work well.
+
+I'm still struggling a little with isolating skills for reasonably-sized homework assignments. One of the homework assignments this semester ended up being more like a scaffolded version of a project, much too involved. Something that I might try next time is to have more questions that aren't "do this yourself" but more evaluation of a fictional statistician/student's work, or showing where that fictional person got to and asking what should be done next.
+
+So like I said, messy overall. I tried little bits of lots of new things, and it didn't feel cohesive enough or like the threads carried through well. But I'm very proud of the work the students did this semester. They used a variety of interesting and challenging datasets, jumped into all the different methods we looked at, learned new things about those methods, and communicated well about their analysis. So I can't feel too badly about how the course went!
