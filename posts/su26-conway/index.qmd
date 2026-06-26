@@ -1,0 +1,48 @@
+---
+title: "Summer 2026 Reflections: Camp Conway"
+description: "WORDS"
+author: "Jessie Oehrlein"
+date: "7/6/2026"
+draft: true
+
+categories:
+  - enrichment
+  - teaching
+  - end of semester
+  - dynamical systems
+  - discrete math
+---
+
+I spent the first part of this summer at Camp Conway, a two-week math summer program for 11-14 year olds. At camp, students took one topics course each week, with those topics courses meeting 8 times for 75 minutes each across 5 days. The two topics courses I taught were Algorithms and Dynamical Systems. Both courses drew on teaching I had previously done with a similar population of students at MathPath 2022 but with some substantial differences in focus or scope.
+
+## Algorithms
+
+My plan for this course was to focus on searching lists, sorting lists, and finding paths in graphs, with the most time for a single topic spent on graph algorithms. But I wrote my plan with a lot of question marks at the end and a lot of flexibility in it; I really wanted to be able to follow the campers' interests and pace. And we ended up using that flexibility! Here's the rough outline of where things went:
+
+- Day 1 afternoon: What is an algorithm, and what makes a good one? Did an exercise of writing instructions for others to draw a simple picture, played around with some arithmetic algorithms (some of them broken to get at ideas of completeness and finiteness).
+
+- Day 2 morning: Time complexity. They looked at a visual pattern to describe how it grew and came up with patterns that grew slower or faster, and then they designed an algorithm to find the minimum of a list and think about how much time it would take. From here, I introduced Big O, Big Theta, and Big Omega notation.
+
+- Day 2 afternoon: More time complexity and list search. We started by getting some more clarity and practice with ideas of time complexity -- comparing functions like this is a big, abstract idea. Then I asked them to come up with an algorithm to find a particular element in a sorted list or say that it isn't there.
+
+- Day 3 morning: List search. We talked about the time complexity and best, worst, and average cases for linear search, and then we spent the rest of class collectively writing an algorithm for binary search that everyone felt good about and figuring out its time complexity. This involved introducing the idea of logs.
+
+- Day 3 afternoon: Sorting lists. I asked them to come up with an algorithm to sort and unsorted list and then to figure out its time complexity. After folks had come up with most the $\mathcal{O}(n^2)$ searches, I gave them some questions to work through the ideas of mergesort.
+
+- Day 4 morning: Graph traversal. We looked at unweighted, undirected graphs, and I started by asking them to write an algorithm to find some path from a source vertex to each of the other vertices (if possible). After both breadth-frist search and depth-first search emerged, we talked about which one would work to find a shortest path. 
+
+- Day 4 afternoon: Graph traversal with weighted edges. I gave them some time to try to adjust those algorithms to work for weighted edges, and then we talked through Dijkstra's algorithm (and then why it doesn't work with negative edge weights).
+
+- Day 5 morning: Algorithmic puzzles. At the end of Day 4, I had given them some options for what we could do on the last day: algorithmic puzzles, more arithmetic algorithms like on Day 1, or more graph algorithms. Folks were most excited about the puzzles, with arithmetic algorithms a close second, so I wrote up a mix of those (and threw in topological sort at the end). We wrapped up by making a quick concept map of the course.
+
+The puzzles were definitely not my initial plan, but they brought some needed energy and confidence at the end of the week. I was really happy with how they let me pull out some strategies for approaching problems and algorithms when we talked as a full class; that hadn't been a focus through the week, but I think it was a good place to end.
+
+I would introduce time complexity differently; in particular, I wouldn't introduce Big O, Big Theta, and Big Omega all at once. I had in my notes from MathPath that just introducing Big O didn't go quite right, and that's why I did them all this time. But I think wrapping your mind around one of them first is a better move. I'm also not sure that Big Theta was gaining us all that much in this context; the others are more relevant for talking about the algorithms. All that said, starting with the visual pattern is really useful.
+
+I had a lot of success with campers writing their algorithms up on the boards in a good amount of detail. Sometimes that was copying over from work on paper, and sometimes the board was the first place the idea got into writing, and both were okay! I appreciated that having the algorithms on the whiteboards made it so easy to make changes when a case was missing or something needed to be clarified or edited, in addition to all the usual vertical surface affordances around being able to see where campers are at, them being able to compare their work to others', etc.
+
+A couple of things here that I'd like to work on or think about more:
+
+- There was a stretch of class periods where the ideas were pretty hard, and I wonder in the future if there are ways to break that up more, like maybe spreading some of the shorter puzzles through the course as warm-ups and/or palate cleansers.
+
+- For some class activities, I need to think of more appropriate extensions, things to think about beyond the main goal that will keep campers engaged while being level-appropriate. (For example, for many of these algorithms, writing a formal proof that the algorithm works after writing out the algorithm in detail can be a *lot*, so that's not the best next step.)
