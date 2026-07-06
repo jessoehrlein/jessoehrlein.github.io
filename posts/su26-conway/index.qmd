@@ -1,9 +1,9 @@
 ---
 title: "Summer 2026 Reflections: Camp Conway"
-description: "WORDS"
+description: "Doing fun math with 11-14 yos, part 1"
 author: "Jessie Oehrlein"
 date: "7/6/2026"
-draft: true
+draft: false
 
 categories:
   - enrichment
@@ -13,27 +13,27 @@ categories:
   - discrete math
 ---
 
-I spent the first part of this summer at Camp Conway, a two-week math summer program for 11-14 year olds. At camp, students took one topics course each week, with those topics courses meeting 8 times for 75 minutes each across 5 days. The two topics courses I taught were Algorithms and Dynamical Systems. Both courses drew on teaching I had previously done with a similar population of students at MathPath 2022 but with some substantial differences in focus or scope.
+I spent the first part of this summer at [Camp Conway](https://nationalmathcamps.org/camp-conway/), a two-week math summer program for 11-14 year olds. At camp, students took one topics course each week, with those topics courses meeting 8 times for 75 minutes each across 5 days. The two topics courses I taught were Algorithms and Dynamical Systems. Both courses drew on teaching I had previously done with a similar population of students at MathPath 2022 but with some substantial differences in focus or scope.
 
 ## Algorithms
 
 My plan for this course was to focus on searching lists, sorting lists, and finding paths in graphs, with the most time for a single topic spent on graph algorithms. But I wrote my plan with a lot of question marks at the end and a lot of flexibility in it; I really wanted to be able to follow the campers' interests and pace. And we ended up using that flexibility! Here's the rough outline of where things went:
 
-- Day 1 afternoon: What is an algorithm, and what makes a good one? Did an exercise of writing instructions for others to draw a simple picture, played around with some arithmetic algorithms (some of them broken to get at ideas of completeness and finiteness).
+- **Day 1 afternoon:** What is an algorithm, and what makes a good one? Did an exercise of writing instructions for others to draw a simple picture, played around with some arithmetic algorithms (some of them broken to get at ideas of completeness and finiteness).
 
-- Day 2 morning: Time complexity. They looked at a visual pattern to describe how it grew and came up with patterns that grew slower or faster, and then they designed an algorithm to find the minimum of a list and think about how much time it would take. From here, I introduced Big O, Big Theta, and Big Omega notation.
+- **Day 2 morning:** Time complexity. They looked at a visual pattern to describe how it grew and came up with patterns that grew slower or faster, and then they designed an algorithm to find the minimum of a list and think about how much time it would take. From here, I introduced Big O, Big Theta, and Big Omega notation.
 
-- Day 2 afternoon: More time complexity and list search. We started by getting some more clarity and practice with ideas of time complexity -- comparing functions like this is a big, abstract idea. Then I asked them to come up with an algorithm to find a particular element in a sorted list or say that it isn't there.
+- **Day 2 afternoon:** More time complexity and list search. We started by getting some more clarity and practice with ideas of time complexity -- comparing functions like this is a big, abstract idea. Then I asked them to come up with an algorithm to find a particular element in a sorted list or say that it isn't there.
 
-- Day 3 morning: List search. We talked about the time complexity and best, worst, and average cases for linear search, and then we spent the rest of class collectively writing an algorithm for binary search that everyone felt good about and figuring out its time complexity. This involved introducing the idea of logs.
+- **Day 3 morning:** List search. We talked about the time complexity and best, worst, and average cases for linear search, and then we spent the rest of class collectively writing an algorithm for binary search that everyone felt good about and figuring out its time complexity. This involved introducing the idea of logs.
 
-- Day 3 afternoon: Sorting lists. I asked them to come up with an algorithm to sort and unsorted list and then to figure out its time complexity. After folks had come up with most the $\mathcal{O}(n^2)$ searches, I gave them some questions to work through the ideas of mergesort.
+- **Day 3 afternoon:** Sorting lists. I asked them to come up with an algorithm to sort and unsorted list and then to figure out its time complexity. After folks had come up with most the $\mathcal{O}(n^2)$ searches, I gave them some questions to work through the ideas of mergesort.
 
-- Day 4 morning: Graph traversal. We looked at unweighted, undirected graphs, and I started by asking them to write an algorithm to find some path from a source vertex to each of the other vertices (if possible). After both breadth-frist search and depth-first search emerged, we talked about which one would work to find a shortest path. 
+- **Day 4 morning:** Graph traversal. We looked at unweighted, undirected graphs, and I started by asking them to write an algorithm to find some path from a source vertex to each of the other vertices (if possible). After both breadth-frist search and depth-first search emerged, we talked about which one would work to find a shortest path.
 
-- Day 4 afternoon: Graph traversal with weighted edges. I gave them some time to try to adjust those algorithms to work for weighted edges, and then we talked through Dijkstra's algorithm (and then why it doesn't work with negative edge weights).
+- **Day 4 afternoon:** Graph traversal with weighted edges. I gave them some time to try to adjust those algorithms to work for weighted edges, and then we talked through Dijkstra's algorithm (and then why it doesn't work with negative edge weights).
 
-- Day 5 morning: Algorithmic puzzles. At the end of Day 4, I had given them some options for what we could do on the last day: algorithmic puzzles, more arithmetic algorithms like on Day 1, or more graph algorithms. Folks were most excited about the puzzles, with arithmetic algorithms a close second, so I wrote up a mix of those (and threw in topological sort at the end). We wrapped up by making a quick concept map of the course.
+- **Day 5 morning:** Algorithmic puzzles. At the end of Day 4, I had given them some options for what we could do on the last day: algorithmic puzzles, more arithmetic algorithms like on Day 1, or more graph algorithms. Folks were most excited about the puzzles, with arithmetic algorithms a close second, so I wrote up a mix of those (and threw in topological sort at the end). We wrapped up by making a quick concept map of the course.
 
 The puzzles were definitely not my initial plan, but they brought some needed energy and confidence at the end of the week. I was really happy with how they let me pull out some strategies for approaching problems and algorithms when we talked as a full class; that hadn't been a focus through the week, but I think it was a good place to end.
 
@@ -51,25 +51,25 @@ A couple of things here that I'd like to work on or think about more:
 
 My goal for this course was to get at the idea of classification as an interesting mathematical question through classifying behavior in dynamical systems: looking for fixed points and periodic orbits, looking at stability, finding bifurcations, talking about systems being chaotic vs non-chaotic. I don't think I fully stuck the landing on that, but some of those ideas came through. Here's the outline of how things went:
 
-- Day 1 afternoon: Diffy boxes/Ducci sequences. I asked students to play around with some diffy boxes, figure out what was happening (everything going to all 0s), and then to figure out what boxes of different longevity could look like. No one fully proved why all diffy boxes go to all 0s, but they were able to figure out why triangles get caught in a loop instead. A lot of students were interested in larger polygons and found loops for pentagons, hexagons, and heptagons, and they figured out that octagons could get to all 0s from a non-trivial starting point (but didn't prove that octagons all get there). This gave us the language of fixed point and periodic orbit, as well as some of the ideas of classification.
+- **Day 1 afternoon:** Diffy boxes/Ducci sequences. I asked students to play around with some diffy boxes, figure out what was happening (everything going to all 0s), and then to figure out what boxes of different longevity could look like. No one fully proved why all diffy boxes go to all 0s, but they were able to figure out why triangles get caught in a loop instead. A lot of students were interested in larger polygons and found loops for pentagons, hexagons, and heptagons, and they figured out that octagons could get to all 0s from a non-trivial starting point (but didn't prove that octagons all get there). This gave us the language of fixed point and periodic orbit, as well as some of the ideas of classification.
 
-- Day 2 morning: Happy and sad numbers. Students found a lot of happy and sad numbers in base ten and made a diagram of them, and we sketched out a proof that the only possibilities were reaching the fixed point of 1 or entering the periodic orbit we'd found. Then they explored other bases, finding periodic orbits, fixed points other than 1, and bases in which everything is happy.
+- **Day 2 morning:** Happy and sad numbers. Students found a lot of happy and sad numbers in base ten and made a diagram of them, and we sketched out a proof that the only possibilities were reaching the fixed point of 1 or entering the periodic orbit we'd found. Then they explored other bases, finding periodic orbits, fixed points other than 1, and bases in which everything is happy.
 
-- Day 2 afternoon: We started to look at 1D discrete maps! Students started by following some trajectories, and then they found fixed points and tried to find points of period 2 (though that algebra was very messy for some of the maps). Then we made cobweb diagrams, and I introduced the idea of stability.
+- **Day 2 afternoon:** We started to look at 1D discrete maps! Students started by following some trajectories, and then they found fixed points and tried to find points of period 2 (though that algebra was very messy for some of the maps). Then we made cobweb diagrams, and I introduced the idea of stability.
 
-- Day 3 morning: More work with 1D maps around fixed points, cobweb diagrams, and stability, mostly using maps that are useful for thinking about population growth or root-finding. Then we started to look at bifurcations by changing a parameter on similar kinds of maps.
+- **Day 3 morning:** More work with 1D maps around fixed points, cobweb diagrams, and stability, mostly using maps that are useful for thinking about population growth or root-finding. Then we started to look at bifurcations by changing a parameter on similar kinds of maps.
 
-- Day 3 afternoon: Continued looking at bifurcations, and then we talked about SIR models and did a physical simulation of one! The students also proposed a bunch of modifications to the model to make more realistic, and we talked about how flexible the structure of a compartmental model is.
+- **Day 3 afternoon:** Continued looking at bifurcations, and then we talked about SIR models and did a physical simulation of one! The students also proposed a bunch of modifications to the model to make more realistic, and we talked about how flexible the structure of a compartmental model is.
 
-- Day 4 morning: Chaos time with the digit shift map and the tent map! We spent most of the morning exploring the digit shift map (in base ten, though the last question for students to think about was in essence changing to other bases). Students found the fixed points, aperiodic points, and a bunch of periodic orbits, and then we figured out ways to find a periodic orbit of all possible periods. Students started exploring the tent map and got to some conjectures.
+- **Day 4 morning:** Chaos time with the digit shift map and the tent map! We spent most of the morning exploring the digit shift map (in base ten, though the last question for students to think about was in essence changing to other bases). Students found the fixed points, aperiodic points, and a bunch of periodic orbits, and then we figured out ways to find a periodic orbit of all possible periods. Students started exploring the tent map and got to some conjectures.
 
-- Day 4 afternoon: Continued with the tent map. I asked students to think about which points are aperiodic and how to prove or find counterexamples to a couple of conjectures they'd made in the morning. Both conjectures (around finding periodic orbits of period p) ended up being true. Someone who was visiting class for the afternoon asked me later if the students had come up with those conjectures without prompting, and I was so thrilled to say yes. Talked about the idea of chaos and why it's relevant to the weather. We then started looking at the quadratic map.
+- **Day 4 afternoon:** Continued with the tent map. I asked students to think about which points are aperiodic and how to prove or find counterexamples to a couple of conjectures they'd made in the morning. Both conjectures (around finding periodic orbits of period p) ended up being true. Someone who was visiting class for the afternoon asked me later if the students had come up with those conjectures without prompting, and I was so thrilled to say yes. Talked about the idea of chaos and why it's relevant to the weather. We then started looking at the quadratic map.
 
-- Day 5 morning: More looking at the quadratic map and the logistic map. I talked about "Period Three Implies Chaos" and more detail of the Lorenz equations than I had the day before, including the attractor. We did some wrap-up with thinking of other applications of dynamical systems and making a concept map of the course.
+- **Day 5 morning:** More looking at the quadratic map and the logistic map. I talked about "Period Three Implies Chaos" and more detail of the Lorenz equations than I had the day before, including the attractor. We did some wrap-up with thinking of other applications of dynamical systems and making a concept map of the course.
 
 I hadn't planned to ask about other real-world things that could be represented as dynamical systems, but that ended up working really well for the end of the course. The students were quite creative! And it was interesting to see which ideas they were drawing on in order to come up with new things; the compartmental-style model of SIR was a big inspiration.
 
-What I feel like I'm struggling with most in this course and ones like it is good ways to make the weather aspect (which was a draw for some students!) engaging and not just a story with some messy-looking equations that I tack on near the end. I think showing a video of Rayleigh-Benard convection would help, but I really want to make the "what is going on here?!" more compelling. 
+What I feel like I'm struggling with most in this course and ones like it is good ways to make the weather aspect (which was a draw for some students!) engaging and not just a story with some messy-looking equations that I tack on near the end. I think showing a video of Rayleigh-Benard convection would help, but I really want to make the "what is going on here?!" more compelling.
 
 And on that front, the tent map seemed less surprising to students this time around. Partially I think we didn't do cobwebbing on that one early enough. But also, leading with the digit shift map might have made it less surprising anyway? We'd also looked at quadratic and logistic maps earlier in the week, and I think that was a mistake in terms of seeing some of the chaotic visuals too early.
 

@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Jessie Oehrlein",
-    "section": "",
-    "text": "I’m Jessie Oehrlein. I am an assistant professor of mathematics at Fitchburg State University, where I mostly teach statistics and data analysis. I use POGIL and other inquiry-based methods as the core of my teaching. My research interests are in atmospheric science, particularly polar stratosphere-troposphere interaction, and scholarship of teaching & learning in math, stats, and computer science.\nBefore Fitchburg State, I previously taught math, statistics, and computer science at the undergraduate level at Columbia University and LaGuardia Community College, and I’ve taught K-12 students everything from combinatorics to Soviet ballet history in a variety of in-person and online enrichment settings.\nMy PhD work was advised by Prof. Lorenzo Polvani and Dr. Gabriel Chiodo at Columbia University. Prior to that, I graduated from Franklin W. Olin College of Engineering with a degree in mechanical engineering.\nIn my free time, I enjoy ballet and modern dance, watching entirely too many sports, and riding roller coasters. As of January 2026, I have been on 256 roller coasters in four countries. My 250th was Underground at Adventureland, and my 50th wooden roller coaster was Great American Scream Machine at Six Flags Over Georgia."
-  },
-  {
-    "objectID": "index.html#bio",
-    "href": "index.html#bio",
-    "title": "Jessie Oehrlein",
-    "section": "",
-    "text": "I’m Jessie Oehrlein. I am an assistant professor of mathematics at Fitchburg State University, where I mostly teach statistics and data analysis. I use POGIL and other inquiry-based methods as the core of my teaching. My research interests are in atmospheric science, particularly polar stratosphere-troposphere interaction, and scholarship of teaching & learning in math, stats, and computer science.\nBefore Fitchburg State, I previously taught math, statistics, and computer science at the undergraduate level at Columbia University and LaGuardia Community College, and I’ve taught K-12 students everything from combinatorics to Soviet ballet history in a variety of in-person and online enrichment settings.\nMy PhD work was advised by Prof. Lorenzo Polvani and Dr. Gabriel Chiodo at Columbia University. Prior to that, I graduated from Franklin W. Olin College of Engineering with a degree in mechanical engineering.\nIn my free time, I enjoy ballet and modern dance, watching entirely too many sports, and riding roller coasters. As of January 2026, I have been on 256 roller coasters in four countries. My 250th was Underground at Adventureland, and my 50th wooden roller coaster was Great American Scream Machine at Six Flags Over Georgia."
-  },
-  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
@@ -35,69 +14,6 @@
     "text": "Statistics\n\nMATH 1700 Applied Statistics\nTaught every semester Fall 2021 - Spring 2026\nThis is an algebra-based introductory statistics course for students in social sciences and health sciences. I use a Process-Oriented Guided Inquiry Learning (POGIL)-esque approach, with most of class time spent working through new concepts in small groups. Assessment includes both standards-based and specifications grading aspects.\nRelated materials: Spring 2026 syllabus, activity introducing confidence intervals, Mathfest 2023 talk about critique assignments\n\n\nMATH 2800 Introduction to Statistical Analysis\nTaught Fall 2023 and every semester Fall 2024 - Spring 2026\nThis is an introductory statistics course for students who have had precalculus (computer science, CIS, life/earth sciences, math majors). In-class work follows the same POGIL-ish model I use in Applied Statistics, but the course is based in R, uses simulation-based inference throughout, and covers additional topics. This course uses specifications grading.\nLinks to related material: Spring 2026 syllabus\n\n\nMATH 3003 Advanced Statistics\nTaught Fall 2023 and Fall 2025\nThis course builds on an introductory statistics course to explore further topics in regression. The Fall 2025 version involved in-depth explorations of multiple linear regression and logistic regression (including ordinal and multinomial regression), with briefer discussions of count regression, ANOVA, and survival analysis. The course is built around student projects and uses specifications grading.\nLinks to related material: Fall 2025 syllabus\n\n\nMATH 3900 Mathematics Seminar: Time-Series Analysis\nTaught Spring 2023\nThis is a repeatable, one credit class for math majors. In Spring 2023, I focused the course on time series and forecasting.\nLinks to related material: Spring 2023 syllabus\n\n\nMATH 4200 Probability & Statistics I\nTaught Fall 2022, Fall 2024, Fall 2025\nThis is an upper-level probability course and is required for math majors with concentrations in statistical modeling or secondary education. I use a inquiry-based approach driven by student presentations. The assessment in the course is based on specifications grading.\nLinks to related materials: syllabus, eCOTS 2024 &Beyond slides\n\n\nMATH 4250 Probability & Statistics II\nTaught Spring 2023, Spring 2025\nThis is a mathematical statistics course, continuing on from Math 4200 in the fall. The first half of the course covers the mathematical foundations of frequentist statistics, and the second half of the course covers Bayesian statistics.\nLinks to related materials: Spring 2025 syllabus"
   },
   {
-    "objectID": "fun.html",
-    "href": "fun.html",
-    "title": "Fun",
-    "section": "",
-    "text": "This page is under construction."
-  },
-  {
-    "objectID": "fun.html#watching-dance",
-    "href": "fun.html#watching-dance",
-    "title": "Fun",
-    "section": "Watching Dance",
-    "text": "Watching Dance\nMy current “home” ballet companies are Boston Ballet (in person) and Pacific Northwest Ballet (virtually). At points in the past my home companies have included New York City Ballet, American Ballet Theatre, Oklahoma City Ballet/Ballet Oklahoma, and Tulsa Ballet.\nSome of my favorite companies, choreographers, and dancers in other areas of dance include Alvin Ailey American Dance Theater, Jose Limon Dance Company, Dorrance Dance, Parsons Dance Company, Ayodele Casel, Dormeshia Sumbry-Edwards, Music from the Sole, Pam Tanowitz, the Gardiner Brothers, Harini Nilakantan, and Kara Chan.\nSome favorite pieces:\n\nStory ballet: Coppelia, the story of a girl, her boyfriend, the other girl-but-actually-doll he thinks is pretty, and an old dollmaker. Some very weird and questionable things happen, but there’s a lot of great dancing and acting.\nNon-story ballet: Square Dance by George Balanchine. What if Vivaldi + classical movement inspired by square dance + sometimes a caller.\nNon-story ballet: NY Export: Opus Jazz by Jerome Robbins. The definition of a sneaker ballet and Robbins’s ability to get dancers dancing to each other instead of the audience.\nHave seen the most (other than Nutcracker): Romeo & Juliet, 17 times across versions by 12 different choreographers. I have Opinions about the ending, the portrayal of the feud, and character and relationship arcs across pas de deux.\nThe piece of dance that has most lived in my brain for years after seeing it (not even live!) is Michelle Dorrance’s “New to the Session” (music by Rhiannon Giddens) from the Vail Dance Festival."
-  },
-  {
-    "objectID": "fun.html#dancing",
-    "href": "fun.html#dancing",
-    "title": "Fun",
-    "section": "Dancing",
-    "text": "Dancing\nAt various points I’ve studied ballet, jazz, Horton-style modern, and Limon-style modern. One of the things I liked most about living in New York was being able to try different specific styles of modern to find what really “fit” the way I like to move.\nI also learned some salsa and east-coast and west-coast swing (but more salsa than swing) at summer camps. I continued to do salsa informally and occasionally in college.\nBut the other style that I learned at summer camp was contra dance, which is what you’ll most commonly find me dancing now. I love learning the patterns, dancing with lots of people, and the sheer joy of the music and the dance."
-  },
-  {
-    "objectID": "enrichment.html",
-    "href": "enrichment.html",
-    "title": "Enrichment Teaching",
-    "section": "",
-    "text": "In addition to college-level teaching, I’ve done a variety of K-12 enrichment teaching. Select examples are below.\nThis page is under construction."
-  },
-  {
-    "objectID": "fun.html#roller-coasters",
-    "href": "fun.html#roller-coasters",
-    "title": "Fun",
-    "section": "Roller Coasters",
-    "text": "Roller Coasters\nMy current favorite wooden roller coasters are:\n\nVoyage at Holiday World\nEl Toro at Six Flags Great Adventure\nGhostRider at Knott’s Berry Farm\n\nMy current favorite steel roller coasters are:\n\nMillennium Force at Cedar Point\nIron Gwazi at Busch Gardens Tampa\nNitro at Six Flags Great Adventure"
-  },
-  {
-    "objectID": "fun.html#dance",
-    "href": "fun.html#dance",
-    "title": "Fun",
-    "section": "Dance",
-    "text": "Dance\n\nWatching Dance\nMy current “home” ballet companies are Boston Ballet (in person) and Pacific Northwest Ballet (virtual). At points in the past my home companies have included New York City Ballet, American Ballet Theatre, Oklahoma City Ballet/Ballet Oklahoma, and Tulsa Ballet.\nSome of my favorite companies, choreographers, and dancers in other areas of dance include Alvin Ailey American Dance Theater, Jose Limon Dance Company, Dorrance Dance, Parsons Dance Company, Ayodele Casel, Dormeshia Sumbry-Edwards, Music from the Sole, Pam Tanowitz, the Gardiner Brothers, Harini Nilakantan, and Kara Chan.\nSome favorite pieces:\n\nStory ballet: Coppelia, the story of a girl, her boyfriend, the other girl-but-actually-doll he thinks is pretty, and an old dollmaker. Some very weird and questionable things happen, but there’s a lot of great dancing and acting.\nNon-story ballet: Square Dance by George Balanchine. What if Vivaldi + classical movement inspired by square dance + sometimes a caller.\nNon-story ballet: NY Export: Opus Jazz by Jerome Robbins. The definition of a sneaker ballet and Robbins’s ability to get dancers dancing to each other instead of the audience.\nHave seen the most (other than Nutcracker): Romeo & Juliet, 17 times across versions by 12 different choreographers. I have Opinions about the ending, the portrayal of the feud, and character and relationship arcs across pas de deux.\nThe piece of dance that has most lived in my brain for years after seeing it (not even live!) is Michelle Dorrance’s “New to the Session” (music by Rhiannon Giddens) from the Vail Dance Festival.\n\n\n\nDancing\nAt various points I’ve studied ballet, jazz, Horton-style modern, and Limon-style modern. One of the things I liked most about living in New York was being able to try different specific styles of modern to find what really “fit” the way I like to move.\nI also learned some salsa and east-coast and west-coast swing (but more salsa than swing) at summer camps. I continued to do salsa informally and occasionally in college.\nBut the other style that I learned at summer camp was contra dance, which is what you’ll most commonly find me dancing now. I love learning the patterns, dancing with lots of people, and the sheer joy of the music and the dance."
-  },
-  {
-    "objectID": "fun.html#sports",
-    "href": "fun.html#sports",
-    "title": "Fun",
-    "section": "Sports",
-    "text": "Sports\nI watch a wide variety of sports. Sports I actively and consistently follow include baseball, softball, gymnastics, figure skating, curling, tennis, sport climbing, fencing, and football.\nSome of my favorites:\n\nBaseball: Houston Astros (MLB), TCU Horned Frogs (college D1), Babson Beavers (college D3)\nSoftball: OU Sooners (college D1), Oklahoma City Spark (AUSL)\nArtistic Gymnastics: OU Sooners men and women (college D1), Clemson Tigers (college D1), Rebeca Andrade, Joscelyn Roberson, Kaylia Nemour, Kaliya Lincoln, Tonya Paulsson, Levi Jung-Ruivivar, Chloe Lacoursiere, Jayla Hang, Aiko Sugihara, Jess Gadirova, Khoi Young, Jake Jarman, Yul Moldauer\nTrampoline & Tumbling: Ruben Padilla, Gracie Harder, Kaden Brown\nFigure Skating: Yuma Kagiyama, Yuna Aoki, Loicia Demougeot/Theo Le Mercier, Caroline Green/Michael Parsons, Alysa Liu, Amber Glenn\nCurling: Team Homan, Team St-Georges, Thiesse/Dropkin\nTennis: Carlos Alcaraz, Iga Swiatek, Coco Gauff, Jasmine Paolini, Cam Norrie, Sara Errani\nClimbing: Janja Garnbret, Natalia Grossman, Brooke Raboutou, Annie Sanders, Oriane Bertone, Mao Nakamura, Ai Mori, Hannah Meul, Oceana Mackenzie, Sorato Anraku, Toby Roberts, Mejdi Schalck\nFencing: The US foilists\nFootball: TCU Horned Frogs (college D1)\n\nIf you are interested in some of my favorite figure skating performances, you can watch some on this YouTube playlist."
-  },
-  {
-    "objectID": "fun.html#books",
-    "href": "fun.html#books",
-    "title": "Fun",
-    "section": "Books",
-    "text": "Books\nA few books that mean a lot to me:\n\nThe Incandescent by Emily Tesh\nSea Foam & Silence by S.L. Dove Cooper\nComme un Roman by Daniel Pennac\nWe Should Be So Lucky by Cat Sebastian\nFire by Kristin Cashore"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Math in the Sky",
-    "section": "",
-    "text": "Spring 2026 Reflections: Principles of Data Analysis\n\n\n\n\n\n\n\nintro data science\n\n\nteaching\n\n\nend of semester\n\n\n\n\nEnd of semester reflections on an intro data science course\n\n\n\n\n\n\nMay 27, 2026\n\n\nJessie Oehrlein\n\n\n\n\n\n\n  \n\n\n\n\nSpring 2026 Reflections: Math of Climate Seminar\n\n\n\n\n\n\n\nclimate science\n\n\natmospheric science\n\n\ndynamical systems\n\n\nstatistics\n\n\nteaching\n\n\nend of semester\n\n\n\n\nEnd of semester reflections on teaching in my research area. ish.\n\n\n\n\n\n\nMay 21, 2026\n\n\nJessie Oehrlein\n\n\n\n\n\n\n  \n\n\n\n\nSpring 2026 Reflections: Applied Statistics & Stat Analysis\n\n\n\n\n\n\n\nintro stats\n\n\nteaching\n\n\nend of semester\n\n\n\n\nEnd of semester reflections on two intro stats courses\n\n\n\n\n\n\nMay 19, 2026\n\n\nJessie Oehrlein\n\n\n\n\n\n\n  \n\n\n\n\nFall 2025 Reflections: Advanced Statistics\n\n\n\n\n\n\n\nregression\n\n\nteaching\n\n\nend of semester\n\n\n\n\nEnd of semester reflections on a regression course\n\n\n\n\n\n\nJan 9, 2026\n\n\nJessie Oehrlein\n\n\n\n\n\n\n  \n\n\n\n\nFall 2025 Reflections: Applied Statistics & Stat Analysis\n\n\n\n\n\n\n\nintro stats\n\n\nteaching\n\n\nend of semester\n\n\n\n\nEnd of semester reflections on two intro stats courses\n\n\n\n\n\n\nJan 9, 2026\n\n\nJessie Oehrlein\n\n\n\n\n\n\n  \n\n\n\n\nFall 2025 Reflections: Probability & Statistics I\n\n\n\n\n\n\n\nprobability\n\n\nteaching\n\n\nend of semester\n\n\n\n\nEnd of semester reflections on a probability theory course\n\n\n\n\n\n\nDec 28, 2025\n\n\nJessie Oehrlein\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "teaching.html#data-science",
     "href": "teaching.html#data-science",
     "title": "Teaching",
@@ -110,69 +26,6 @@
     "title": "Teaching",
     "section": "Mathematics",
     "text": "Mathematics\n\nMATH 1250 SI Functions Corequisite\nTaught Fall 2022\nThis is a corequisite support section for Functions, focused on just-in-time review, practicing new skills and ideas, and developing problem-solving and math confidence. I tried to include some modeling skills on a regular basis.\nLinks to related materials: Fall 2022 information sheet, JMM presentation slides.\n\n\nMATH 1600 Informal Mathematical Modeling\nTaught Spring 2022\nThis is an algebra course for elementary and special education majors. It uses an inquiry-based approach and includes both math and pedagogy content. The central assignments of the course were two projects and a portfolio.\nLinks to related materials: Spring 2022 syllabus, picture book project assignment.\n\n\nMATH 1900 Discrete Mathematics\nTaught Fall 2021 (and returning Fall 2026!)\nThis is a course covering sets, logic, counting, functions/relations, and graph theory for computer science, computer information systems, electrical engineering technology, and game design majors.\nLinks to related materials: Fall 2021 syllabus, sample extension assignment.\n\n\nMATH 3350 Multivariate Calculus\nTaught Spring 2024\nThis is a multivariable and vector calculus course.\nLinks to related materials: syllabus, portfolio assignment, Mathfest 2024 talk about doing POGIL better in the course\n\n\nMATH 3900 Mathematics Seminar: Math of Climate\nTaught Spring 2026\nThis is a repeatable, one credit class for math majors. In Spring 2026, the course focused on mathematics of the Earth system, including dynamical systems, chaos, time series analysis, extreme value theory, and attribution.\nLinks to related materials: Spring 2026 course website"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research and Assessment",
-    "section": "",
-    "text": "Below is information on my research interests and some of my current and past projects. See related work in Publications and Presentations (in progress)."
-  },
-  {
-    "objectID": "research.html#education-and-assessment",
-    "href": "research.html#education-and-assessment",
-    "title": "Research and Assessment",
-    "section": "Education and Assessment",
-    "text": "Education and Assessment\nMy education & assessment interests are in supporting student success in statistics, mathematics, and computing classrooms, whether that is at the scale of a single activity like Parsons Problems or a state-wide structure like Math Pathways in Massachusetts.\n\nCollaboration Curriculum with Prof. Emily Wang (Oberlin College) and Dr. Ashley Walker (Google)\nCollaborative Learning with Parsons Problems in Math and Computer Science Education with Prof. Emily Wang (Oberlin College)\nAssessing the Success of Transfer from Community College to State Universities in Massachusetts with Prof. Amy Wehe (Fitchburg State)"
-  },
-  {
-    "objectID": "research.html#atmospheric-science",
-    "href": "research.html#atmospheric-science",
-    "title": "Research and Assessment",
-    "section": "Atmospheric Science",
-    "text": "Atmospheric Science\n\nStratosphere-Troposphere Interaction\nMy doctoral work focused on sudden stratospheric warmings, their interactions with other phenomena, their surface impacts, and their variability.\nIn the polar region, the stratosphere is the layer of the atmosphere from about 10 to 50 km above the surface. The region of typically strong west-to-east winds in the mid-to-upper polar stratosphere during winter forms the stratospheric polar vortex. However, planetary waves originating below the stratosphere can interact with and disrupt this vortex. When these disruptions are sufficiently strong, we call them sudden stratospheric warmings, due to the spike in temperature of the polar stratosphere of 20-30 Kelvin over a short period of time.\n\nThese events happen at about 30 km above the surface, but they can have important and long-lasting surface impacts. Better understanding sudden stratospheric warmings and their surface impacts thus gives us better understanding and potentially better prediction of winter climate throughout the North Atlantic region.\nMy past projects include:\n\nComparing the effects of El Niño and SSWs on North Atlantic winter climate with Dr. Gabriel Chiodo (CSIC) and Prof. Lorenzo Polvani (Columbia University)\nDetermining the effects of ozone chemistry and transport on the polar vortex, SSWs, and their strong vortex counterparts with Dr. Gabriel Chiodo (CSIC) and Prof. Lorenzo Polvani (Columbia University)\nUsing bootstrappiing of observed events to understand sources of variability in SSW composites with Prof. Lorenzo Polvani (Columbia University), Dr. Lantao Sun (Colorado State University), and Dr. Clara Deser (NCAR)"
-  },
-  {
-    "objectID": "research.html#education-and-assessment-1",
-    "href": "research.html#education-and-assessment-1",
-    "title": "Research and Assessment",
-    "section": "Education and Assessment",
-    "text": "Education and Assessment\n\nAssessment of Corequisite/Supplemental Instruction Courses for Introductory Mathematics at Fitchburg State\nAssessment of Mathematics Placement at Fitchburg State\nIntroducing Experimental Design to Promote Active Learning with Prof. Yev Yesilevsky (Columbia University), Annika Thomas (MIT), Dr. Melissa A. Wright (Barnard College), and Michael Tarnow (Columbia University)"
-  },
-  {
-    "objectID": "research.html#graph-theory",
-    "href": "research.html#graph-theory",
-    "title": "Research and Assessment",
-    "section": "Graph Theory",
-    "text": "Graph Theory"
-  },
-  {
-    "objectID": "service.html",
-    "href": "service.html",
-    "title": "Service",
-    "section": "",
-    "text": "This page is under construction.\nFor a full list of service activities, see my CV.\n\nProfessional Communities\n\nMathematical Association of America (MAA) Membership Committee, member 2023-29 and chair 2026-29\nAmerican Meteorological Society (AMS) Committee on Middle Atmosphere, member 2025-28\n\n\n\nUniversity and Departmental Service"
-  },
-  {
-    "objectID": "fun.html#cross-stitch-and-blackwork",
-    "href": "fun.html#cross-stitch-and-blackwork",
-    "title": "Fun",
-    "section": "Cross Stitch and Blackwork",
-    "text": "Cross Stitch and Blackwork\nI stitch in my free time (and sometimes during meetings). I’ve been doing cross stitch off and on for about 25 years, and I’ve recently started trying blackwork!"
-  },
-  {
-    "objectID": "research.html#student-projects-supervising",
-    "href": "research.html#student-projects-supervising",
-    "title": "Research and Assessment",
-    "section": "Student Projects Supervising",
-    "text": "Student Projects Supervising\nI enjoy supervising and collaborating with student on research! If you are interested in work related to statistics, data analysis, math or math-adjacent education/assessment, or atmospheric science, let’s talk.\n\nFitchburg State University Undergraduate Decision-Making about Graduate Study by Aidan Thompson (Fitchburg State ’27)\nForecasting Academic Risk: A Data-Driven Evaluation of Student Alerts and Support Systems by Aidan Thompson (Fitchburg State ’27)"
-  },
-  {
-    "objectID": "research.html#student-projects-supervised",
-    "href": "research.html#student-projects-supervised",
-    "title": "Research and Assessment",
-    "section": "Student Projects Supervised",
-    "text": "Student Projects Supervised\n\nCreating a Study Guide for the Actuarial P Exam by Cooper Rogers (Fitchburg State ’24)\nAre MLB MVP Voters Getting Better? by Ben Wiita (Fitchburg State ’24)\nFinal Stratospheric Warmings and El Niño-Southern Oscillation by Johanna Doyle (Bronx High School of Science ’22)"
   },
   {
     "objectID": "teaching.html#computer-science",
@@ -196,46 +49,39 @@
     "text": "Mathematics\n\nAPMA E2000: Multivariable Calculus for Engineering and Applied Science\nTA, Fall 2019 and Spring 2020\nThis is a one-semester multivariable and vector calculus course for engineering students. In recitations, I focused on problem solving, identifying key ideas, and connecting representations.\nLinks to related materials: Spring 2020 recitation information sheet, sample in-class activity, blog posts."
   },
   {
-    "objectID": "enrichment.html#climate-and-chaos",
-    "href": "enrichment.html#climate-and-chaos",
-    "title": "Enrichment Teaching",
-    "section": "Climate and Chaos",
-    "text": "Climate and Chaos\nClimate and Chaos was a class focused on discrete dynamical systems with connections to Earth’s atmosphere, especially energy balance models, atmospheric stability, and convection.\nRelated materials: sample homeworks"
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research and Assessment",
+    "section": "",
+    "text": "Below is information on my research interests and some of my current and past projects. See related work in Publications and Presentations (in progress)."
   },
   {
-    "objectID": "enrichment.html#algorithms",
-    "href": "enrichment.html#algorithms",
-    "title": "Enrichment Teaching",
-    "section": "Algorithms",
-    "text": "Algorithms\nAlgorithms will focus on what makes something a “good” algorithm, some common sorting and graph algorithms, and their applications/extensions."
+    "objectID": "research.html#education-and-assessment",
+    "href": "research.html#education-and-assessment",
+    "title": "Research and Assessment",
+    "section": "Education and Assessment",
+    "text": "Education and Assessment\nMy education & assessment interests are in supporting student success in statistics, mathematics, and computing classrooms, whether that is at the scale of a single activity like Parsons Problems or a state-wide structure like Math Pathways in Massachusetts.\n\nCollaboration Curriculum with Prof. Emily Wang (Oberlin College) and Dr. Ashley Walker (Google)\nCollaborative Learning with Parsons Problems in Math and Computer Science Education with Prof. Emily Wang (Oberlin College)\nAssessing the Success of Transfer from Community College to State Universities in Massachusetts with Prof. Amy Wehe (Fitchburg State)"
   },
   {
-    "objectID": "enrichment.html#bridges-maps-and-networks",
-    "href": "enrichment.html#bridges-maps-and-networks",
-    "title": "Enrichment Teaching",
-    "section": "Bridges, Maps, and Networks",
-    "text": "Bridges, Maps, and Networks\nThis class covers Eulerian walks/circuits, the Five-Color Theorem, and some basic ideas in network science to provide an overview of different areas of graph theory. With the exception of the proof of the Five-Color Theorem, the main ideas of the class typically come from students -- figuring out why a graph does or doesn’t have an Eulerian walk, finding a counterexample to a “Three-Color Conjecture,” proposing ways to measure how central a vertex is in a network.\nLinks to related materials: JMM presentation slides, blog posts."
+    "objectID": "research.html#student-projects-supervising",
+    "href": "research.html#student-projects-supervising",
+    "title": "Research and Assessment",
+    "section": "Student Projects Supervising",
+    "text": "Student Projects Supervising\nI enjoy supervising and collaborating with student on research! If you are interested in work related to statistics, data analysis, math or math-adjacent education/assessment, or atmospheric science, let’s talk.\n\nFitchburg State University Undergraduate Decision-Making about Graduate Study by Aidan Thompson (Fitchburg State ’27)\nForecasting Academic Risk: A Data-Driven Evaluation of Student Alerts and Support Systems by Aidan Thompson (Fitchburg State ’27)"
   },
   {
-    "objectID": "enrichment.html#how-to-mathematically-guard-an-art-gallery",
-    "href": "enrichment.html#how-to-mathematically-guard-an-art-gallery",
-    "title": "Enrichment Teaching",
-    "section": "How to (Mathematically) Guard an Art Gallery",
-    "text": "How to (Mathematically) Guard an Art Gallery\nThis class covers a proof of the Art Gallery Theorem, using ideas about triangles, graph duals, trees, and graph coloring.\nLinks to related materials: JMM presentation slides, blog posts."
+    "objectID": "research.html#atmospheric-science",
+    "href": "research.html#atmospheric-science",
+    "title": "Research and Assessment",
+    "section": "Atmospheric Science",
+    "text": "Atmospheric Science\n\nStratosphere-Troposphere Interaction\nMy doctoral work focused on sudden stratospheric warmings, their interactions with other phenomena, their surface impacts, and their variability.\nIn the polar region, the stratosphere is the layer of the atmosphere from about 10 to 50 km above the surface. The region of typically strong west-to-east winds in the mid-to-upper polar stratosphere during winter forms the stratospheric polar vortex. However, planetary waves originating below the stratosphere can interact with and disrupt this vortex. When these disruptions are sufficiently strong, we call them sudden stratospheric warmings, due to the spike in temperature of the polar stratosphere of 20-30 Kelvin over a short period of time.\n\nThese events happen at about 30 km above the surface, but they can have important and long-lasting surface impacts. Better understanding sudden stratospheric warmings and their surface impacts thus gives us better understanding and potentially better prediction of winter climate throughout the North Atlantic region.\nMy past projects include:\n\nComparing the effects of El Niño and SSWs on North Atlantic winter climate with Dr. Gabriel Chiodo (CSIC) and Prof. Lorenzo Polvani (Columbia University)\nDetermining the effects of ozone chemistry and transport on the polar vortex, SSWs, and their strong vortex counterparts with Dr. Gabriel Chiodo (CSIC) and Prof. Lorenzo Polvani (Columbia University)\nUsing bootstrappiing of observed events to understand sources of variability in SSW composites with Prof. Lorenzo Polvani (Columbia University), Dr. Lantao Sun (Colorado State University), and Dr. Clara Deser (NCAR)"
   },
   {
-    "objectID": "enrichment.html#introduction-to-mathematical-modeling",
-    "href": "enrichment.html#introduction-to-mathematical-modeling",
-    "title": "Enrichment Teaching",
-    "section": "Introduction to Mathematical Modeling",
-    "text": "Introduction to Mathematical Modeling\nThis class introduces students to a mathematical modeling process. Two of the problems I use (one about selecting a computer, one about where a taco truck should park) come from the GAIMME Report. We also discuss earlier steps in the modeling process with a disease as the context: what might we want to know, and what features might we want in a model to address those different questions?\nLinks to related materials: blog posts."
-  },
-  {
-    "objectID": "enrichment.html#from-swans-to-spartacus-soviet-ballet-history",
-    "href": "enrichment.html#from-swans-to-spartacus-soviet-ballet-history",
-    "title": "Enrichment Teaching",
-    "section": "From Swans to Spartacus: Soviet Ballet History",
-    "text": "From Swans to Spartacus: Soviet Ballet History"
+    "objectID": "research.html#education-and-assessment-1",
+    "href": "research.html#education-and-assessment-1",
+    "title": "Research and Assessment",
+    "section": "Education and Assessment",
+    "text": "Education and Assessment\n\nAssessment of Corequisite/Supplemental Instruction Courses for Introductory Mathematics at Fitchburg State\nAssessment of Mathematics Placement at Fitchburg State\nIntroducing Experimental Design to Promote Active Learning with Prof. Yev Yesilevsky (Columbia University), Annika Thomas (MIT), Dr. Melissa A. Wright (Barnard College), and Michael Tarnow (Columbia University)"
   },
   {
     "objectID": "research.html#statistician-on-campus",
@@ -245,46 +91,11 @@
     "text": "Statistician on Campus\nI am happy to support faculty colleagues’ projects in thinking about data collection, statistical analysis, and data communication. The projects below are those that have led to co-authorship.\n\nEffects of Including Rehearsal Push-ups to a Dynamic Warm-Up Prior to Completing a Maximal Push-up Test with Prof. Jason Talanian (Fitchburg State) and Brian Mgeni (Fitchburg State)\nImpacts of Intersectional Dual-Perspective VR Experiences on Empathy and Understanding of Microagressions with Prof. J.J. Sylvia IV (Fitchburg State) and Prof. Zachary Miner (Fitchburg State)"
   },
   {
-    "objectID": "enrichment.html#dynamical-systems",
-    "href": "enrichment.html#dynamical-systems",
-    "title": "Enrichment Teaching",
-    "section": "Dynamical Systems",
-    "text": "Dynamical Systems\nDynamical Systems will focus on the behavior and applications of (mostly one-dimensional) discrete dynamical systems."
-  },
-  {
-    "objectID": "enrichment.html#the-amazing-algorithmic-race",
-    "href": "enrichment.html#the-amazing-algorithmic-race",
-    "title": "Enrichment Teaching",
-    "section": "The Amazing Algorithmic Race",
-    "text": "The Amazing Algorithmic Race\nThis was a class focused on developing and evaluating algorithms. The class started with activities exploring what a good algorithm is and then moved into developing sorting and graph search algorithms, looking at big-O notation along the way. One of my favorite moments of the course in Summer 2022 was students coming up with the idea of log base 2 themselves in order to talk about what was happening in mergesort.\nRelated materials: sample homeworks"
-  },
-  {
-    "objectID": "enrichment.html#graph-coloring",
-    "href": "enrichment.html#graph-coloring",
-    "title": "Enrichment Teaching",
-    "section": "Graph Coloring",
-    "text": "Graph Coloring\nTo be developed (summer 2026)!"
-  },
-  {
-    "objectID": "enrichment.html#bayesian-statistics",
-    "href": "enrichment.html#bayesian-statistics",
-    "title": "Enrichment Teaching",
-    "section": "Bayesian Statistics",
-    "text": "Bayesian Statistics\nTo be developed (summer 2026)!"
-  },
-  {
-    "objectID": "enrichment.html#other-mathematical-modeling-courses",
-    "href": "enrichment.html#other-mathematical-modeling-courses",
-    "title": "Enrichment Teaching",
-    "section": "Other Mathematical Modeling Courses",
-    "text": "Other Mathematical Modeling Courses\nPopulation Modeling: This class evolved out of student comments on the Intro Math Modeling class, expressing interest in more advanced modeling material. It is mainly structured around group activities exploring different kinds of populations and their dynamics, modeled with compartmental models.\nLinks to related materials: sample activities, JMM presentation slides, blog posts.\nDisease Modeling: This class was another attempt to provide a more advanced modeling class. I structure the class around a game (which I learned from Brian Hollenbeck) and connect that game to an SIR model.\nLinks to related materials: blog posts."
-  },
-  {
-    "objectID": "enrichment.html#ballet-history",
-    "href": "enrichment.html#ballet-history",
-    "title": "Enrichment Teaching",
-    "section": "Ballet History",
-    "text": "Ballet History\nFrom Swans to Spartacus, Ballet in the Soviet Union: This class covers mainly the Bolshoi and Kirov from the 1920s through 1970s, with emphases on the dramballet, ballets with revolutionary themes, and the sustained presence and cultural importance of classical works.\nHistory of Ballet, 1900 - Present: This class covers ballet in the 20th century (with a touch of the present at the end) in the US, UK, Russia/Soviet Union, and continental Europe, trying to provide a flavor of the wide variety of styles that were prominent or developed during the period."
+    "objectID": "research.html#student-projects-supervised",
+    "href": "research.html#student-projects-supervised",
+    "title": "Research and Assessment",
+    "section": "Student Projects Supervised",
+    "text": "Student Projects Supervised\n\nCreating a Study Guide for the Actuarial P Exam by Cooper Rogers (Fitchburg State ’24)\nAre MLB MVP Voters Getting Better? by Ben Wiita (Fitchburg State ’24)\nFinal Stratospheric Warmings and El Niño-Southern Oscillation by Johanna Doyle (Bronx High School of Science ’22)"
   },
   {
     "objectID": "posts/sp26-stat-analysis-ref/index.html",
@@ -313,41 +124,6 @@
     "title": "Spring 2026 Reflections: Applied Statistics & Stat Analysis",
     "section": "Overall",
     "text": "Overall\nAcross both of these courses, I feel like I’ve been learning what the skills students need practice with are, and the main thing I’m trying to work on is how to provide appropriate practice over time with those skills.\nThat feels like something both really big and kind of basic. But looking over the past five years (as I will have to do in putting together my tenure portfolio for the fall 😱), I think it’s actually a lot of progress for that to be what I’m working on. I know overall how I want to teach these courses, and I feel good about how I introduce topics. It’s a really solid base to build on."
-  },
-  {
-    "objectID": "posts/sp26-seminar-ref/index.html",
-    "href": "posts/sp26-seminar-ref/index.html",
-    "title": "Spring 2026 Reflections: Math of Climate Seminar",
-    "section": "",
-    "text": "This semester I taught what is likely the final offering of our one-credit Math Seminar course, which is being phased out after a curriculum change. The first time I taught the course, in my second year at Fitchburg State, I focused on time series analysis – interesting, could be made appropriately scoped, fit the “stats person” role I was still learning to fill. This time, I realized that this might be my best chance, at least for a while, to teach atmospheric science-related things at the college level. So I chose Math of Climate as the focus.\nAll of the students in the class were juniors and seniors. They were coming from a pretty mixed set of class experiences, though. A couple had taken ODEs, a few were in Methods of Applied Math (advanced linear algebra + some transforms + some PDEs), and a few were in Numerical Analysis. Those all had some overlap with where this class went, but focused in different ways."
-  },
-  {
-    "objectID": "posts/sp26-seminar-ref/index.html#topics",
-    "href": "posts/sp26-seminar-ref/index.html#topics",
-    "title": "Spring 2026 Reflections: Math of Climate Seminar",
-    "section": "Topics",
-    "text": "Topics\nMy initial plan was that the first half of the semester would be dynamical systems, the next quarter-ish would be time series analysis, extreme value theory, and attribution theory, and then we’d close with student projects.\nWe ended up doing more dynamical systems than that, with fewer explicit climate tie-ins than I expected, more climate inspiration. I had planned to do some ocean box models in class, for example, but we extended the discussion of 1D continuous systems, bifurcations, and hysteresis in class instead, and I think that was useful. In general, we ended up spending more time in class discussing the homework than I had planned at first, but once I realized that was the right flow for this group, it worked well.\nThe place where the dynamical systems section really stretched, though, was in reading Li and Yorke’s “Period Three Implies Chaos.” We spent an additional class period beyond my plan working through the central proof. But I didn’t want to rush it. More on that below.\nSpending longer on the paper compressed the other topics a bit. We really spent one day (not always even full class periods) on getting flavors of time series analysis, extreme value theory, and attribution theory. But doing those topics more lightly turned those class periods into more of conversations, where student questions shaped the direction we went. For example, the time series day started with discussion of homework that had walked the students through empirical orthogonal functions/principal component analysis (with a quick student-led review of eigenstuff when we figured out that some folks hadn’t made it there in their Linear classes), which then carried over into a class discussion of EOF-based vs station-based approaches to calculating North Atlantic Oscillation indices. After that, I pulled up an MJO phase chart as an example of being interested in multiple principal components. I expected to show that for a couple of minutes and then move on, but the students asked a lot of questions! It meant we only spent a little bit of time looking at autocorrelation diagrams and measures (and looked at no power spectra), but it felt more meaningful and enjoyable to dwell in the example of the ideas they’d worked through and really figure out what was going on there."
-  },
-  {
-    "objectID": "posts/sp26-seminar-ref/index.html#paper-reading",
-    "href": "posts/sp26-seminar-ref/index.html#paper-reading",
-    "title": "Spring 2026 Reflections: Math of Climate Seminar",
-    "section": "Paper Reading",
-    "text": "Paper Reading\nGoing through “Period Three Implies Chaos” is the part of the course that I’m most proud of. Math papers are terse and frustrating, and it’s entirely possible to go through an undergrad math degree and never really read one. (Some upper-level textbooks get close, but I don’t really think they should.) So it felt important to scaffold this experience of reading a paper that is undergrad-appropriate but old and quite succinct.\nWe went through the background and setup of the paper together in class, and then I sent them off with a reading guide to work through the statement of the main theorem, the proof that there is a periodic point of period \\(k\\) for every positive integer \\(k\\) if there is a periodic point of period 3, and the proof that a point of period 5 does not imply the existence of a point of period 3. A couple of those reading guides came back complete and largely following the proofs, but most of them came back with valiant attempts and lots of question marks. Which was exactly the point! So then we took our time over a couple of class periods unpacking claims and proofs, drawing lots of pictures, and putting everything back together. (With a good bit of complaining about mathematical writing norms along the way.)\n\nWhen I was planning the course in January, I had planned to do something like this with one or two more papers over the course of the semester, maybe Manabe & Strickler ’64 and maybe one of the early attribution papers. It became clear pretty quickly that there wasn’t going to be time or energy for more than one. Li & Yorke was the mathiest choice."
-  },
-  {
-    "objectID": "posts/sp26-seminar-ref/index.html#projects",
-    "href": "posts/sp26-seminar-ref/index.html#projects",
-    "title": "Spring 2026 Reflections: Math of Climate Seminar",
-    "section": "Projects",
-    "text": "Projects\nThis course traditionally has some kind of final project. For Math of Climate, I wrote the project assignment so that the default was expository: learn about something we haven’t covered or go deeper/in a different direction on something we have and then share what you learned. I left some room for analysis-y projects, either analyzing some climate data or using a method we had discussed in class on different data, but no one chose that direction.\nI was a little worried about how projects for this course would go. It’s a one-credit class, and a lot of the students had other multiple other courses with “heavier” final projects. I knew this one wouldn’t be the highest priority, and I could see the students putting it off a little bit based on conversations about progress when I checked in with them in class. But things went all right! The students chose diverse and interesting topics, often in ways that touched on current research. Their chosen topics included topological data analysis of weather regimes, uncertainty in numerical weather prediction, Milankovitch cycles, the Atlantic Meridional Overturning Circulation, sea level rise, Stokes waves, and agent-based models for coral growth.\nThe aspect of the projects that didn’t quite work out was that I had asked for something interactive in their presentation (trying problems, going through some kind of demo, discussing graphs or questions), for them to be more of a teaching activity in a way. This wasn’t a totally unreasonable ask for this particular group of students, but it was too much to add on to this scope of project for this course."
-  },
-  {
-    "objectID": "posts/sp26-seminar-ref/index.html#overall",
-    "href": "posts/sp26-seminar-ref/index.html#overall",
-    "title": "Spring 2026 Reflections: Math of Climate Seminar",
-    "section": "Overall",
-    "text": "Overall\nBoth times I’ve taught Math Seminar, I haven’t felt like I’ve really done it justice. It’s only one credit, not trying to meet a particular curricular need, and usually at the end of the week, so it’s easy for prep to end up as a morning-of problem. Even when I want to put more time in, a one-credit class just doesn’t have that much time budgeted to it compared to everything else.\nBut overall, it went all right, and it was really fun to get to work with upper-level students on topics that I enjoy outside of statistics, all the areas like atmospheric science and dynamical systems that got me here in the first place. I didn’t expect how much I would love the project presentations, getting to hear these students speaking bits of a language that I spent five years immersed in, getting to talk to them in that language about something they were exploring at least somewhat by choice. I’m not really in atmospheric or climate science anymore, but I do get a little homesick for it. And I love sharing it."
   },
   {
     "objectID": "posts/sp26-poda-ref/index.html",
@@ -399,6 +175,153 @@
     "text": "Stat Analysis\nThis also had a lot in common with the course last spring.\n\nI again kept a pretty similar in-class structure, with a Do Now to start class, a POGIL-style or other team activity for most of class time, and an Exit Ticket at the end.\nI removed the weekly online homework after it wasn't feeling as helpful/relevant to students. I switched the weekly prep assignment to a weekly survey, which included doing a couple of homework problems from the textbook. This was pretty effective, and I think it encouraged interaction with the textbook as well.\nI kept the weekly-ish R Exercises assignments for the first part of the semester, and I did a better (though not perfect) job having these focused on getting comfortable with R as opposed to being full on statistical analysis assignments. Something I want to emphasize more this coming semester is code style and one of the reasons for that style (in addition to good professional practice): aligning the style with how we think statistically.\nI eliminated the case study assignments from last semester, mostly because the R Exercises + Case Studies were a lot for students and a lot for me to grade. I also expanded students' project to last the full semester, which made up for some of the outside-of-class statistical analysis that was lost when I dropped the case studies. Even with what felt like regular milestones to me, though, students weren't very consistently engaged with their projects. So I'm recompressing it to kind of a middle length, with project work due most weeks in the last month and a half of the course.\nI eliminated the Interpretation Quizzes because of context fatigue involved in the structure of jumping into a bunch of contexts to do analysis. But I missed the in-class, \"this came from your own brain\" aspect of it.\n\nWhile thinking about how I could make some kind of in-class assessment work the way I wanted, I read Jayme Dyer's blogpost about in-class practice exams before an in-class essay exam. I was also thinking about in-class team case studies that I'd tried in the past. So my plan now is an in-class team case study to introduce students to a dataset, some time in class that same day to talk through some sample responses to practice quiz-style questions, and then the next week the interpretation quiz will build on that same dataset. I still don't have a good mechanism for \"reattempt without penalty\" of these, though.\nIn addition to changing the timeline of the project again, I'm changing the format a little bit. This semester, I framed it as one project that involved both a regression analysis and some other kind of inferential analysis. In the spring, I'm planning to frame it as two projects using the same dataset. Students will submit written reports for both projects, and at the end of the semester they'll orally present on just one of them."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jessie Oehrlein",
+    "section": "",
+    "text": "I’m Jessie Oehrlein. I am an assistant professor of mathematics at Fitchburg State University, where I mostly teach statistics and data analysis. I use POGIL and other inquiry-based methods as the core of my teaching. My research interests are in atmospheric science, particularly polar stratosphere-troposphere interaction, and scholarship of teaching & learning in math, stats, and computer science.\nBefore Fitchburg State, I previously taught math, statistics, and computer science at the undergraduate level at Columbia University and LaGuardia Community College, and I’ve taught K-12 students everything from combinatorics to Soviet ballet history in a variety of in-person and online enrichment settings.\nMy PhD work was advised by Prof. Lorenzo Polvani and Dr. Gabriel Chiodo at Columbia University. Prior to that, I graduated from Franklin W. Olin College of Engineering with a degree in mechanical engineering.\nIn my free time, I enjoy ballet and modern dance, watching entirely too many sports, and riding roller coasters. As of January 2026, I have been on 256 roller coasters in four countries. My 250th was Underground at Adventureland, and my 50th wooden roller coaster was Great American Scream Machine at Six Flags Over Georgia."
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Jessie Oehrlein",
+    "section": "",
+    "text": "I’m Jessie Oehrlein. I am an assistant professor of mathematics at Fitchburg State University, where I mostly teach statistics and data analysis. I use POGIL and other inquiry-based methods as the core of my teaching. My research interests are in atmospheric science, particularly polar stratosphere-troposphere interaction, and scholarship of teaching & learning in math, stats, and computer science.\nBefore Fitchburg State, I previously taught math, statistics, and computer science at the undergraduate level at Columbia University and LaGuardia Community College, and I’ve taught K-12 students everything from combinatorics to Soviet ballet history in a variety of in-person and online enrichment settings.\nMy PhD work was advised by Prof. Lorenzo Polvani and Dr. Gabriel Chiodo at Columbia University. Prior to that, I graduated from Franklin W. Olin College of Engineering with a degree in mechanical engineering.\nIn my free time, I enjoy ballet and modern dance, watching entirely too many sports, and riding roller coasters. As of January 2026, I have been on 256 roller coasters in four countries. My 250th was Underground at Adventureland, and my 50th wooden roller coaster was Great American Scream Machine at Six Flags Over Georgia."
+  },
+  {
+    "objectID": "enrichment.html",
+    "href": "enrichment.html",
+    "title": "Enrichment Teaching",
+    "section": "",
+    "text": "In addition to college-level teaching, I’ve done a variety of K-12 enrichment teaching. Select examples are below.\nThis page is under construction."
+  },
+  {
+    "objectID": "enrichment.html#dynamical-systems",
+    "href": "enrichment.html#dynamical-systems",
+    "title": "Enrichment Teaching",
+    "section": "Dynamical Systems",
+    "text": "Dynamical Systems\nDynamical Systems will focus on the behavior and applications of (mostly one-dimensional) discrete dynamical systems."
+  },
+  {
+    "objectID": "enrichment.html#algorithms",
+    "href": "enrichment.html#algorithms",
+    "title": "Enrichment Teaching",
+    "section": "Algorithms",
+    "text": "Algorithms\nAlgorithms will focus on what makes something a “good” algorithm, some common sorting and graph algorithms, and their applications/extensions."
+  },
+  {
+    "objectID": "enrichment.html#climate-and-chaos",
+    "href": "enrichment.html#climate-and-chaos",
+    "title": "Enrichment Teaching",
+    "section": "Climate and Chaos",
+    "text": "Climate and Chaos\nClimate and Chaos was a class focused on discrete dynamical systems with connections to Earth’s atmosphere, especially energy balance models, atmospheric stability, and convection.\nRelated materials: sample homeworks"
+  },
+  {
+    "objectID": "enrichment.html#the-amazing-algorithmic-race",
+    "href": "enrichment.html#the-amazing-algorithmic-race",
+    "title": "Enrichment Teaching",
+    "section": "The Amazing Algorithmic Race",
+    "text": "The Amazing Algorithmic Race\nThis was a class focused on developing and evaluating algorithms. The class started with activities exploring what a good algorithm is and then moved into developing sorting and graph search algorithms, looking at big-O notation along the way. One of my favorite moments of the course in Summer 2022 was students coming up with the idea of log base 2 themselves in order to talk about what was happening in mergesort.\nRelated materials: sample homeworks"
+  },
+  {
+    "objectID": "enrichment.html#graph-coloring",
+    "href": "enrichment.html#graph-coloring",
+    "title": "Enrichment Teaching",
+    "section": "Graph Coloring",
+    "text": "Graph Coloring\nTo be developed (summer 2026)!"
+  },
+  {
+    "objectID": "enrichment.html#bayesian-statistics",
+    "href": "enrichment.html#bayesian-statistics",
+    "title": "Enrichment Teaching",
+    "section": "Bayesian Statistics",
+    "text": "Bayesian Statistics\nTo be developed (summer 2026)!"
+  },
+  {
+    "objectID": "enrichment.html#bridges-maps-and-networks",
+    "href": "enrichment.html#bridges-maps-and-networks",
+    "title": "Enrichment Teaching",
+    "section": "Bridges, Maps, and Networks",
+    "text": "Bridges, Maps, and Networks\nThis class covers Eulerian walks/circuits, the Five-Color Theorem, and some basic ideas in network science to provide an overview of different areas of graph theory. With the exception of the proof of the Five-Color Theorem, the main ideas of the class typically come from students -- figuring out why a graph does or doesn’t have an Eulerian walk, finding a counterexample to a “Three-Color Conjecture,” proposing ways to measure how central a vertex is in a network.\nLinks to related materials: JMM presentation slides, blog posts."
+  },
+  {
+    "objectID": "enrichment.html#how-to-mathematically-guard-an-art-gallery",
+    "href": "enrichment.html#how-to-mathematically-guard-an-art-gallery",
+    "title": "Enrichment Teaching",
+    "section": "How to (Mathematically) Guard an Art Gallery",
+    "text": "How to (Mathematically) Guard an Art Gallery\nThis class covers a proof of the Art Gallery Theorem, using ideas about triangles, graph duals, trees, and graph coloring.\nLinks to related materials: JMM presentation slides, blog posts."
+  },
+  {
+    "objectID": "enrichment.html#introduction-to-mathematical-modeling",
+    "href": "enrichment.html#introduction-to-mathematical-modeling",
+    "title": "Enrichment Teaching",
+    "section": "Introduction to Mathematical Modeling",
+    "text": "Introduction to Mathematical Modeling\nThis class introduces students to a mathematical modeling process. Two of the problems I use (one about selecting a computer, one about where a taco truck should park) come from the GAIMME Report. We also discuss earlier steps in the modeling process with a disease as the context: what might we want to know, and what features might we want in a model to address those different questions?\nLinks to related materials: blog posts."
+  },
+  {
+    "objectID": "enrichment.html#other-mathematical-modeling-courses",
+    "href": "enrichment.html#other-mathematical-modeling-courses",
+    "title": "Enrichment Teaching",
+    "section": "Other Mathematical Modeling Courses",
+    "text": "Other Mathematical Modeling Courses\nPopulation Modeling: This class evolved out of student comments on the Intro Math Modeling class, expressing interest in more advanced modeling material. It is mainly structured around group activities exploring different kinds of populations and their dynamics, modeled with compartmental models.\nLinks to related materials: sample activities, JMM presentation slides, blog posts.\nDisease Modeling: This class was another attempt to provide a more advanced modeling class. I structure the class around a game (which I learned from Brian Hollenbeck) and connect that game to an SIR model.\nLinks to related materials: blog posts."
+  },
+  {
+    "objectID": "enrichment.html#ballet-history",
+    "href": "enrichment.html#ballet-history",
+    "title": "Enrichment Teaching",
+    "section": "Ballet History",
+    "text": "Ballet History\nFrom Swans to Spartacus, Ballet in the Soviet Union: This class covers mainly the Bolshoi and Kirov from the 1920s through 1970s, with emphases on the dramballet, ballets with revolutionary themes, and the sustained presence and cultural importance of classical works.\nHistory of Ballet, 1900 - Present: This class covers ballet in the 20th century (with a touch of the present at the end) in the US, UK, Russia/Soviet Union, and continental Europe, trying to provide a flavor of the wide variety of styles that were prominent or developed during the period."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Math in the Sky",
+    "section": "",
+    "text": "Summer 2026 Reflections: Camp Conway\n\n\n\nenrichment\n\nteaching\n\nend of semester\n\ndynamical systems\n\ndiscrete math\n\n\n\nDoing fun math with 11-14 yos, part 1\n\n\n\n\n\nJul 6, 2026\n\n\nJessie Oehrlein\n\n\n\n\n\n\n\n\n\n\n\n\nSpring 2026 Reflections: Principles of Data Analysis\n\n\n\nintro data science\n\nteaching\n\nend of semester\n\n\n\nEnd of semester reflections on an intro data science course\n\n\n\n\n\nMay 27, 2026\n\n\nJessie Oehrlein\n\n\n\n\n\n\n\n\n\n\n\n\nSpring 2026 Reflections: Math of Climate Seminar\n\n\n\nclimate science\n\natmospheric science\n\ndynamical systems\n\nstatistics\n\nteaching\n\nend of semester\n\n\n\nEnd of semester reflections on teaching in my research area. ish.\n\n\n\n\n\nMay 21, 2026\n\n\nJessie Oehrlein\n\n\n\n\n\n\n\n\n\n\n\n\nSpring 2026 Reflections: Applied Statistics & Stat Analysis\n\n\n\nintro stats\n\nteaching\n\nend of semester\n\n\n\nEnd of semester reflections on two intro stats courses\n\n\n\n\n\nMay 19, 2026\n\n\nJessie Oehrlein\n\n\n\n\n\n\n\n\n\n\n\n\nFall 2025 Reflections: Advanced Statistics\n\n\n\nregression\n\nteaching\n\nend of semester\n\n\n\nEnd of semester reflections on a regression course\n\n\n\n\n\nJan 9, 2026\n\n\nJessie Oehrlein\n\n\n\n\n\n\n\n\n\n\n\n\nFall 2025 Reflections: Applied Statistics & Stat Analysis\n\n\n\nintro stats\n\nteaching\n\nend of semester\n\n\n\nEnd of semester reflections on two intro stats courses\n\n\n\n\n\nJan 9, 2026\n\n\nJessie Oehrlein\n\n\n\n\n\n\n\n\n\n\n\n\nFall 2025 Reflections: Probability & Statistics I\n\n\n\nprobability\n\nteaching\n\nend of semester\n\n\n\nEnd of semester reflections on a probability theory course\n\n\n\n\n\nDec 28, 2025\n\n\nJessie Oehrlein\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "fun.html",
+    "href": "fun.html",
+    "title": "Fun",
+    "section": "",
+    "text": "This page is under construction."
+  },
+  {
+    "objectID": "fun.html#roller-coasters",
+    "href": "fun.html#roller-coasters",
+    "title": "Fun",
+    "section": "Roller Coasters",
+    "text": "Roller Coasters\nMy current favorite wooden roller coasters are:\n\nVoyage at Holiday World\nEl Toro at Six Flags Great Adventure\nGhostRider at Knott’s Berry Farm\n\nMy current favorite steel roller coasters are:\n\nMillennium Force at Cedar Point\nIron Gwazi at Busch Gardens Tampa\nNitro at Six Flags Great Adventure"
+  },
+  {
+    "objectID": "fun.html#dance",
+    "href": "fun.html#dance",
+    "title": "Fun",
+    "section": "Dance",
+    "text": "Dance\n\nWatching Dance\nMy current “home” ballet companies are Boston Ballet (in person) and Pacific Northwest Ballet (virtual). At points in the past my home companies have included New York City Ballet, American Ballet Theatre, Oklahoma City Ballet/Ballet Oklahoma, and Tulsa Ballet.\nSome of my favorite companies, choreographers, and dancers in other areas of dance include Alvin Ailey American Dance Theater, Jose Limon Dance Company, Dorrance Dance, Parsons Dance Company, Ayodele Casel, Dormeshia Sumbry-Edwards, Music from the Sole, Pam Tanowitz, the Gardiner Brothers, Harini Nilakantan, and Kara Chan.\nSome favorite pieces:\n\nStory ballet: Coppelia, the story of a girl, her boyfriend, the other girl-but-actually-doll he thinks is pretty, and an old dollmaker. Some very weird and questionable things happen, but there’s a lot of great dancing and acting.\nNon-story ballet: Square Dance by George Balanchine. What if Vivaldi + classical movement inspired by square dance + sometimes a caller.\nNon-story ballet: NY Export: Opus Jazz by Jerome Robbins. The definition of a sneaker ballet and Robbins’s ability to get dancers dancing to each other instead of the audience.\nHave seen the most (other than Nutcracker): Romeo & Juliet, 17 times across versions by 12 different choreographers. I have Opinions about the ending, the portrayal of the feud, and character and relationship arcs across pas de deux.\nThe piece of dance that has most lived in my brain for years after seeing it (not even live!) is Michelle Dorrance’s “New to the Session” (music by Rhiannon Giddens) from the Vail Dance Festival.\n\n\n\nDancing\nAt various points I’ve studied ballet, jazz, Horton-style modern, and Limon-style modern. One of the things I liked most about living in New York was being able to try different specific styles of modern to find what really “fit” the way I like to move.\nI also learned some salsa and east-coast and west-coast swing (but more salsa than swing) at summer camps. I continued to do salsa informally and occasionally in college.\nBut the other style that I learned at summer camp was contra dance, which is what you’ll most commonly find me dancing now. I love learning the patterns, dancing with lots of people, and the sheer joy of the music and the dance."
+  },
+  {
+    "objectID": "fun.html#sports",
+    "href": "fun.html#sports",
+    "title": "Fun",
+    "section": "Sports",
+    "text": "Sports\nI watch a wide variety of sports. Sports I actively and consistently follow include baseball, softball, gymnastics, figure skating, curling, tennis, sport climbing, fencing, and football.\nSome of my favorites:\n\nBaseball: Houston Astros (MLB), TCU Horned Frogs (college D1), Babson Beavers (college D3)\nSoftball: OU Sooners (college D1), Oklahoma City Spark (AUSL)\nArtistic Gymnastics: OU Sooners men and women (college D1), Clemson Tigers (college D1), Rebeca Andrade, Joscelyn Roberson, Kaylia Nemour, Kaliya Lincoln, Tonya Paulsson, Levi Jung-Ruivivar, Chloe Lacoursiere, Jayla Hang, Aiko Sugihara, Jess Gadirova, Khoi Young, Jake Jarman, Yul Moldauer\nTrampoline & Tumbling: Ruben Padilla, Gracie Harder, Kaden Brown\nFigure Skating: Yuma Kagiyama, Yuna Aoki, Loicia Demougeot/Theo Le Mercier, Caroline Green/Michael Parsons, Alysa Liu, Amber Glenn\nCurling: Team Homan, Team St-Georges, Thiesse/Dropkin\nTennis: Carlos Alcaraz, Iga Swiatek, Coco Gauff, Jasmine Paolini, Cam Norrie, Sara Errani\nClimbing: Janja Garnbret, Natalia Grossman, Brooke Raboutou, Annie Sanders, Oriane Bertone, Mao Nakamura, Ai Mori, Hannah Meul, Oceana Mackenzie, Sorato Anraku, Toby Roberts, Mejdi Schalck\nFencing: The US foilists\nFootball: TCU Horned Frogs (college D1)\n\nIf you are interested in some of my favorite figure skating performances, you can watch some on this YouTube playlist."
+  },
+  {
+    "objectID": "fun.html#books",
+    "href": "fun.html#books",
+    "title": "Fun",
+    "section": "Books",
+    "text": "Books\nA few books that mean a lot to me:\n\nThe Incandescent by Emily Tesh\nSea Foam & Silence by S.L. Dove Cooper\nComme un Roman by Daniel Pennac\nWe Should Be So Lucky by Cat Sebastian\nFire by Kristin Cashore"
+  },
+  {
+    "objectID": "fun.html#cross-stitch-and-blackwork",
+    "href": "fun.html#cross-stitch-and-blackwork",
+    "title": "Fun",
+    "section": "Cross Stitch and Blackwork",
+    "text": "Cross Stitch and Blackwork\nI stitch in my free time (and sometimes during meetings). I’ve been doing cross stitch off and on for about 25 years, and I’ve recently started trying blackwork!"
+  },
+  {
     "objectID": "posts/f25-adv-stats-ref/index.html",
     "href": "posts/f25-adv-stats-ref/index.html",
     "title": "Fall 2025 Reflections: Advanced Statistics",
@@ -411,5 +334,68 @@
     "title": "Fall 2025 Reflections: Probability & Statistics I",
     "section": "",
     "text": "This was my easiest prep of the semester. Format-wise, I was doing something a bit different than the previous two times I had taught the course, but I was using more or less the same sheets of problems as a basis. I enjoyed working with this group of students, and seeing them get to know each other and work increasingly collaboratively as the semester went on was a delight.\nIn previous semesters, I’d had almost almost all work on problems happening outside of class and almost all in-class time being dedicated to presentations, and then students would write up selected problems more formally and submit those. This time, I moved some problem work time to be in class. We’d start with presentations of what they’d done between classes, and then we’d move into time for them to work on the next few problems. This was in response to a couple of things. Student reflections from previous semesters had mentioned that they would have liked more chances in class to work together on problems, so this was taking that feedback directly. But I also hoped that this would “even out” some of the differences I’d seen in how comfortable students were with problem-solving and proofs.\nI think this was successful in terms of student enjoyment and comfort, and I think it did a better job of getting everyone in the course to a certain level of facility with the material. It was also substantially slower. I was not too worried about this early on in the semester, content with going at the pace of the students in an upper-level course. With about a month left I realized that I had a problem, and I started shortening sheets, not having students present everything they’d worked on, not assigning all exercises, etc., just so that we could actually get through the content that I think is necessary in an undergrad prob theory course. I needed to be making some of those decisions (especially around presenting everything) to a lesser extent all along.\nMaybe more importantly, I need to think about how I can kick-start everything that happens in class. We were in a whiteboard wall classroom, so for presentations I would let everyone put work up on the board at once and then present sequentially. That seems like it should be faster than just going up to boards one-by-one, and maybe it was, but it still felt like a lot of kind-of-dead time when different problems take different times to write up. And I know there used to be dead time as people wrote things before talking one-by-one! Or they would write as they went, and it wasn’t quite as clear. (Though maybe being able to do that well is a more valuable skill to have? I’m not sure.) I have similar “how to get this going” feelings about the problem-solving they do in class. I did a lot of giving folks a few minutes to think and work individually and then asking them to form pairs or trios, but that process was often slow to get going.\nDifferentiation is also something I’m frequently thinking about in this course. In the other upper-level course I taught this semester, everything is built around projects with a lot of student choice, so it’s relatively straightforward to scale a project to a student’s mix of background, interest, investment, and available time/energy. I labeled a few problems in this course as challenge problems, which were always options for writeups, but they were never officially assigned and weren’t discussed in class. I’m wondering if incorporating more of those throughout all the sets is the right way to go to provide more to think about. It allows some tailoring of the out-of-class experience (though it’s still “do these easier things and then here’s this chewier thing if you get there,” which isn’t always great) but it doesn’t adjust the in-class experience at all.\nA student also pointed out that a lot of the applied problems were still rather idealized scenarios in terms of matching well to a type of random variable, having known parameters, etc. This is valid, though I see it to some extent as falling out of this being a probability course and not a statistics course. (As soon as you’re trying to figure out parameters using data, you’re doing statistics.) But there is definitely room for application questions that are a little more involved while still being idealized, or where there’s more to figure out, in some sense. I could also write more formally into the sheets some of the things I do more informally in class — asking about assumptions, comparing multiple approaches, etc.\nWriteups continued to work pretty well, and I could see student writing developing over the course of the semester. I was able to tailor feedback a bit to where students were, why they were taking the class, etc. That said, I’m scheduled to teach this again next fall, and I’m hoping to nail down clearer expectations and potential growth directions for both presentations and writeups. I’m not planning on changing the fact that presentations aren’t graded, but we’re trying to focus more as a department on developing students’ presentation skills. On the writeup side, I both want clearer and more consistent specifications for grading purposes and also more thought about directions I can take feedback for students who already solid mathematical writers.\nThe project that I finish the semester with also would benefit from some of that better definition. Students mostly get to the right scope with the information I give them now, but it would be better to be more explicit. The options I’m giving for the project are definitely working well, though! It was nice to end the semester with a mix of exploration of further probability topics and fun applications of ideas to games and puzzles."
+  },
+  {
+    "objectID": "posts/sp26-seminar-ref/index.html",
+    "href": "posts/sp26-seminar-ref/index.html",
+    "title": "Spring 2026 Reflections: Math of Climate Seminar",
+    "section": "",
+    "text": "This semester I taught what is likely the final offering of our one-credit Math Seminar course, which is being phased out after a curriculum change. The first time I taught the course, in my second year at Fitchburg State, I focused on time series analysis – interesting, could be made appropriately scoped, fit the “stats person” role I was still learning to fill. This time, I realized that this might be my best chance, at least for a while, to teach atmospheric science-related things at the college level. So I chose Math of Climate as the focus.\nAll of the students in the class were juniors and seniors. They were coming from a pretty mixed set of class experiences, though. A couple had taken ODEs, a few were in Methods of Applied Math (advanced linear algebra + some transforms + some PDEs), and a few were in Numerical Analysis. Those all had some overlap with where this class went, but focused in different ways."
+  },
+  {
+    "objectID": "posts/sp26-seminar-ref/index.html#topics",
+    "href": "posts/sp26-seminar-ref/index.html#topics",
+    "title": "Spring 2026 Reflections: Math of Climate Seminar",
+    "section": "Topics",
+    "text": "Topics\nMy initial plan was that the first half of the semester would be dynamical systems, the next quarter-ish would be time series analysis, extreme value theory, and attribution theory, and then we’d close with student projects.\nWe ended up doing more dynamical systems than that, with fewer explicit climate tie-ins than I expected, more climate inspiration. I had planned to do some ocean box models in class, for example, but we extended the discussion of 1D continuous systems, bifurcations, and hysteresis in class instead, and I think that was useful. In general, we ended up spending more time in class discussing the homework than I had planned at first, but once I realized that was the right flow for this group, it worked well.\nThe place where the dynamical systems section really stretched, though, was in reading Li and Yorke’s “Period Three Implies Chaos.” We spent an additional class period beyond my plan working through the central proof. But I didn’t want to rush it. More on that below.\nSpending longer on the paper compressed the other topics a bit. We really spent one day (not always even full class periods) on getting flavors of time series analysis, extreme value theory, and attribution theory. But doing those topics more lightly turned those class periods into more of conversations, where student questions shaped the direction we went. For example, the time series day started with discussion of homework that had walked the students through empirical orthogonal functions/principal component analysis (with a quick student-led review of eigenstuff when we figured out that some folks hadn’t made it there in their Linear classes), which then carried over into a class discussion of EOF-based vs station-based approaches to calculating North Atlantic Oscillation indices. After that, I pulled up an MJO phase chart as an example of being interested in multiple principal components. I expected to show that for a couple of minutes and then move on, but the students asked a lot of questions! It meant we only spent a little bit of time looking at autocorrelation diagrams and measures (and looked at no power spectra), but it felt more meaningful and enjoyable to dwell in the example of the ideas they’d worked through and really figure out what was going on there."
+  },
+  {
+    "objectID": "posts/sp26-seminar-ref/index.html#paper-reading",
+    "href": "posts/sp26-seminar-ref/index.html#paper-reading",
+    "title": "Spring 2026 Reflections: Math of Climate Seminar",
+    "section": "Paper Reading",
+    "text": "Paper Reading\nGoing through “Period Three Implies Chaos” is the part of the course that I’m most proud of. Math papers are terse and frustrating, and it’s entirely possible to go through an undergrad math degree and never really read one. (Some upper-level textbooks get close, but I don’t really think they should.) So it felt important to scaffold this experience of reading a paper that is undergrad-appropriate but old and quite succinct.\nWe went through the background and setup of the paper together in class, and then I sent them off with a reading guide to work through the statement of the main theorem, the proof that there is a periodic point of period \\(k\\) for every positive integer \\(k\\) if there is a periodic point of period 3, and the proof that a point of period 5 does not imply the existence of a point of period 3. A couple of those reading guides came back complete and largely following the proofs, but most of them came back with valiant attempts and lots of question marks. Which was exactly the point! So then we took our time over a couple of class periods unpacking claims and proofs, drawing lots of pictures, and putting everything back together. (With a good bit of complaining about mathematical writing norms along the way.)\n\nWhen I was planning the course in January, I had planned to do something like this with one or two more papers over the course of the semester, maybe Manabe & Strickler ’64 and maybe one of the early attribution papers. It became clear pretty quickly that there wasn’t going to be time or energy for more than one. Li & Yorke was the mathiest choice."
+  },
+  {
+    "objectID": "posts/sp26-seminar-ref/index.html#projects",
+    "href": "posts/sp26-seminar-ref/index.html#projects",
+    "title": "Spring 2026 Reflections: Math of Climate Seminar",
+    "section": "Projects",
+    "text": "Projects\nThis course traditionally has some kind of final project. For Math of Climate, I wrote the project assignment so that the default was expository: learn about something we haven’t covered or go deeper/in a different direction on something we have and then share what you learned. I left some room for analysis-y projects, either analyzing some climate data or using a method we had discussed in class on different data, but no one chose that direction.\nI was a little worried about how projects for this course would go. It’s a one-credit class, and a lot of the students had other multiple other courses with “heavier” final projects. I knew this one wouldn’t be the highest priority, and I could see the students putting it off a little bit based on conversations about progress when I checked in with them in class. But things went all right! The students chose diverse and interesting topics, often in ways that touched on current research. Their chosen topics included topological data analysis of weather regimes, uncertainty in numerical weather prediction, Milankovitch cycles, the Atlantic Meridional Overturning Circulation, sea level rise, Stokes waves, and agent-based models for coral growth.\nThe aspect of the projects that didn’t quite work out was that I had asked for something interactive in their presentation (trying problems, going through some kind of demo, discussing graphs or questions), for them to be more of a teaching activity in a way. This wasn’t a totally unreasonable ask for this particular group of students, but it was too much to add on to this scope of project for this course."
+  },
+  {
+    "objectID": "posts/sp26-seminar-ref/index.html#overall",
+    "href": "posts/sp26-seminar-ref/index.html#overall",
+    "title": "Spring 2026 Reflections: Math of Climate Seminar",
+    "section": "Overall",
+    "text": "Overall\nBoth times I’ve taught Math Seminar, I haven’t felt like I’ve really done it justice. It’s only one credit, not trying to meet a particular curricular need, and usually at the end of the week, so it’s easy for prep to end up as a morning-of problem. Even when I want to put more time in, a one-credit class just doesn’t have that much time budgeted to it compared to everything else.\nBut overall, it went all right, and it was really fun to get to work with upper-level students on topics that I enjoy outside of statistics, all the areas like atmospheric science and dynamical systems that got me here in the first place. I didn’t expect how much I would love the project presentations, getting to hear these students speaking bits of a language that I spent five years immersed in, getting to talk to them in that language about something they were exploring at least somewhat by choice. I’m not really in atmospheric or climate science anymore, but I do get a little homesick for it. And I love sharing it."
+  },
+  {
+    "objectID": "service.html",
+    "href": "service.html",
+    "title": "Service",
+    "section": "",
+    "text": "This page is under construction.\nFor a full list of service activities, see my CV.\n\nProfessional Communities\n\nMathematical Association of America (MAA) Membership Committee, member 2023-29 and chair 2026-29\nAmerican Meteorological Society (AMS) Committee on Middle Atmosphere, member 2025-28\n\n\n\nUniversity and Departmental Service"
+  },
+  {
+    "objectID": "posts/su26-conway/index.html",
+    "href": "posts/su26-conway/index.html",
+    "title": "Summer 2026 Reflections: Camp Conway",
+    "section": "",
+    "text": "I spent the first part of this summer at Camp Conway, a two-week math summer program for 11-14 year olds. At camp, students took one topics course each week, with those topics courses meeting 8 times for 75 minutes each across 5 days. The two topics courses I taught were Algorithms and Dynamical Systems. Both courses drew on teaching I had previously done with a similar population of students at MathPath 2022 but with some substantial differences in focus or scope."
+  },
+  {
+    "objectID": "posts/su26-conway/index.html#algorithms",
+    "href": "posts/su26-conway/index.html#algorithms",
+    "title": "Summer 2026 Reflections: Camp Conway",
+    "section": "Algorithms",
+    "text": "Algorithms\nMy plan for this course was to focus on searching lists, sorting lists, and finding paths in graphs, with the most time for a single topic spent on graph algorithms. But I wrote my plan with a lot of question marks at the end and a lot of flexibility in it; I really wanted to be able to follow the campers’ interests and pace. And we ended up using that flexibility! Here’s the rough outline of where things went:\n\nDay 1 afternoon: What is an algorithm, and what makes a good one? Did an exercise of writing instructions for others to draw a simple picture, played around with some arithmetic algorithms (some of them broken to get at ideas of completeness and finiteness).\nDay 2 morning: Time complexity. They looked at a visual pattern to describe how it grew and came up with patterns that grew slower or faster, and then they designed an algorithm to find the minimum of a list and think about how much time it would take. From here, I introduced Big O, Big Theta, and Big Omega notation.\nDay 2 afternoon: More time complexity and list search. We started by getting some more clarity and practice with ideas of time complexity – comparing functions like this is a big, abstract idea. Then I asked them to come up with an algorithm to find a particular element in a sorted list or say that it isn’t there.\nDay 3 morning: List search. We talked about the time complexity and best, worst, and average cases for linear search, and then we spent the rest of class collectively writing an algorithm for binary search that everyone felt good about and figuring out its time complexity. This involved introducing the idea of logs.\nDay 3 afternoon: Sorting lists. I asked them to come up with an algorithm to sort and unsorted list and then to figure out its time complexity. After folks had come up with most the \\(\\mathcal{O}(n^2)\\) searches, I gave them some questions to work through the ideas of mergesort.\nDay 4 morning: Graph traversal. We looked at unweighted, undirected graphs, and I started by asking them to write an algorithm to find some path from a source vertex to each of the other vertices (if possible). After both breadth-frist search and depth-first search emerged, we talked about which one would work to find a shortest path.\nDay 4 afternoon: Graph traversal with weighted edges. I gave them some time to try to adjust those algorithms to work for weighted edges, and then we talked through Dijkstra’s algorithm (and then why it doesn’t work with negative edge weights).\nDay 5 morning: Algorithmic puzzles. At the end of Day 4, I had given them some options for what we could do on the last day: algorithmic puzzles, more arithmetic algorithms like on Day 1, or more graph algorithms. Folks were most excited about the puzzles, with arithmetic algorithms a close second, so I wrote up a mix of those (and threw in topological sort at the end). We wrapped up by making a quick concept map of the course.\n\nThe puzzles were definitely not my initial plan, but they brought some needed energy and confidence at the end of the week. I was really happy with how they let me pull out some strategies for approaching problems and algorithms when we talked as a full class; that hadn’t been a focus through the week, but I think it was a good place to end.\nI would introduce time complexity differently; in particular, I wouldn’t introduce Big O, Big Theta, and Big Omega all at once. I had in my notes from MathPath that just introducing Big O didn’t go quite right, and that’s why I did them all this time. But I think wrapping your mind around one of them first is a better move. I’m also not sure that Big Theta was gaining us all that much in this context; the others are more relevant for talking about the algorithms. All that said, starting with the visual pattern is really useful.\nI had a lot of success with campers writing their algorithms up on the boards in a good amount of detail. Sometimes that was copying over from work on paper, and sometimes the board was the first place the idea got into writing, and both were okay! I appreciated that having the algorithms on the whiteboards made it so easy to make changes when a case was missing or something needed to be clarified or edited, in addition to all the usual vertical surface affordances around being able to see where campers are at, them being able to compare their work to others’, etc.\nA couple of things here that I’d like to work on or think about more:\n\nThere was a stretch of class periods where the ideas were pretty hard, and I wonder in the future if there are ways to break that up more, like maybe spreading some of the shorter puzzles through the course as warm-ups and/or palate cleansers.\nFor some class activities, I need to think of more appropriate extensions, things to think about beyond the main goal that will keep campers engaged while being level-appropriate. (For example, for many of these algorithms, writing a formal proof that the algorithm works after writing out the algorithm in detail can be a lot, so that’s not the best next step.)"
+  },
+  {
+    "objectID": "posts/su26-conway/index.html#dynamical-systems",
+    "href": "posts/su26-conway/index.html#dynamical-systems",
+    "title": "Summer 2026 Reflections: Camp Conway",
+    "section": "Dynamical Systems",
+    "text": "Dynamical Systems\nMy goal for this course was to get at the idea of classification as an interesting mathematical question through classifying behavior in dynamical systems: looking for fixed points and periodic orbits, looking at stability, finding bifurcations, talking about systems being chaotic vs non-chaotic. I don’t think I fully stuck the landing on that, but some of those ideas came through. Here’s the outline of how things went:\n\nDay 1 afternoon: Diffy boxes/Ducci sequences. I asked students to play around with some diffy boxes, figure out what was happening (everything going to all 0s), and then to figure out what boxes of different longevity could look like. No one fully proved why all diffy boxes go to all 0s, but they were able to figure out why triangles get caught in a loop instead. A lot of students were interested in larger polygons and found loops for pentagons, hexagons, and heptagons, and they figured out that octagons could get to all 0s from a non-trivial starting point (but didn’t prove that octagons all get there). This gave us the language of fixed point and periodic orbit, as well as some of the ideas of classification.\nDay 2 morning: Happy and sad numbers. Students found a lot of happy and sad numbers in base ten and made a diagram of them, and we sketched out a proof that the only possibilities were reaching the fixed point of 1 or entering the periodic orbit we’d found. Then they explored other bases, finding periodic orbits, fixed points other than 1, and bases in which everything is happy.\nDay 2 afternoon: We started to look at 1D discrete maps! Students started by following some trajectories, and then they found fixed points and tried to find points of period 2 (though that algebra was very messy for some of the maps). Then we made cobweb diagrams, and I introduced the idea of stability.\nDay 3 morning: More work with 1D maps around fixed points, cobweb diagrams, and stability, mostly using maps that are useful for thinking about population growth or root-finding. Then we started to look at bifurcations by changing a parameter on similar kinds of maps.\nDay 3 afternoon: Continued looking at bifurcations, and then we talked about SIR models and did a physical simulation of one! The students also proposed a bunch of modifications to the model to make more realistic, and we talked about how flexible the structure of a compartmental model is.\nDay 4 morning: Chaos time with the digit shift map and the tent map! We spent most of the morning exploring the digit shift map (in base ten, though the last question for students to think about was in essence changing to other bases). Students found the fixed points, aperiodic points, and a bunch of periodic orbits, and then we figured out ways to find a periodic orbit of all possible periods. Students started exploring the tent map and got to some conjectures.\nDay 4 afternoon: Continued with the tent map. I asked students to think about which points are aperiodic and how to prove or find counterexamples to a couple of conjectures they’d made in the morning. Both conjectures (around finding periodic orbits of period p) ended up being true. Someone who was visiting class for the afternoon asked me later if the students had come up with those conjectures without prompting, and I was so thrilled to say yes. Talked about the idea of chaos and why it’s relevant to the weather. We then started looking at the quadratic map.\nDay 5 morning: More looking at the quadratic map and the logistic map. I talked about “Period Three Implies Chaos” and more detail of the Lorenz equations than I had the day before, including the attractor. We did some wrap-up with thinking of other applications of dynamical systems and making a concept map of the course.\n\nI hadn’t planned to ask about other real-world things that could be represented as dynamical systems, but that ended up working really well for the end of the course. The students were quite creative! And it was interesting to see which ideas they were drawing on in order to come up with new things; the compartmental-style model of SIR was a big inspiration.\nWhat I feel like I’m struggling with most in this course and ones like it is good ways to make the weather aspect (which was a draw for some students!) engaging and not just a story with some messy-looking equations that I tack on near the end. I think showing a video of Rayleigh-Benard convection would help, but I really want to make the “what is going on here?!” more compelling.\nAnd on that front, the tent map seemed less surprising to students this time around. Partially I think we didn’t do cobwebbing on that one early enough. But also, leading with the digit shift map might have made it less surprising anyway? We’d also looked at quadratic and logistic maps earlier in the week, and I think that was a mistake in terms of seeing some of the chaotic visuals too early.\nSome students had the idea of fixed points really locked in, and others were kind of having to think about what it meant each time, so some more emphasis on that definition and how it was applying across the different systems we looked at early in the week might have helped. To some extent, I think that would have been useful across definitions: clearer statements of them the first time, really emphasizing them across the contexts we were looking at throughout the week.\nAnd similarly to Algorithms, by the end of the week things built to get pretty tricky and heavy. Finding a way to break that up would be useful. I don’t want the course to be one big climb (or even a big climb and then a downhill), but something with a wider variety of terrain. The excursion into SIR models worked really well, so finding more of those kinds of threads while keeping the core ideas of the course present and consistent would be nice."
   }
 ]
