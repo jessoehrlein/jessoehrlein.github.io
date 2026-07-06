@@ -200,14 +200,14 @@
     "href": "enrichment.html#dynamical-systems",
     "title": "Enrichment Teaching",
     "section": "Dynamical Systems",
-    "text": "Dynamical Systems\nDynamical Systems will focus on the behavior and applications of (mostly one-dimensional) discrete dynamical systems."
+    "text": "Dynamical Systems\nDynamical Systems focused on the behavior and applications of (mostly one-dimensional) discrete dynamical systems.\nRelated materials: Blog post after camp"
   },
   {
     "objectID": "enrichment.html#algorithms",
     "href": "enrichment.html#algorithms",
     "title": "Enrichment Teaching",
     "section": "Algorithms",
-    "text": "Algorithms\nAlgorithms will focus on what makes something a “good” algorithm, some common sorting and graph algorithms, and their applications/extensions."
+    "text": "Algorithms\nAlgorithms focused on what makes something a “good” algorithm, some common sorting and graph algorithms, and their applications/extensions.\nRelated materials: Blog post after camp"
   },
   {
     "objectID": "enrichment.html#climate-and-chaos",
@@ -242,7 +242,7 @@
     "href": "enrichment.html#bridges-maps-and-networks",
     "title": "Enrichment Teaching",
     "section": "Bridges, Maps, and Networks",
-    "text": "Bridges, Maps, and Networks\nThis class covers Eulerian walks/circuits, the Five-Color Theorem, and some basic ideas in network science to provide an overview of different areas of graph theory. With the exception of the proof of the Five-Color Theorem, the main ideas of the class typically come from students -- figuring out why a graph does or doesn’t have an Eulerian walk, finding a counterexample to a “Three-Color Conjecture,” proposing ways to measure how central a vertex is in a network.\nLinks to related materials: JMM presentation slides, blog posts."
+    "text": "Bridges, Maps, and Networks\nThis class covers Eulerian walks/circuits, the Five-Color Theorem, and some basic ideas in network science to provide an overview of different areas of graph theory. With the exception of the proof of the Five-Color Theorem, the main ideas of the class typically come from students – figuring out why a graph does or doesn’t have an Eulerian walk, finding a counterexample to a “Three-Color Conjecture,” proposing ways to measure how central a vertex is in a network.\nLinks to related materials: JMM presentation slides, blog posts."
   },
   {
     "objectID": "enrichment.html#how-to-mathematically-guard-an-art-gallery",

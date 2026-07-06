@@ -9,15 +9,19 @@ This page is under construction.
 
 # Classes Taught at NMC Camp Conway
 
-National Math Camps is an organization that currently runs two locations of two-week summer math camps for 11-14 year olds. I will spend two weeks teaching at Camp Conway in summer 2026.
+[National Math Camps](https://nationalmathcamps.org/) is an organization that currently runs two locations of two-week summer math camps for 11-14 year olds. I spent two weeks teaching at [Camp Conway](https://nationalmathcamps.org/camp-conway/) in summer 2026.
 
 ## Dynamical Systems
 
-Dynamical Systems will focus on the behavior and applications of (mostly one-dimensional) discrete dynamical systems.
+Dynamical Systems focused on the behavior and applications of (mostly one-dimensional) discrete dynamical systems.
+
+Related materials: Blog post after camp
 
 ## Algorithms
 
-Algorithms will focus on what makes something a "good" algorithm, some common sorting and graph algorithms, and their applications/extensions.
+Algorithms focused on what makes something a "good" algorithm, some common sorting and graph algorithms, and their applications/extensions.
+
+Related materials: Blog post after camp
 
 # Classes Taught at MathPath
 
@@ -47,7 +51,7 @@ To be developed (summer 2026)!
 
 ## Bridges, Maps, and Networks
 
-This class covers Eulerian walks/circuits, the Five-Color Theorem, and some basic ideas in network science to provide an overview of different areas of graph theory. With the exception of the proof of the Five-Color Theorem, the main ideas of the class typically come from students \-- figuring out why a graph does or doesn't have an Eulerian walk, finding a counterexample to a "Three-Color Conjecture," proposing ways to measure how central a vertex is in a network.
+This class covers Eulerian walks/circuits, the Five-Color Theorem, and some basic ideas in network science to provide an overview of different areas of graph theory. With the exception of the proof of the Five-Color Theorem, the main ideas of the class typically come from students -- figuring out why a graph does or doesn't have an Eulerian walk, finding a counterexample to a "Three-Color Conjecture," proposing ways to measure how central a vertex is in a network.
 
 Links to related materials: JMM presentation slides, [blog posts](https://mathinthesky.wordpress.com/tag/bridges-maps-networks/).
 
