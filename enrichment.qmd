@@ -15,13 +15,13 @@ This page is under construction.
 
 Dynamical Systems focused on the behavior and applications of (mostly one-dimensional) discrete dynamical systems.
 
-Related materials: Blog post after camp
+Related materials: [Blog post after camp](posts/su26-conway/)
 
 ## Algorithms
 
 Algorithms focused on what makes something a "good" algorithm, some common sorting and graph algorithms, and their applications/extensions.
 
-Related materials: Blog post after camp
+Related materials: [Blog post after camp](posts/su26-conway/)
 
 # Classes Taught at MathPath
 
