@@ -27,7 +27,7 @@ My plan for this course was to focus on searching lists, sorting lists, and find
 
 - **Day 3 morning:** List search. We talked about the time complexity and best, worst, and average cases for linear search, and then we spent the rest of class collectively writing an algorithm for binary search that everyone felt good about and figuring out its time complexity. This involved introducing the idea of logs.
 
-- **Day 3 afternoon:** Sorting lists. I asked them to come up with an algorithm to sort and unsorted list and then to figure out its time complexity. After folks had come up with most the $\mathcal{O}(n^2)$ searches, I gave them some questions to work through the ideas of mergesort.
+- **Day 3 afternoon:** Sorting lists. I asked them to come up with an algorithm to sort an unsorted list and then to figure out its time complexity. After folks had come up with most the $\mathcal{O}(n^2)$ searches, I gave them some questions to work through the ideas of mergesort.
 
 - **Day 4 morning:** Graph traversal. We looked at unweighted, undirected graphs, and I started by asking them to write an algorithm to find some path from a source vertex to each of the other vertices (if possible). After both breadth-frist search and depth-first search emerged, we talked about which one would work to find a shortest path.
 
