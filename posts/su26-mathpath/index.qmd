@@ -121,4 +121,4 @@ One last thing I want to change for the future: the title of this breakout. This
 
 I told someone that MathPath is kind of a firehose (complimentary), with all the different math that students are seeing over the course of four weeks, in contrast to some other enrichment experiences that are more in depth on fewer ideas. The context-switching can be a lot as faculty, too, but it was exciting to get to teach so many different parts of what I've done in the mathematical sciences!
 
-![End-of-breakout concept maps in Graph Coloring and Climate & Chaos](images/concept map collage.png){fig-alt="Five photos of whiteboards covered in multicolored, multi-handwriting concept maps from Graph Coloring and Climate & Chaos, featuring definitions, detailed diagrams, and arrows connecting ideas" width="448"}
+![End-of-breakout concept maps in Graph Coloring and Climate & Chaos](concept map collage.png){fig-alt="Five photos of whiteboards covered in multicolored, multi-handwriting concept maps from Graph Coloring and Climate & Chaos, featuring definitions, detailed diagrams, and arrows connecting ideas" width="448"}
