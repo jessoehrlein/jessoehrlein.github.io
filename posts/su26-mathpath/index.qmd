@@ -17,7 +17,7 @@ categories:
 
 I spent two weeks of July at [MathPath](https://www.mathpath.org/), a four-week math summer program for 11-14 year olds. At camp, students took two breakouts each week, with morning breakouts meeting for 65 min per day across 5 days and evening breakouts meeting for 80 min per day across 4 days. Each breakout also had 25 minutes of daily conferencing time for homework, except for the last day of the breakout.
 
-The four topics courses I taught were Graph Coloring, Amazing Algorithmic Race, Climate & Chaos, and Conditional Probability & Bayes' Theorem. Algorithms and Climate & Chaos drew on breakouts of the same names that I had taught at MathPath 2022, as well as my recent teaching of Algorithms and Dynamical Systems at [Camp Conway](posts/su26-conway/). Graph Coloring is a frequently taught MathPath course, so I had some others' materials to look at there. Conditional Probability & Bayes' Theorem was new.
+The four topics courses I taught were Graph Coloring, Amazing Algorithmic Race, Climate & Chaos, and Conditional Probability & Bayes' Theorem. Algorithms and Climate & Chaos drew on breakouts of the same names that I had taught at MathPath 2022, as well as my recent teaching of Algorithms and Dynamical Systems at Camp Conway. Graph Coloring is a frequently taught MathPath course, so I had some others' materials to look at there. Conditional Probability & Bayes' Theorem was new.
 
 ## Graph Coloring
 
