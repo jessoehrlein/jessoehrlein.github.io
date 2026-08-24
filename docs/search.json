@@ -61,5 +61,33 @@
     "title": "Jessie Oehrlein",
     "section": "",
     "text": "I’m Jessie Oehrlein. I am an assistant professor of mathematics at Fitchburg State University, where I mostly teach statistics and data analysis. I use POGIL and other inquiry-based methods as the core of my teaching. My research interests are in atmospheric science, particularly polar stratosphere-troposphere interaction, and scholarship of teaching & learning in math, stats, and computer science.\nBefore Fitchburg State, I previously taught math, statistics, and computer science at the undergraduate level at Columbia University and LaGuardia Community College, and I’ve taught K-12 students everything from combinatorics to Soviet ballet history in a variety of in-person and online enrichment settings.\nMy PhD work was advised by Prof. Lorenzo Polvani and Dr. Gabriel Chiodo at Columbia University. Prior to that, I graduated from Franklin W. Olin College of Engineering with a degree in mechanical engineering.\nIn my free time, I enjoy ballet and modern dance, watching entirely too many sports, and riding roller coasters. As of January 2026, I have been on 256 roller coasters in four countries. My 250th was Underground at Adventureland, and my 50th wooden roller coaster was Great American Scream Machine at Six Flags Over Georgia."
+  },
+  {
+    "objectID": "categorical_code_blanks.html",
+    "href": "categorical_code_blanks.html",
+    "title": "Working with Categorical Data",
+    "section": "",
+    "text": "This activity is based in a programming language called R. It was developed by two statistics instructors in New Zealand, so it is designed specifically for data analysis. Now it is used around the world by people doing statistics and data science in all kinds of fields.\nThe focus of this activity isn’t learning every detail of the code. Instead, you’ll be using code to investigate a dataset, and the questions will focus your attention on certain key parts of the code and analysis as you go.\nLet’s get started!"
+  },
+  {
+    "objectID": "categorical_code_blanks.html#coding-to-do-statistics",
+    "href": "categorical_code_blanks.html#coding-to-do-statistics",
+    "title": "Working with Categorical Data",
+    "section": "",
+    "text": "This activity is based in a programming language called R. It was developed by two statistics instructors in New Zealand, so it is designed specifically for data analysis. Now it is used around the world by people doing statistics and data science in all kinds of fields.\nThe focus of this activity isn’t learning every detail of the code. Instead, you’ll be using code to investigate a dataset, and the questions will focus your attention on certain key parts of the code and analysis as you go.\nLet’s get started!"
+  },
+  {
+    "objectID": "categorical_code_blanks.html#palmer-penguins",
+    "href": "categorical_code_blanks.html#palmer-penguins",
+    "title": "Working with Categorical Data",
+    "section": "Palmer Penguins",
+    "text": "Palmer Penguins\nWe’re going to look at a built-in dataset in R called penguins. It includes data about three species of penguins that live in the Palmer Archipelago, a set of Antarctic islands south of South America.\n\n\n\nThree species of Palmer Archipelago penguins. Artwork by @allison_horst.\n\n\nLet’s start by making a table of how many penguins of each species are in this dataset.\n\nPress the “Run code” button below to make a table.\n\ncount(penguins, )\n\n\n\n\n\n\n\nNote\n\n\n\nCode is text written in a certain way to tell the computer what to do when we “run” the code.\n\n\nThis code chunk used a function named count to count up the number of penguins of each species in the dataset. To do this, the computer needed to know what data to look at – that’s the penguins dataset – and what variable within the dataset to look at. In this case, the variable we used was species. We wanted to give these two pieces of information to the function count, which is why they were in the parentheses () after the function name.\n\nWhat does the n column of the output table tell us?\n\n\n\nWhat species of penguin was most common in the dataset?"
+  },
+  {
+    "objectID": "categorical_code_blanks.html#what-else-can-we-count",
+    "href": "categorical_code_blanks.html#what-else-can-we-count",
+    "title": "Working with Categorical Data",
+    "section": "What else can we count?",
+    "text": "What else can we count?\nThere are several other categorical variables in the penguins dataset, including island and sex.\nFill in the blank in the code below and then press “Run code” to make a table of the number of penguins in the dataset from each island.\ncount(penguins, )"
   }
 ]

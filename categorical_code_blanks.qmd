@@ -1,0 +1,78 @@
+---
+title: Working with Categorical Data
+format: html
+filters:
+  - code-blanks
+
+code-blanks:
+  progressive-reveal: true
+  packages:
+    - dplyr
+    - ggplot2
+  setup:
+    - library(ggplot2)
+    - library(dplyr)
+---
+
+## Coding to do statistics!
+
+This activity is based in a programming language called `R`. It was developed by two statistics instructors in New Zealand, so it is designed specifically for data analysis. Now it is used around the world by people doing statistics and data science in all kinds of fields.
+
+The focus of this activity isn't learning every detail of the code. Instead, you'll be using code to investigate a dataset, and the questions will focus your attention on certain key parts of the code and analysis as you go.
+
+Let's get started!
+
+## Palmer Penguins
+
+We're going to look at a built-in dataset in R called `penguins`. It includes data about three species of penguins that live in the Palmer Archipelago, a set of Antarctic islands south of South America.
+
+![Three species of Palmer Archipelago penguins. Artwork by \@allison_horst.](images/penguins.png){fig-alt="Three penguins, one labeled Chinstrap, one labeled Gentoo, and one labeled Adelie." width="380"}
+
+Let's start by making a table of how many penguins of each species are in this dataset.
+
+```{code-blanks-instructions}
+Press the “Run code” button below to make a table.
+```
+
+```{code-blanks}
+#| blank:
+#|   target: species
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+
+count(penguins, species)
+
+```
+
+::: callout-note
+Code is text written in a certain way to tell the computer what to do when we "run" the code.
+:::
+
+This code chunk used a **function** named `count` to count up the number of penguins of each species in the dataset. To do this, the computer needed to know what data to look at -- that's the `penguins` dataset -- and what **variable** within the dataset to look at. In this case, the variable we used was `species`. We wanted to give these two pieces of information to the function `count`, which is why they were in the parentheses `()` after the function name.
+
+```{code-blanks-response}
+What does the `n` column of the output table tell us?
+```
+
+```{code-blanks-response}
+What species of penguin was most common in the dataset?
+```
+
+## What else can we count?
+
+There are several other categorical variables in the penguins dataset, including `island` and `sex`.
+
+Fill in the blank in the code below and then press "Run code" to make a table of the number of penguins in the dataset from each island.
+
+```{code-blanks}
+#| blank:
+#|   target: island
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+count(penguins, island)
+
+```
+
