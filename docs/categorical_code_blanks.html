@@ -75,8 +75,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>window.codeBlanksPackages = ["dplyr","ggplot2"];window.codeBlanksSetup = `library(ggplot2)
-library(dplyr)`;window.codeBlanksPlotWidth = 800;window.codeBlanksPlotHeight = 500;window.codeBlanksProgressiveReveal = true;</script>
+<script>window.codeBlanksPackages = ["dplyr","ggplot2","palmerpenguins"];window.codeBlanksSetup = `library(ggplot2)
+library(dplyr)
+library(palmerpenguins)`;window.codeBlanksPlotWidth = 800;window.codeBlanksPlotHeight = 500;window.codeBlanksProgressiveReveal = true;</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -146,6 +147,7 @@ library(dplyr)`;window.codeBlanksPlotWidth = 800;window.codeBlanksPlotHeight = 5
   <li><a href="#coding-to-do-statistics" id="toc-coding-to-do-statistics" class="nav-link active" data-scroll-target="#coding-to-do-statistics">Coding to do statistics!</a></li>
   <li><a href="#palmer-penguins" id="toc-palmer-penguins" class="nav-link" data-scroll-target="#palmer-penguins">Palmer Penguins</a></li>
   <li><a href="#what-else-can-we-count" id="toc-what-else-can-we-count" class="nav-link" data-scroll-target="#what-else-can-we-count">What else can we count?</a></li>
+  <li><a href="#graphing-our-results" id="toc-graphing-our-results" class="nav-link" data-scroll-target="#graphing-our-results">Graphing our results</a></li>
   </ul>
 </nav>
     </div>
@@ -221,6 +223,144 @@ Note
 <p>Fill in the blank in the code below and then press “Run code” to make a table of the number of penguins in the dataset from each island.</p>
 <pre class="code-blanks"><code>count(penguins, <input class="code-blank-input" data-answer="island" data-default="" value="" size="8">)
 </code></pre>
+<p>We might want to split our observations by multiple categorical variables. Press “Run code” to make a table of the penguins in the dataset split by <code>island</code> and <code>sex</code>.</p>
+<pre class="code-blanks"><code>count(penguins, island, <input class="code-blank-input" data-answer="sex" data-default="sex" value="sex" size="5">)
+</code></pre>
+<div class="code-blanks-response-box">
+<p>In 1-2 sentences, describe the key takeaways from the results in the table above.</p>
+<textarea class="code-blanks-response" rows="2"></textarea>
+</div>
+<div class="code-blanks-response-box">
+<p>If we wrote <code>count(penguins, sex, island)</code> instead, what would be different about the table? Why might we choose one order over the other?</p>
+<textarea class="code-blanks-response" rows="2"></textarea>
+</div>
+<p>Fill in and run the code below to make a table showing the number of penguins of each species on each island.</p>
+<pre class="code-blanks"><code>count(penguins, <input class="code-blank-input" data-answer="island" data-default="" value="" size="8">, <input class="code-blank-input" data-answer="species" data-default="" value="" size="9">)</code></pre>
+<div class="code-blanks-response-box">
+<p>In 1-2 sentences, describe the key takeaways from the results in the table above.</p>
+<textarea class="code-blanks-response" rows="2"></textarea>
+</div>
+</section>
+<section id="graphing-our-results" class="level2">
+<h2 class="anchored" data-anchor-id="graphing-our-results">Graphing our results</h2>
+<p>Tables are useful, but sometimes a visual like a graph is a more succinct way of communicating that information.</p>
+<p>The most appropriate graphical representation of categorical data like this is a <strong>bar graph</strong>. Let’s start with a bar graph that considers a single variable, <code>species</code>.</p>
+<pre class="code-blanks"><code>ggplot(penguins) +
+  aes(x = <input class="code-blank-input" data-answer="species" data-default="species" value="species" size="9">) +
+  geom_bar() +
+  labs(
+    title = "Palmer Archipelago Penguins",
+    x = "Penguin Species",
+    y = "Number of Penguins"
+  )
+</code></pre>
+<p>The code for making a graph has several <strong>layers</strong>. The first, <code>ggplot</code>, sets up the canvas for plotting, and we tell it the dataset we’ll be using. The second, <code>aes</code>, is named after “aesthetics,” so this is mapping visual features of the graph to variables in our dataset. The third is the geometry, in this case <code>geom_bar</code>. Each type of graph corresponds to a geometry. Finally, we end with <code>labs</code>, named after “labels,” where we add the title and axis labels.</p>
+<div class="code-blanks-response-box">
+<p>Why do we use <code>x = species</code> as the argument to <code>aes</code> for this graph?</p>
+<textarea class="code-blanks-response" rows="2"></textarea>
+</div>
+<p>Suppose I want a horizontal bar graph instead of a vertical one. Fill in and run the code below to make the same graph as above, but with horizontal bars.</p>
+<pre class="code-blanks"><code>ggplot(penguins) +
+  aes(<input class="code-blank-input" data-answer="y = species" data-default="" value="" size="13">) +
+  geom_bar() +
+  labs(
+    title = "Palmer Archipelago Penguins",
+    x = "Number of Penguins",
+    y = "Penguin Species"
+  )
+</code></pre>
+<p>Bar graphs can give us information about multiple categories. There are a couple of different ways to do this. The first is called a <strong>multiple bar graph.</strong></p>
+<pre class="code-blanks"><code>ggplot(penguins) +
+  aes(x = species, <input class="code-blank-input" data-answer="fill = sex" data-default="fill = sex" value="fill = sex" size="12">) +
+  geom_bar(<input class="code-blank-input" data-answer="position = &quot;dodge&quot;" data-default="position = &quot;dodge&quot;" value="position = &quot;dodge&quot;" size="20">) +
+  labs(
+    title = "Palmer Archipelago Penguins",
+    x = "Penguin Species",
+    y = "Number of Penguins",
+    fill = "Sex"
+  )
+</code></pre>
+<div class="code-blanks-response-box">
+<p>How did this multiple bar chart show both <code>species</code> and <code>island</code>?</p>
+<textarea class="code-blanks-response" rows="2"></textarea>
+</div>
+<p>Make a multiple bar chart showing the number of penguins by species and island.</p>
+<pre class="code-blanks"><code>ggplot(penguins) +
+  aes(x = species, <input class="code-blank-input" data-answer="fill = island" data-default="" value="" size="15">) +
+  geom_bar(<input class="code-blank-input" data-answer="position = &quot;dodge&quot;" data-default="" value="" size="20">) +
+  labs(
+    title = "Palmer Archipelago Penguins",
+    x = "Penguin Species",
+    y = "Number of Penguins",
+    fill = "Island"
+  )
+</code></pre>
+<div class="code-blanks-response-box">
+<p>Why do some species only have one bar?</p>
+<textarea class="code-blanks-response" rows="2"></textarea>
+</div>
+<p>Another way to show two variables in a bar chart is with a <strong>stacked bar chart</strong>. Run the example below.</p>
+<pre class="code-blanks"><code>ggplot(penguins) +
+  aes(x = species, fill = sex) +
+  geom_bar(position = <input class="code-blank-input" data-answer="&quot;stack&quot;" data-default="&quot;stack&quot;" value="&quot;stack&quot;" size="9">) +
+  labs(
+    title = "Palmer Archipelago Penguins",
+    x = "Penguin Species",
+    y = "Number of Penguins",
+    fill = "Sex"
+  )
+</code></pre>
+<div class="code-blanks-response-box">
+<p>How did this stacked bar chart show both <code>species</code> and <code>island</code>?</p>
+<textarea class="code-blanks-response" rows="2"></textarea>
+</div>
+<div class="code-blanks-response-box">
+<p>What changed in the code between the multiple bar chart and the stacked bar chart?</p>
+<textarea class="code-blanks-response" rows="2"></textarea>
+</div>
+<div class="code-blanks-response-box">
+<p>When do you think a multiple bar chart would be better? When would a stacked bar chart be better?</p>
+<textarea class="code-blanks-response" rows="2"></textarea>
+</div>
+<p>Finally, sometimes we’re more interested in percentages than in counts, so we can use a filled bar chart.</p>
+<pre class="code-blanks"><code>ggplot(penguins) +
+  aes(x = species, fill = sex) +
+  geom_bar(position = <input class="code-blank-input" data-answer="&quot;fill&quot;" data-default="&quot;fill&quot;" value="&quot;fill&quot;" size="8">) +
+  labs(
+    title = "Palmer Archipelago Penguins",
+    x = "Penguin Species",
+    y = "Proportion of Each Sex",
+    fill = "Sex"
+  )
+</code></pre>
+<div class="code-blanks-response-box">
+<p>What value of <code>position</code> was used for this filled bar chart?</p>
+<textarea class="code-blanks-response" rows="2"></textarea>
+</div>
+<div class="code-blanks-response-box">
+<p>What information does this chart give us that is <strong>clearer</strong> than in the other graphs? What information does this graph <strong>not</strong> give us?</p>
+<textarea class="code-blanks-response" rows="2"></textarea>
+</div>
+<p>Change the code below to make a graph of your choosing with two variables chosen from <code>species</code>, <code>island</code>, and <code>sex</code>. The graph should be different from any of the ones above and correctly labeled. Feel free to try several different formats to see what you think best communicates key results!</p>
+<pre class="code-blanks"><code>ggplot(penguins) +
+  aes(<input class="code-blank-input" data-answer="&quot;blank1&quot;" data-default="" value="" size="10">, <input class="code-blank-input" data-answer="&quot;blank2&quot;" data-default="" value="" size="10">) +
+  geom_bar(position = <input class="code-blank-input" data-answer="&quot;blank3&quot;" data-default="" value="" size="10">) +
+  labs(
+    title = "Palmer Archipelago Penguins",
+    x = <input class="code-blank-input" data-answer="&quot;blank4&quot;" data-default="" value="" size="10">,
+    y = <input class="code-blank-input" data-answer="&quot;blank5&quot;" data-default="" value="" size="10">,
+    fill = <input class="code-blank-input" data-answer="&quot;blank6&quot;" data-default="" value="" size="10">
+  )
+</code></pre>
+<div class="code-blanks-response-box">
+<p>What key conclusions should someone draw from your graph?</p>
+<textarea class="code-blanks-response" rows="2"></textarea>
+</div>
+<div class="code-blanks-response-box">
+<p>Why did you choose the graph format that you did?</p>
+<textarea class="code-blanks-response" rows="2"></textarea>
+</div>
+<p>Congratulations! You can now make clear frequency tables and bar graphs in <code>R</code> to summarize categorical data!</p>
 
 
 </section>

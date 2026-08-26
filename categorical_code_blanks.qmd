@@ -9,9 +9,11 @@ code-blanks:
   packages:
     - dplyr
     - ggplot2
+    - palmerpenguins
   setup:
     - library(ggplot2)
     - library(dplyr)
+    - library(palmerpenguins)
 ---
 
 ## Coding to do statistics!
@@ -76,3 +78,277 @@ count(penguins, island)
 
 ```
 
+We might want to split our observations by multiple categorical variables. Press "Run code" to make a table of the penguins in the dataset split by `island` and `sex`.
+
+```{code-blanks}
+#| blank:
+#|   target: sex
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+
+count(penguins, island, sex)
+
+```
+
+```{code-blanks-response}
+In 1-2 sentences, describe the key takeaways from the results in the table above.
+```
+
+```{code-blanks-response}
+If we wrote `count(penguins, sex, island)` instead, what would be different about the table? Why might we choose one order over the other?
+```
+
+Fill in and run the code below to make a table showing the number of penguins of each species on each island.
+
+```{code-blanks}
+#| blank:
+#|  target: island
+#|  prefill: false
+#|  occurrence: 1
+#|  match: text
+#| blank:
+#|  target: species
+#|  prefill: false
+#|  occurrence: 1
+#|  match: text
+
+count(penguins, island, species)
+```
+
+```{code-blanks-response}
+In 1-2 sentences, describe the key takeaways from the results in the table above.
+```
+
+## Graphing our results
+
+Tables are useful, but sometimes a visual like a graph is a more succinct way of communicating that information.
+
+The most appropriate graphical representation of categorical data like this is a **bar graph**. Let's start with a bar graph that considers a single variable, `species`.
+
+```{code-blanks}
+#| blank:
+#|   target: species
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+
+ggplot(penguins) +
+  aes(x = species) +
+  geom_bar() +
+  labs(
+    title = "Palmer Archipelago Penguins",
+    x = "Penguin Species",
+    y = "Number of Penguins"
+  )
+
+```
+
+The code for making a graph has several **layers**. The first, `ggplot`, sets up the canvas for plotting, and we tell it the dataset we'll be using. The second, `aes`, is named after "aesthetics," so this is mapping visual features of the graph to variables in our dataset. The third is the geometry, in this case `geom_bar`. Each type of graph corresponds to a geometry. Finally, we end with `labs`, named after "labels," where we add the title and axis labels.
+
+```{code-blanks-response}
+Why do we use `x = species` as the argument to `aes` for this graph?
+```
+
+Suppose I want a horizontal bar graph instead of a vertical one. Fill in and run the code below to make the same graph as above, but with horizontal bars.
+
+```{code-blanks}
+#| blank:
+#|   target: y = species
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+ggplot(penguins) +
+  aes(y = species) +
+  geom_bar() +
+  labs(
+    title = "Palmer Archipelago Penguins",
+    x = "Number of Penguins",
+    y = "Penguin Species"
+  )
+
+```
+
+Bar graphs can give us information about multiple categories. There are a couple of different ways to do this. The first is called a **multiple bar graph.**
+
+```{code-blanks}
+#| blank:
+#|   target: fill = sex
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: position = "dodge"
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+
+ggplot(penguins) +
+  aes(x = species, fill = sex) +
+  geom_bar(position = "dodge") +
+  labs(
+    title = "Palmer Archipelago Penguins",
+    x = "Penguin Species",
+    y = "Number of Penguins",
+    fill = "Sex"
+  )
+
+```
+
+```{code-blanks-response}
+How did this multiple bar chart show both `species` and `island`?
+```
+
+Make a multiple bar chart showing the number of penguins by species and island.
+
+```{code-blanks}
+#| blank:
+#|   target: fill = island
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: position = "dodge"
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+ggplot(penguins) +
+  aes(x = species, fill = island) +
+  geom_bar(position = "dodge") +
+  labs(
+    title = "Palmer Archipelago Penguins",
+    x = "Penguin Species",
+    y = "Number of Penguins",
+    fill = "Island"
+  )
+
+```
+
+```{code-blanks-response}
+Why do some species only have one bar?
+```
+
+Another way to show two variables in a bar chart is with a **stacked bar chart**. Run the example below.
+
+```{code-blanks}
+#| blank:
+#|   target: "stack"
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+
+ggplot(penguins) +
+  aes(x = species, fill = sex) +
+  geom_bar(position = "stack") +
+  labs(
+    title = "Palmer Archipelago Penguins",
+    x = "Penguin Species",
+    y = "Number of Penguins",
+    fill = "Sex"
+  )
+
+```
+
+```{code-blanks-response}
+How did this stacked bar chart show both `species` and `island`?
+```
+
+```{code-blanks-response}
+What changed in the code between the multiple bar chart and the stacked bar chart?
+```
+
+```{code-blanks-response}
+When do you think a multiple bar chart would be better? When would a stacked bar chart be better?
+```
+
+Finally, sometimes we're more interested in percentages than in counts, so we can use a filled bar chart.
+
+```{code-blanks}
+#| blank:
+#|   target: "fill"
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+
+ggplot(penguins) +
+  aes(x = species, fill = sex) +
+  geom_bar(position = "fill") +
+  labs(
+    title = "Palmer Archipelago Penguins",
+    x = "Penguin Species",
+    y = "Proportion of Each Sex",
+    fill = "Sex"
+  )
+
+```
+
+```{code-blanks-response}
+What value of `position` was used for this filled bar chart?
+```
+
+```{code-blanks-response}
+What information does this chart give us that is **clearer** than in the other graphs? What information does this graph **not** give us?
+```
+
+Change the code below to make a graph of your choosing with two variables chosen from `species`, `island`, and `sex`. The graph should be different from any of the ones above and correctly labeled. Feel free to try several different formats to see what you think best communicates key results!
+
+```{code-blanks}
+#| blank:
+#|  target: "blank1"
+#|  prefill: false
+#|  occurrence: 1
+#|  match: text
+
+#| blank:
+#|  target: "blank2"
+#|  prefill: false
+#|  occurrence: 1
+#|  match: text
+
+#| blank:
+#|  target: "blank3"
+#|  prefill: false
+#|  occurrence: 1
+#|  match: text
+
+#| blank:
+#|  target: "blank4"
+#|  prefill: false
+#|  occurrence: 1
+#|  match: text
+
+#| blank:
+#|  target: "blank5"
+#|  prefill: false
+#|  occurrence: 1
+#|  match: text
+
+#| blank:
+#|  target: "blank6"
+#|  prefill: false
+#|  occurrence: 1
+#|  match: text
+
+ggplot(penguins) +
+  aes("blank1", "blank2") +
+  geom_bar(position = "blank3") +
+  labs(
+    title = "Palmer Archipelago Penguins",
+    x = "blank4",
+    y = "blank5",
+    fill = "blank6"
+  )
+
+```
+
+```{code-blanks-response}
+What key conclusions should someone draw from your graph?
+```
+
+```{code-blanks-response}
+Why did you choose the graph format that you did?
+```
+
+Congratulations! You can now make clear frequency tables and bar graphs in `R` to summarize categorical data!
