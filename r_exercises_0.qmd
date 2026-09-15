@@ -1,0 +1,195 @@
+---
+title: R Exercises 0
+format: html
+filters:
+  - code-blanks
+
+code-blanks:
+  progressive-reveal: true
+  packages:
+    - dplyr
+    - ggplot2
+  setup:
+    - library(ggplot2)
+    - library(dplyr)
+---
+
+## Setting up Posit Cloud
+
+All future R Exercises assignments in this course will use a platform called Posit (pronounced like "pause it") Cloud. We'll take a look around Posit Cloud in class on Wednesday 9/23, but for now, you should do the following to get set up there:
+
+- Follow [this link](https://posit.cloud/spaces/807524/join?access_code=-2GOl3bUoKLKoUmRgSmEUa6znwxgAkjdMzRMsxiO) to join our class space. This will likely require you to make an account first.
+
+- Once you've done that, you should see two spaces in the left sidebar: one labeled "Your Workspace" (**not** what you will use for this class) and one labeled "F26 Math 2800 Stat Analysis." Click on that one! It's where all the class R documents will live.
+
+- You should see a project there titled "9/23 Getting to Know RStudio." No need to click into this! Just make sure that it shows up for you on the class page.
+
+## Practicing with Tables
+
+We're going to look at a dataset in R called `starwars`. It includes data about Star Wars characters.
+
+Make a table of the number of characters with each hair color using the variable `hair_color`.
+
+```{code-blanks}
+#| blank:
+#|   target: starwars
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: hair_color
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+count(starwars, hair_color)
+
+```
+
+The other variables in the dataset that we can look at this way are `homeworld`, `species`, `eye_color`, `skin_color`, `sex`, and `gender`. Choose one of them to make a table.
+
+```{code-blanks}
+#| blank:
+#|   target: starwars
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: "blank1"
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+count(starwars, "blank1")
+
+```
+
+Now choose any two of those categorical variables to make a table showing characters split by both of those variables. 
+
+```{code-blanks}
+#| blank:
+#|   target: starwars
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|    target: "blank1"
+#|    prefill: false
+#|    occurrence: 1
+#|    match: token
+#| blank:
+#|    target: "blank2"
+#|    prefill: false
+#|    occurrence: 1
+#|    match: token
+
+count(starwars, "blank1", "blank2")
+
+```
+
+Take a screenshot of this table. This will be part of your submission for this assignment, so either save it or put it in a document.
+
+## Practicing with Graphs
+
+Make a bar graph of characters' hair colors with appropriate labels.
+
+```{code-blanks}
+#| blank:
+#|   target: starwars
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: hair_color
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank1
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank2
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank3
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+ggplot(starwars) +
+  aes(x = hair_color) +
+  geom_bar() +
+  labs(
+    title = "blank1",
+    x = "blank2",
+    y = "blank3"
+  )
+
+```
+
+Make a bar graph in the style of your choice using two of the categorical variables. Again, include appropriate lables
+
+```{code-blanks}
+#| blank:
+#|   target: blank1
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank2
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank3
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank4
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank5
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank6
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank7
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+ggplot(starwars) +
+  aes(x = blank1, fill = blank2) +
+  geom_bar(position = "blank3") +
+  labs(
+    title = "blank4",
+    x = "blank5",
+    y = "blank6",
+    fill = "blank7"
+  )
+
+```
+
+```{code-blanks-response}
+What key conclusions should someone draw from your graph?
+```
+
+```{code-blanks-response}
+Why did you choose the graph format that you did?
+```
+
+Take a screenshot of your graph and include it as part of your submission on Blackboard. Also include your answers to the two questions above that follow the graph.
+
+Once you are all set up on Posit Cloud and have completed the above, please submit the screenshots of your table and graph and your answers to the last two questions on Blackboard. Then you are all set for this assignment!
