@@ -1,0 +1,250 @@
+---
+title: Relationships Between Numerical Variables
+format: html
+filters:
+  - code-blanks
+
+code-blanks:
+  progressive-reveal: true
+  packages:
+    - dplyr
+    - ggplot2
+    - palmerpenguins
+  setup:
+    - library(ggplot2)
+    - library(dplyr)
+    - library(palmerpenguins)
+---
+
+## Penguin Scatterplots
+
+We will once again use the data about three species of penguins that live in the Palmer Archipelago, a set of Antarctic islands south of South America. This time, we're looking for relationships among the different body measurements of the penguins.
+
+We'll start by making a scatterplot with `body_mass_g` as the explanatory variable and `bill_length_mm` as the response variable.
+
+```{code-blanks}
+#| blank:
+#|   target: body_mass_g
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: bill_length_mm
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: geom_point
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+
+ggplot(penguins) +
+  aes(x = body_mass_g, y = bill_length_mm) +
+  geom_point() + 
+  labs(
+    title = "Relationship between body mass and bill length",
+    x = "Body mass (grams)",
+    y = "Bill length (millimeters)"
+  )
+
+```
+
+```{code-blanks-response}
+Why do you think the geom for a scatterplot was named `geom_point`?
+```
+
+Fill in the blanks below to make a scatterplot with flipper length as the explanatory variable and body mass as the response variable.
+
+```{code-blanks}
+#| blank:
+#|   target: body_mass_g
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: geom_point
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+ggplot(penguins) +
+  aes(x = flipper_length_mm, y = body_mass_g) +
+  geom_point() + 
+  labs(
+    title = "Relationship between flipper length and body mass",
+    x = "Flipper length (millimeters)",
+    y = "Body mass (grams)"
+  )
+
+```
+
+```{code-blanks-response}
+How would you describe the relationship between flipper length and body mass based on the scatterplot you just made?
+```
+
+The numerical variables in the dataset are `body_mass_g`, `bill_length_mm`, `bill_depth_mm`, and `flipper_length_mm`. Make one more scatterplot using two of these variables of your choice.
+
+```{code-blanks}
+#| blank:
+#|  target: "blank1"
+#|  prefill: false
+#|  occurrence: 1
+#|  match: text
+
+#| blank:
+#|  target: "blank2"
+#|  prefill: false
+#|  occurrence: 1
+#|  match: text
+
+#| blank:
+#|  target: "blank3"
+#|  prefill: false
+#|  occurrence: 1
+#|  match: text
+
+#| blank:
+#|  target: "blank4"
+#|  prefill: false
+#|  occurrence: 1
+#|  match: text
+
+#| blank:
+#|  target: "blank5"
+#|  prefill: false
+#|  occurrence: 1
+#|  match: text
+
+#| blank:
+#|  target: geom_point
+#|  prefill: false
+#|  occurrence: 1
+#|  match: text
+
+ggplot(penguins) +
+  aes(x = "blank1", y = "blank2") +
+  geom_point() +
+  labs(
+    title = "blank3",
+    x = "blank4",
+    y = "blank5"
+  )
+
+```
+
+## Calculating Correlation
+
+The R function `cor()` for correlation works a bit differently than the other functions we've used so far. We retrieve the variable we want from the `penguins` dataset using `$`. For example, `penguins$body_mass_g` gives us the body mass column.
+
+Here's an example of finding the correlation between body mass and bill length:
+
+```{code-blanks}
+#| blank:
+#|   target: body_mass_g
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: bill_length_mm
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+
+cor(penguins$body_mass_g, penguins$bill_length_mm, "pairwise.complete.obs")
+
+```
+
+```{code-blanks-response}
+Does this correlation make sense with the scatterplot for these two variables at the beginning of the activity? Why?
+```
+
+Fill in the blanks below to find the correlation between flipper length and body mass.
+
+```{code-blanks}
+#| blank:
+#|   target: body_mass_g
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: flipper_length_mm
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+cor(penguins$body_mass_g, penguins$flipper_length_mm, "pairwise.complete.obs")
+
+```
+
+## Adding a Categorical Variable to a Scatterplot
+
+Sometimes there's more to the story than a relationship between two numerical variables. Other variables might affect our results as well. For categorical variables with just a few values, we can add this information into our scatterplots.
+
+For example, maybe I'm curious about whether a penguin's species affects how their body mass and bill length are related. I might make the following scatterplot:
+
+```{code-blanks}
+#| blank:
+#|   target: body_mass_g
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: bill_length_mm
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: species
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+
+ggplot(penguins) +
+  aes(x = body_mass_g, y = bill_length_mm, color = species) +
+  geom_point() + 
+  labs(
+    title = "Relationship between body mass and bill length",
+    x = "Body mass (grams)",
+    y = "Bill length (millimeters)",
+    color = "Species"
+  )
+
+```
+
+The aesthetic `color` affects the color of the dots in the scatterplot. Note that this is different from `fill`, which controlled the color of the bars in bar graphs or histograms! If you use `color` on a bar graph or histogram, it will color **only** the edges of the bar, not the inside.
+
+```{code-blanks-response}
+What new patterns (if any) do you notice in the scatterplot with the species information added?
+```
+
+The categorical variables in this dataset were `sex`, `species`, and `island`. Choose one of those and add it into the flipper length and body mass graph below.
+
+```{code-blanks}
+#| blank:
+#|   target: color
+#|   prefill: false
+#|   occurrence: 2
+#|   match: token
+#| blank:
+#|   target: "blank1"
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank2
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+ggplot(penguins) +
+  aes(x = flipper_length_mm, y = body_mass_g, color = "blank1") +
+  geom_point() + 
+  labs(
+    title = "Relationship between flipper length and body mass",
+    x = "Flipper length (millimeters)",
+    y = "Body mass (grams)",
+    color = "blank2"
+  )
+
+```
