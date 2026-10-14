@@ -1,0 +1,292 @@
+---
+title: Linear Regression
+format: html
+filters:
+  - code-blanks
+
+code-blanks:
+  progressive-reveal: true
+  packages:
+    - dplyr
+    - ggplot2
+    - openintro
+  setup:
+    - library(ggplot2)
+    - library(dplyr)
+    - library(openintro)
+---
+
+## Getting Set Up
+For this activity, you will pair program: two people sharing one keyboard. The handout for this activity has reminders about the two roles.
+
+To start, the person whose first name comes later in the alphabet should be the Computer, and the person whose name comes earlier in the alphabet should be the Navigator.
+
+## Exploring Variables
+
+Choose two of the remaining numerical variables in the dataset to investigate their relationship to `price`. The options are: `bed`, `bath`, `year_built`, and `lot`.
+
+```{code-blanks-response}
+What two variables did you choose?
+```
+
+You'll make graphs and calculate correlations to see how each of those variables might be related to `price`. Start by making a scatterplot with **one** of your chosen variables as the explanatory variable (x) and `price` as the response variable (y).
+
+```{code-blanks}
+#| blank:
+#|   target: blank1
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: price
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank2
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank3
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank4
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+ggplot(duke_forest) +
+  aes(x = blank1, y = price) +
+  geom_point() + 
+  labs(
+    title = "blank2",
+    x = "blank3",
+    y = "blank4"
+  )
+
+```
+
+```{code-blanks-response}
+Describe the relationship in the scatterplot. Is it linear or nonlinear? Strong, moderate, or weak? If it is linear, is it positive or negative?
+```
+
+To get a quantitative sense of the relationship, calculate the correlation between your first variable and `price`.
+
+```{code-blanks}
+#| blank:
+#|   target: blank1
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: price
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+cor(duke_forest$blank1, duke_forest$price, "pairwise.complete.obs")
+
+```
+
+```{code-blanks-response}
+Is the value of the correlation what you expected based on the scatterplot? Why or why not?
+```
+
+Now do the same with your other variable. First, the scatterplot.
+
+```{code-blanks}
+#| blank:
+#|   target: blank1
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: price
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank2
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank3
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank4
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+ggplot(duke_forest) +
+  aes(x = blank1, y = price) +
+  geom_point() + 
+  labs(
+    title = "blank2",
+    x = "blank3",
+    y = "blank4"
+  )
+
+```
+
+```{code-blanks-response}
+Describe the relationship in this second scatterplot. Is it linear or nonlinear? Strong, moderate, or weak? If it is linear, is it positive or negative?
+```
+
+And then the correlation.
+
+```{code-blanks}
+#| blank:
+#|   target: blank1
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: price
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+cor(duke_forest$blank1, duke_forest$price, "pairwise.complete.obs")
+
+```
+
+```{code-blanks-response}
+Is the value of the correlation what you expected based on the scatterplot? Why or why not?
+```
+
+**STOP.** Check in with Aidan or Dr. O here.
+
+```{code-blanks-response}
+Based on your results, if you had to choose one of your two variables to use to predict `price`, which one would you choose and why?
+```
+
+## Simple Linear Regression
+
+**Before starting this section,** switch who is the Computer and who is the Navigator.
+
+Now you'll use the variable you chose at the end of the last section to make a linear regression model for predicting `price`. Fill in the blanks below to make a model with your variable as the explanatory variable and `price` as the response variable.
+
+```{code-blanks}
+#| blank:
+#|   target: blank1
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: price
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+model1 <- lm(price ~ blank1, duke_forest)
+summary(model1)
+
+```
+
+```{code-blanks-response}
+What is the equation of the regression line from this model?
+```
+
+```{code-blanks-response}
+Choose an example value of your explanatory variable. Say that value, and use your model to predict what the price of that house would be.
+```
+
+You can also add your regression line into the scatterplot using `geom_smooth()`. Fill in the blanks below.
+
+```{code-blanks}
+#| blank:
+#|   target: blank1
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: price
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank2
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank3
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank4
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+ggplot(duke_forest) +
+  aes(x = blank1, y = price) +
+  geom_point() + 
+  geom_smooth(method = lm, se = FALSE) +
+  labs(
+    title = "blank2",
+    x = "blank3",
+    y = "blank4"
+  )
+
+```
+
+```{code-blanks-response}
+How strong of a fit does the model visually seem to be to the data?
+```
+
+**STOP.** Check in with Aidan or Dr. O here.
+
+```{code-blanks-response}
+Find the "Multiple R-squared" in the linear regression output. What is this value? Is this what you would expect visually from the scatterplot and regression line, and why or why not?
+```
+
+## Multiple Linear Regression
+
+**Before starting this section,** switch who is the Computer and who is the Navigator.
+
+Now you'll make a model using both of the variables you considered as explanatory variables. Fill in the blanks below to make a model with your two variables as explanatory variables and `price` as the response variable.
+
+```{code-blanks}
+#| blank:
+#|   target: blank1
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: price
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: blank2
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token   
+
+model2 <- lm(price ~ blank1 + blank2, duke_forest)
+summary(model2)
+
+```
+
+```{code-blanks-response}
+What is the equation of the regression line from this model?
+```
+
+```{code-blanks-response}
+Choose example value for each of your explanatory variables. Say those two values, and use your model to predict what the price of that house would be.
+```
+
+**STOP.** Check in with Aidan or Dr. O here.
+
+```{code-blanks-response}
+Find the "Multiple R-squared" in the linear regression output. What is this value? Is it higher or lower than in your simple linear regression model?
+```

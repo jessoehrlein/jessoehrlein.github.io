@@ -180,5 +180,40 @@
     "title": "Relationships Between Numerical Variables",
     "section": "Adding a Categorical Variable to a Scatterplot",
     "text": "Adding a Categorical Variable to a Scatterplot\nSometimes there’s more to the story than a relationship between two numerical variables. Other variables might affect our results as well. For categorical variables with just a few values, we can add this information into our scatterplots.\nFor example, maybe I’m curious about whether a penguin’s species affects how their body mass and bill length are related. I might make the following scatterplot:\nggplot(penguins) +\n  aes(x = , y = , color = ) +\n  geom_point() + \n  labs(\n    title = \"Relationship between body mass and bill length\",\n    x = \"Body mass (grams)\",\n    y = \"Bill length (millimeters)\",\n    color = \"Species\"\n  )\n\nThe aesthetic color affects the color of the dots in the scatterplot. Note that this is different from fill, which controlled the color of the bars in bar graphs or histograms! If you use color on a bar graph or histogram, it will color only the edges of the bar, not the inside.\n\nWhat new patterns (if any) do you notice in the scatterplot with the species information added?\n\n\nThe categorical variables in this dataset were sex, species, and island. Choose one of those and add it into the flipper length and body mass graph below.\nggplot(penguins) +\n  aes(x = flipper_length_mm, y = body_mass_g, color = ) +\n  geom_point() + \n  labs(\n    title = \"Relationship between flipper length and body mass\",\n    x = \"Flipper length (millimeters)\",\n    y = \"Body mass (grams)\",\n     = \"\"\n  )"
+  },
+  {
+    "objectID": "regression_code_blanks.html",
+    "href": "regression_code_blanks.html",
+    "title": "Linear Regression",
+    "section": "",
+    "text": "For this activity, you will pair program: two people sharing one keyboard. The handout for this activity has reminders about the two roles.\nTo start, the person whose first name comes later in the alphabet should be the Computer, and the person whose name comes earlier in the alphabet should be the Navigator."
+  },
+  {
+    "objectID": "regression_code_blanks.html#getting-set-up",
+    "href": "regression_code_blanks.html#getting-set-up",
+    "title": "Linear Regression",
+    "section": "",
+    "text": "For this activity, you will pair program: two people sharing one keyboard. The handout for this activity has reminders about the two roles.\nTo start, the person whose first name comes later in the alphabet should be the Computer, and the person whose name comes earlier in the alphabet should be the Navigator."
+  },
+  {
+    "objectID": "regression_code_blanks.html#exploring-variables",
+    "href": "regression_code_blanks.html#exploring-variables",
+    "title": "Linear Regression",
+    "section": "Exploring Variables",
+    "text": "Exploring Variables\nChoose two of the remaining numerical variables in the dataset to investigate their relationship to price. The options are: bed, bath, year_built, and lot.\n\nWhat two variables did you choose?\n\n\nYou’ll make graphs and calculate correlations to see how each of those variables might be related to price. Start by making a scatterplot with one of your chosen variables as the explanatory variable (x) and price as the response variable (y).\nggplot(duke_forest) +\n  aes(x = , y = ) +\n  geom_point() + \n  labs(\n    title = \"\",\n    x = \"\",\n    y = \"\"\n  )\n\n\nDescribe the relationship in the scatterplot. Is it linear or nonlinear? Strong, moderate, or weak? If it is linear, is it positive or negative?\n\n\nTo get a quantitative sense of the relationship, calculate the correlation between your first variable and price.\ncor(duke_forest$, duke_forest$, \"pairwise.complete.obs\")\n\n\nIs the value of the correlation what you expected based on the scatterplot? Why or why not?\n\n\nNow do the same with your other variable. First, the scatterplot.\nggplot(duke_forest) +\n  aes(x = , y = ) +\n  geom_point() + \n  labs(\n    title = \"\",\n    x = \"\",\n    y = \"\"\n  )\n\n\nDescribe the relationship in this second scatterplot. Is it linear or nonlinear? Strong, moderate, or weak? If it is linear, is it positive or negative?\n\n\nAnd then the correlation.\ncor(duke_forest$, duke_forest$, \"pairwise.complete.obs\")\n\n\nIs the value of the correlation what you expected based on the scatterplot? Why or why not?\n\n\nSTOP. Check in with Aidan or Dr. O here.\n\nBased on your results, if you had to choose one of your two variables to use to predict price, which one would you choose and why?"
+  },
+  {
+    "objectID": "regression_code_blanks.html#simple-linear-regression",
+    "href": "regression_code_blanks.html#simple-linear-regression",
+    "title": "Linear Regression",
+    "section": "Simple Linear Regression",
+    "text": "Simple Linear Regression\nBefore starting this section, switch who is the Computer and who is the Navigator.\nNow you’ll use the variable you chose at the end of the last section to make a linear regression model for predicting price. Fill in the blanks below to make a model with your variable as the explanatory variable and price as the response variable.\nmodel1 &lt;- lm( ~ , duke_forest)\nsummary(model1)\n\n\nWhat is the equation of the regression line from this model?\n\n\n\nChoose an example value of your explanatory variable. Say that value, and use your model to predict what the price of that house would be.\n\n\nYou can also add your regression line into the scatterplot using geom_smooth(). Fill in the blanks below.\nggplot(duke_forest) +\n  aes(x = , y = ) +\n  geom_point() + \n  geom_smooth(method = lm, se = FALSE) +\n  labs(\n    title = \"\",\n    x = \"\",\n    y = \"\"\n  )\n\n\nHow strong of a fit does the model visually seem to be to the data?\n\n\nSTOP. Check in with Aidan or Dr. O here.\n\nFind the “Multiple R-squared” in the linear regression output. What is this value? Is this what you would expect visually from the scatterplot and regression line, and why or why not?"
+  },
+  {
+    "objectID": "regression_code_blanks.html#multiple-linear-regression",
+    "href": "regression_code_blanks.html#multiple-linear-regression",
+    "title": "Linear Regression",
+    "section": "Multiple Linear Regression",
+    "text": "Multiple Linear Regression\nBefore starting this section, switch who is the Computer and who is the Navigator.\nNow you’ll make a model using both of the variables you considered as explanatory variables. Fill in the blanks below to make a model with your two variables as explanatory variables and price as the response variable.\nmodel2 &lt;- lm( ~  + , duke_forest)\nsummary(model2)\n\n\nWhat is the equation of the regression line from this model?\n\n\n\nChoose example value for each of your explanatory variables. Say those two values, and use your model to predict what the price of that house would be.\n\n\nSTOP. Check in with Aidan or Dr. O here.\n\nFind the “Multiple R-squared” in the linear regression output. What is this value? Is it higher or lower than in your simple linear regression model?"
   }
 ]
