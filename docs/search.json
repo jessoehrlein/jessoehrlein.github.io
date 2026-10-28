@@ -215,5 +215,33 @@
     "title": "Linear Regression",
     "section": "Multiple Linear Regression",
     "text": "Multiple Linear Regression\nBefore starting this section, switch who is the Computer and who is the Navigator.\nNow you’ll make a model using both of the variables you considered as explanatory variables. Fill in the blanks below to make a model with your two variables as explanatory variables and price as the response variable.\nmodel2 &lt;- lm( ~  + , duke_forest)\nsummary(model2)\n\n\nWhat is the equation of the regression line from this model?\n\n\n\nChoose example value for each of your explanatory variables. Say those two values, and use your model to predict what the price of that house would be.\n\n\nSTOP. Check in with Aidan or Dr. O here.\n\nFind the “Multiple R-squared” in the linear regression output. What is this value? Is it higher or lower than in your simple linear regression model?"
+  },
+  {
+    "objectID": "twoprops_code_blanks.html",
+    "href": "twoprops_code_blanks.html",
+    "title": "Hypothesis Testing for Two Proportions",
+    "section": "",
+    "text": "You’ll work with a dataset called cpr about patients who had heart attacks, were given CPR, and then were admitted to the hospital. Once in the hospital, they were either given blood thinners (treatment group) or not (control group). The experiment then measured whether they survived at least 24 hours.\nRun the code below to see a random 10 rows of the dataset.\nslice_sample(cpr, n = 10)\nAnswer Questions 5-10 of your packet, then stop and check in with Dr. O or Aidan.\nThen use those responses to fill in this code to generate your null hypothesis sampling distribution (or “null distribution” for short).\nnull_dist &lt;- cpr |&gt;\n  specify(response = , explanatory = , success = \"\") |&gt;\n  hypothesize(null = \"independence\") |&gt;\n  generate(reps = 5000, type = \"permute\") |&gt;\n  calculate(stat = , order = c(\"\",\"\"))\n\nvisualize(null_dist)\n\nAnswer Question 11 in the packet."
+  },
+  {
+    "objectID": "twoprops_code_blanks.html#dataset-null-hypothesis-sampling-distribution",
+    "href": "twoprops_code_blanks.html#dataset-null-hypothesis-sampling-distribution",
+    "title": "Hypothesis Testing for Two Proportions",
+    "section": "",
+    "text": "You’ll work with a dataset called cpr about patients who had heart attacks, were given CPR, and then were admitted to the hospital. Once in the hospital, they were either given blood thinners (treatment group) or not (control group). The experiment then measured whether they survived at least 24 hours.\nRun the code below to see a random 10 rows of the dataset.\nslice_sample(cpr, n = 10)\nAnswer Questions 5-10 of your packet, then stop and check in with Dr. O or Aidan.\nThen use those responses to fill in this code to generate your null hypothesis sampling distribution (or “null distribution” for short).\nnull_dist &lt;- cpr |&gt;\n  specify(response = , explanatory = , success = \"\") |&gt;\n  hypothesize(null = \"independence\") |&gt;\n  generate(reps = 5000, type = \"permute\") |&gt;\n  calculate(stat = , order = c(\"\",\"\"))\n\nvisualize(null_dist)\n\nAnswer Question 11 in the packet."
+  },
+  {
+    "objectID": "twoprops_code_blanks.html#investigating-the-sample",
+    "href": "twoprops_code_blanks.html#investigating-the-sample",
+    "title": "Hypothesis Testing for Two Proportions",
+    "section": "Investigating the Sample",
+    "text": "Investigating the Sample\nAnswer Questions 12-14 in your packet, then fill in the code below to check your work.\nsample_stat &lt;- cpr |&gt;\n  specify(response = , explanatory = , success = \"\") |&gt;\n  calculate(stat = , order = c(\"\",\"\"))\n\nsample_stat\n\nStop and check in with Dr. O or Aidan here."
+  },
+  {
+    "objectID": "twoprops_code_blanks.html#finding-the-p-value",
+    "href": "twoprops_code_blanks.html#finding-the-p-value",
+    "title": "Hypothesis Testing for Two Proportions",
+    "section": "Finding the p-value",
+    "text": "Finding the p-value\nAnswer Question 16 in your packet, then fill in the code below to answer Question 17.\nnull_dist |&gt;\n  visualize() + \n  shade_p_value(, direction = \"\")\n\nNow fill in the code below to answer Question 18.\nnull_dist |&gt;\n  get_p_value(, direction = \"\")\n\nAnswer Question 19, then stop and check in with Dr. O or Aidan."
   }
 ]

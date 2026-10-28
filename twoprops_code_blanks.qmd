@@ -1,0 +1,165 @@
+---
+title: Hypothesis Testing for Two Proportions
+format: html
+filters:
+  - code-blanks
+
+code-blanks:
+  progressive-reveal: true
+  packages:
+    - dplyr
+    - ggplot2
+    - infer
+    - openintro
+  setup:
+    - library(ggplot2)
+    - library(dplyr)
+    - library(infer)
+    - library(openintro)
+---
+
+## Dataset & Null Hypothesis Sampling Distribution
+
+You'll work with a dataset called `cpr` about patients who had heart attacks, were given CPR, and then were admitted to the hospital. Once in the hospital, they were either given blood thinners (`treatment` group) or not (`control` group). The experiment then measured whether they survived at least 24 hours.
+
+Run the code below to see a random 10 rows of the dataset.
+```{code-blanks}
+slice_sample(cpr, n = 10)
+```
+
+Answer Questions 5-10 of your packet, then **stop** and check in with Dr. O or Aidan.
+
+Then use those responses to fill in this code to generate your null hypothesis sampling distribution (or "null distribution" for short).
+
+```{code-blanks}
+#| blank:
+#|   target: outcome
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: group
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: survived
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: "diff in props"
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: treatment
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: control
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+null_dist <- cpr |>
+  specify(response = outcome, explanatory = group, success = "survived") |>
+  hypothesize(null = "independence") |>
+  generate(reps = 5000, type = "permute") |>
+  calculate(stat = "diff in props", order = c("treatment","control"))
+
+visualize(null_dist)
+
+```
+
+Answer Question 11 in the packet.
+
+## Investigating the Sample
+
+Answer Questions 12-14 in your packet, then fill in the code below to check your work.
+
+```{code-blanks}
+#| blank:
+#|   target: outcome
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: group
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: survived
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: "diff in props"
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: treatment
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: control
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+sample_stat <- cpr |>
+  specify(response = outcome, explanatory = group, success = "survived") |>
+  calculate(stat = "diff in props", order = c("treatment","control"))
+
+sample_stat
+
+```
+
+**Stop** and check in with Dr. O or Aidan here.
+
+## Finding the p-value
+
+Answer Question 16 in your packet, then fill in the code below to answer Question 17.
+
+```{code-blanks}
+#| blank:
+#|   target: right
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: sample_stat
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+
+null_dist |>
+  visualize() + 
+  shade_p_value(sample_stat, direction = "right")
+
+```
+
+Now fill in the code below to answer Question 18.
+
+```{code-blanks}
+#| blank:
+#|   target: right
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: sample_stat
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+null_dist |>
+  get_p_value(sample_stat, direction = "right")
+
+```
+
+Answer Question 19, then **stop** and check in with Dr. O or Aidan.
