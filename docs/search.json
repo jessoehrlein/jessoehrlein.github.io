@@ -242,6 +242,6 @@
     "href": "twoprops_code_blanks.html#finding-the-p-value",
     "title": "Hypothesis Testing for Two Proportions",
     "section": "Finding the p-value",
-    "text": "Finding the p-value\nAnswer Question 16 in your packet, then fill in the code below to answer Question 17.\nnull_dist |&gt;\n  visualize() + \n  shade_p_value(, direction = \"\")\n\nNow fill in the code below to answer Question 18.\nnull_dist |&gt;\n  get_p_value(, direction = \"\")\n\nAnswer Question 19, then stop and check in with Dr. O or Aidan."
+    "text": "Finding the p-value\nAnswer Question 16 in your packet, then fill in the code below to answer Question 17.\nnull_dist |&gt;\n  visualize() + \n  shade_p_value(, direction = \"\")\n\nNow fill in the code below to answer Question 18.\nnull_dist |&gt;\n  get_p_value(, direction = \"\")\n\nAnswer Question 19, then stop and check in with Dr. O or Aidan.\nYou will not need R for the Drawing Conclusions section!"
   }
 ]
