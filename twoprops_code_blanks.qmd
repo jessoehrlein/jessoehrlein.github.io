@@ -11,229 +11,157 @@ code-blanks:
     - ggplot2
     - infer
     - openintro
-    - palmerpenguins
   setup:
     - library(ggplot2)
     - library(dplyr)
     - library(infer)
     - library(openintro)
-    - library(palmerpenguins)
 ---
 
-## Confidence Interval for a Proportion
+## Dataset & Null Hypothesis Sampling Distribution
 
-You'll work with a dataset called `nuclear_survey` about whether US aduls support nuclear arms reduction. The survey was administered in March 2013. Your goal is to calculate a 95% confidence interval for the proportion of US adults who support arms reduction.
-
-Run the code below to see a random 10 rows of the dataset.
-```{code-blanks}
-slice_sample(nuclear_survey, n = 10)
-```
-
-Answer Questions 9-11 of your packet. Then use those responses to fill in this code to calculate your sample proportion.
-
-```{code-blanks}
-#| blank:
-#|   target: arms_reduction
-#|   prefill: false
-#|   occurrence: 1
-#|   match: token
-#| blank:
-#|   target: favor
-#|   prefill: false
-#|   occurrence: 1
-#|   match: token
-#| blank:
-#|   target: "prop"
-#|   prefill: true
-#|   occurrence: 1
-#|   match: token
-
-sample_prop <- nuclear_survey |>
-  specify(response = arms_reduction, success = "favor") |>
-  calculate(stat = "prop")
-
-sample_prop
-
-```
-
-Answer Question 12 in the packet. Then fill in the code below to calculate the bootstrap sampling distribution.
-
-```{code-blanks}
-#| blank:
-#|   target: arms_reduction
-#|   prefill: false
-#|   occurrence: 1
-#|   match: token
-#| blank:
-#|   target: favor
-#|   prefill: false
-#|   occurrence: 1
-#|   match: token
-#| blank:
-#|   target: prop
-#|   prefill: true
-#|   occurrence: 1
-#|   match: token
-
-nuclear_dist <- nuclear_survey |>
-  specify(response = arms_reduction, success = "favor") |>
-  generate(reps = 5000, type = "bootstrap") |>
-  calculate(stat = "prop")
-
-visualize(nuclear_dist)
-
-```
-
-Answer Question 13 in your packet. Then fill in the code below to calculate a 95% confidence interval.
-
-```{code-blanks}
-#| blank:
-#|   target: 0.95
-#|   prefill: false
-#|   occurrence: 1
-#|   match: token
-
-nuclear_dist |>
-  get_confidence_interval(level = 0.95)
-
-```
-
-Use this to answer Questions 14-15, and then **check in** with an instructor.
-
-## Confidence Intervals for Means and Medians
-
-To look at confidence intervals for means and medians, you'll return to the Palmer Archipelago penguins!
+You'll work with a dataset called `cpr` about patients who had heart attacks, were given CPR, and then were admitted to the hospital. Once in the hospital, they were either given blood thinners (`treatment` group) or not (`control` group). The experiment then measured whether they survived at least 24 hours.
 
 Run the code below to see a random 10 rows of the dataset.
 ```{code-blanks}
-slice_sample(palmerpenguins, n = 10)
+slice_sample(cpr, n = 10)
 ```
 
-Answer Questions 16-17 in your packet, then fill in the code below to calculate the sample mean body mass.
+Answer Questions 5-10 of your packet, then **stop** and check in with Dr. O or Aidan.
+
+Then use those responses to fill in this code to generate your null hypothesis sampling distribution (or "null distribution" for short).
 
 ```{code-blanks}
 #| blank:
-#|   target: body_mass_g
+#|   target: outcome
 #|   prefill: false
 #|   occurrence: 1
 #|   match: token
 #| blank:
-#|   target: "mean"
-#|   prefill: false
-#|   occurrence: 1
-#|   match: token
-
-sample_mean <- palmerpenguins |>
-  specify(response = body_mass_g) |>
-  calculate(stat = "mean")
-
-sample_mean
-
-```
-
-Use this to answer Question 18.
-
-Now generate the bootstrap distribution for the mean:
-
-```{code-blanks}
-#| blank:
-#|   target: body_mass_g
+#|   target: group
 #|   prefill: false
 #|   occurrence: 1
 #|   match: token
 #| blank:
-#|   target: "mean"
+#|   target: survived
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: "diff in props"
 #|   prefill: true
 #|   occurrence: 1
 #|   match: token
 #| blank:
-#|   target: bootstrap
+#|   target: treatment
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: control
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+null_dist <- cpr |>
+  specify(response = outcome, explanatory = group, success = "survived") |>
+  hypothesize(null = "independence") |>
+  generate(reps = 5000, type = "permute") |>
+  calculate(stat = "diff in props", order = c("treatment","control"))
+
+visualize(null_dist)
+
+```
+
+Answer Question 11 in the packet.
+
+## Investigating the Sample
+
+Answer Questions 12-14 in your packet, then fill in the code below to check your work.
+
+```{code-blanks}
+#| blank:
+#|   target: outcome
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: group
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: survived
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: "diff in props"
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: treatment
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: control
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+sample_stat <- cpr |>
+  specify(response = outcome, explanatory = group, success = "survived") |>
+  calculate(stat = "diff in props", order = c("treatment","control"))
+
+sample_stat
+
+```
+
+**Stop** and check in with Dr. O or Aidan here.
+
+## Finding the p-value
+
+Answer Question 16 in your packet, then fill in the code below to answer Question 17.
+
+```{code-blanks}
+#| blank:
+#|   target: right
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: sample_stat
 #|   prefill: true
 #|   occurrence: 1
 #|   match: token
 
-penguin_mean_dist <- palmerpenguins |>
-  specify(response = body_mass_g) |>
-  generate(reps = 5000, type = "bootstrap") |>
-  calculate(stat = "mean")
-
-visualize(penguin_mean_dist)
+null_dist |>
+  visualize() + 
+  shade_p_value(sample_stat, direction = "right")
 
 ```
 
-Use that distribution to answer Question 19. Then calculate a 90% confidence interval using the code below.
+Now fill in the code below to answer Question 18.
 
 ```{code-blanks}
 #| blank:
-#|   target: 0.90
+#|   target: right
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: sample_stat
 #|   prefill: false
 #|   occurrence: 1
 #|   match: token
 
-penguin_mean_dist |>
-  get_confidence_interval(level = 0.90)
+null_dist |>
+  get_p_value(sample_stat, direction = "right")
 
 ```
 
-Answer Question 20 and **check in** with an instructor.
+Answer Question 19, then **stop** and check in with Dr. O or Aidan.
 
-You'll repeat the same process, but you'll estimate the median body mass instead of the mean this time. Answer Questions 21-23 as you complete the code below.
-
-```{code-blanks}
-#| blank:
-#|   target: body_mass_g
-#|   prefill: false
-#|   occurrence: 1
-#|   match: token
-#| blank:
-#|   target: median
-#|   prefill: false
-#|   occurrence: 1
-#|   match: token
-
-sample_median <- palmerpenguins |>
-  specify(response = body_mass_g) |>
-  calculate(stat = "median")
-
-sample_median
-
-```
-
-```{code-blanks}
-#| blank:
-#|   target: body_mass_g
-#|   prefill: false
-#|   occurrence: 1
-#|   match: token
-#| blank:
-#|   target: "median"
-#|   prefill: true
-#|   occurrence: 1
-#|   match: token
-#| blank:
-#|   target: bootstrap
-#|   prefill: true
-#|   occurrence: 1
-#|   match: token
-
-penguin_median_dist <- palmerpenguins |>
-  specify(response = body_mass_g) |>
-  generate(reps = 5000, type = "bootstrap") |>
-  calculate(stat = "median")
-
-visualize(penguin_median_dist)
-
-```
-
-```{code-blanks}
-#| blank:
-#|   target: 0.90
-#|   prefill: false
-#|   occurrence: 1
-#|   match: token
-
-penguin_median_dist |>
-  get_confidence_interval(level = 0.90)
-
-```
-
+You will not need R for the Drawing Conclusions section!

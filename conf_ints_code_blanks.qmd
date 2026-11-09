@@ -11,19 +11,21 @@ code-blanks:
     - ggplot2
     - infer
     - openintro
+    - palmerpenguins
   setup:
     - library(ggplot2)
     - library(dplyr)
     - library(infer)
     - library(openintro)
+    - library(palmerpenguins)
 ---
-
 
 ## Confidence Interval for a Proportion
 
 You'll work with a dataset called `nuclear_survey` about whether US aduls support nuclear arms reduction. The survey was administered in March 2013. Your goal is to calculate a 95% confidence interval for the proportion of US adults who support arms reduction.
 
 Run the code below to see a random 10 rows of the dataset.
+
 ```{code-blanks}
 slice_sample(nuclear_survey, n = 10)
 ```
@@ -43,7 +45,7 @@ Answer Questions 9-11 of your packet. Then use those responses to fill in this c
 #|   match: token
 #| blank:
 #|   target: "prop"
-#|   prefill: true
+#|   prefill: false
 #|   occurrence: 1
 #|   match: token
 
@@ -70,7 +72,7 @@ Answer Question 12 in the packet. Then fill in the code below to calculate the b
 #|   match: token
 #| blank:
 #|   target: prop
-#|   prefill: true
+#|   prefill: false
 #|   occurrence: 1
 #|   match: token
 
@@ -104,8 +106,9 @@ Use this to answer Questions 14-15, and then **check in** with an instructor.
 To look at confidence intervals for means and medians, you'll return to the Palmer Archipelago penguins!
 
 Run the code below to see a random 10 rows of the dataset.
+
 ```{code-blanks}
-slice_sample(palmerpenguins, n = 10)
+slice_sample(penguins, n = 10)
 ```
 
 Answer Questions 16-17 in your packet, then fill in the code below to calculate the sample mean body mass.
@@ -122,7 +125,7 @@ Answer Questions 16-17 in your packet, then fill in the code below to calculate 
 #|   occurrence: 1
 #|   match: token
 
-sample_mean <- palmerpenguins |>
+sample_mean <- penguins |>
   specify(response = body_mass_g) |>
   calculate(stat = "mean")
 
@@ -151,7 +154,7 @@ Now generate the bootstrap distribution for the mean:
 #|   occurrence: 1
 #|   match: token
 
-penguin_mean_dist <- palmerpenguins |>
+penguin_mean_dist <- penguins |>
   specify(response = body_mass_g) |>
   generate(reps = 5000, type = "bootstrap") |>
   calculate(stat = "mean")
@@ -190,7 +193,7 @@ You'll repeat the same process, but you'll estimate the median body mass instead
 #|   occurrence: 1
 #|   match: token
 
-sample_median <- palmerpenguins |>
+sample_median <- penguins |>
   specify(response = body_mass_g) |>
   calculate(stat = "median")
 
@@ -215,7 +218,7 @@ sample_median
 #|   occurrence: 1
 #|   match: token
 
-penguin_median_dist <- palmerpenguins |>
+penguin_median_dist <- penguins |>
   specify(response = body_mass_g) |>
   generate(reps = 5000, type = "bootstrap") |>
   calculate(stat = "median")
@@ -235,4 +238,3 @@ penguin_median_dist |>
   get_confidence_interval(level = 0.90)
 
 ```
-

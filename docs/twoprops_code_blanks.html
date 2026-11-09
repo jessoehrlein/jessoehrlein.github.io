@@ -75,11 +75,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>window.codeBlanksPackages = ["dplyr","ggplot2","infer","openintro","palmerpenguins"];window.codeBlanksSetup = `library(ggplot2)
+<script>window.codeBlanksPackages = ["dplyr","ggplot2","infer","openintro"];window.codeBlanksSetup = `library(ggplot2)
 library(dplyr)
 library(infer)
-library(openintro)
-library(palmerpenguins)`;window.codeBlanksPlotWidth = 800;window.codeBlanksPlotHeight = 500;window.codeBlanksProgressiveReveal = true;</script>
+library(openintro)`;window.codeBlanksPlotWidth = 800;window.codeBlanksPlotHeight = 500;window.codeBlanksProgressiveReveal = true;</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -146,8 +145,9 @@ library(palmerpenguins)`;window.codeBlanksPlotWidth = 800;window.codeBlanksPlotH
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#confidence-interval-for-a-proportion" id="toc-confidence-interval-for-a-proportion" class="nav-link active" data-scroll-target="#confidence-interval-for-a-proportion">Confidence Interval for a Proportion</a></li>
-  <li><a href="#confidence-intervals-for-means-and-medians" id="toc-confidence-intervals-for-means-and-medians" class="nav-link" data-scroll-target="#confidence-intervals-for-means-and-medians">Confidence Intervals for Means and Medians</a></li>
+  <li><a href="#dataset-null-hypothesis-sampling-distribution" id="toc-dataset-null-hypothesis-sampling-distribution" class="nav-link active" data-scroll-target="#dataset-null-hypothesis-sampling-distribution">Dataset &amp; Null Hypothesis Sampling Distribution</a></li>
+  <li><a href="#investigating-the-sample" id="toc-investigating-the-sample" class="nav-link" data-scroll-target="#investigating-the-sample">Investigating the Sample</a></li>
+  <li><a href="#finding-the-p-value" id="toc-finding-the-p-value" class="nav-link" data-scroll-target="#finding-the-p-value">Finding the p-value</a></li>
   </ul>
 </nav>
     </div>
@@ -173,75 +173,47 @@ library(palmerpenguins)`;window.codeBlanksPlotWidth = 800;window.codeBlanksPlotH
 </header>
 
 
-<section id="confidence-interval-for-a-proportion" class="level2">
-<h2 class="anchored" data-anchor-id="confidence-interval-for-a-proportion">Confidence Interval for a Proportion</h2>
-<p>You’ll work with a dataset called <code>nuclear_survey</code> about whether US aduls support nuclear arms reduction. The survey was administered in March 2013. Your goal is to calculate a 95% confidence interval for the proportion of US adults who support arms reduction.</p>
+<section id="dataset-null-hypothesis-sampling-distribution" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-null-hypothesis-sampling-distribution">Dataset &amp; Null Hypothesis Sampling Distribution</h2>
+<p>You’ll work with a dataset called <code>cpr</code> about patients who had heart attacks, were given CPR, and then were admitted to the hospital. Once in the hospital, they were either given blood thinners (<code>treatment</code> group) or not (<code>control</code> group). The experiment then measured whether they survived at least 24 hours.</p>
 <p>Run the code below to see a random 10 rows of the dataset.</p>
-<pre class="code-blanks"><code>slice_sample(nuclear_survey, n = 10)</code></pre>
-<p>Answer Questions 9-11 of your packet. Then use those responses to fill in this code to calculate your sample proportion.</p>
-<pre class="code-blanks"><code>sample_prop &lt;- nuclear_survey |&gt;
-  specify(response = <input class="code-blank-input" data-answer="arms_reduction" data-default="" value="" size="16">, success = "<input class="code-blank-input" data-answer="favor" data-default="" value="" size="7">") |&gt;
-  calculate(stat = <input class="code-blank-input" data-answer="&quot;prop&quot;" data-default="&quot;prop&quot;" value="&quot;prop&quot;" size="8">)
+<pre class="code-blanks"><code>slice_sample(cpr, n = 10)</code></pre>
+<p>Answer Questions 5-10 of your packet, then <strong>stop</strong> and check in with Dr.&nbsp;O or Aidan.</p>
+<p>Then use those responses to fill in this code to generate your null hypothesis sampling distribution (or “null distribution” for short).</p>
+<pre class="code-blanks"><code>null_dist &lt;- cpr |&gt;
+  specify(response = <input class="code-blank-input" data-answer="outcome" data-default="" value="" size="9">, explanatory = <input class="code-blank-input" data-answer="group" data-default="" value="" size="7">, success = "<input class="code-blank-input" data-answer="survived" data-default="" value="" size="10">") |&gt;
+  hypothesize(null = "independence") |&gt;
+  generate(reps = 5000, type = "permute") |&gt;
+  calculate(stat = <input class="code-blank-input" data-answer="&quot;diff in props&quot;" data-default="&quot;diff in props&quot;" value="&quot;diff in props&quot;" size="17">, order = c("<input class="code-blank-input" data-answer="treatment" data-default="" value="" size="11">","<input class="code-blank-input" data-answer="control" data-default="" value="" size="9">"))
 
-sample_prop
+visualize(null_dist)
 </code></pre>
-<p>Answer Question 12 in the packet. Then fill in the code below to calculate the bootstrap sampling distribution.</p>
-<pre class="code-blanks"><code>nuclear_dist &lt;- nuclear_survey |&gt;
-  specify(response = <input class="code-blank-input" data-answer="arms_reduction" data-default="" value="" size="16">, success = "<input class="code-blank-input" data-answer="favor" data-default="" value="" size="7">") |&gt;
-  generate(reps = 5000, type = "bootstrap") |&gt;
-  calculate(stat = "<input class="code-blank-input" data-answer="prop" data-default="prop" value="prop" size="6">")
-
-visualize(nuclear_dist)
-</code></pre>
-<p>Answer Question 13 in your packet. Then fill in the code below to calculate a 95% confidence interval.</p>
-<pre class="code-blanks"><code>nuclear_dist |&gt;
-  get_confidence_interval(level = <input class="code-blank-input" data-answer="0.95" data-default="" value="" size="6">)
-</code></pre>
-<p>Use this to answer Questions 14-15, and then <strong>check in</strong> with an instructor.</p>
+<p>Answer Question 11 in the packet.</p>
 </section>
-<section id="confidence-intervals-for-means-and-medians" class="level2">
-<h2 class="anchored" data-anchor-id="confidence-intervals-for-means-and-medians">Confidence Intervals for Means and Medians</h2>
-<p>To look at confidence intervals for means and medians, you’ll return to the Palmer Archipelago penguins!</p>
-<p>Run the code below to see a random 10 rows of the dataset.</p>
-<pre class="code-blanks"><code>slice_sample(palmerpenguins, n = 10)</code></pre>
-<p>Answer Questions 16-17 in your packet, then fill in the code below to calculate the sample mean body mass.</p>
-<pre class="code-blanks"><code>sample_mean &lt;- palmerpenguins |&gt;
-  specify(response = <input class="code-blank-input" data-answer="body_mass_g" data-default="" value="" size="13">) |&gt;
-  calculate(stat = <input class="code-blank-input" data-answer="&quot;mean&quot;" data-default="" value="" size="8">)
+<section id="investigating-the-sample" class="level2">
+<h2 class="anchored" data-anchor-id="investigating-the-sample">Investigating the Sample</h2>
+<p>Answer Questions 12-14 in your packet, then fill in the code below to check your work.</p>
+<pre class="code-blanks"><code>sample_stat &lt;- cpr |&gt;
+  specify(response = <input class="code-blank-input" data-answer="outcome" data-default="" value="" size="9">, explanatory = <input class="code-blank-input" data-answer="group" data-default="" value="" size="7">, success = "<input class="code-blank-input" data-answer="survived" data-default="" value="" size="10">") |&gt;
+  calculate(stat = <input class="code-blank-input" data-answer="&quot;diff in props&quot;" data-default="" value="" size="17">, order = c("<input class="code-blank-input" data-answer="treatment" data-default="" value="" size="11">","<input class="code-blank-input" data-answer="control" data-default="" value="" size="9">"))
 
-sample_mean
+sample_stat
 </code></pre>
-<p>Use this to answer Question 18.</p>
-<p>Now generate the bootstrap distribution for the mean:</p>
-<pre class="code-blanks"><code>penguin_mean_dist &lt;- palmerpenguins |&gt;
-  specify(response = <input class="code-blank-input" data-answer="body_mass_g" data-default="" value="" size="13">) |&gt;
-  generate(reps = 5000, type = "<input class="code-blank-input" data-answer="bootstrap" data-default="bootstrap" value="bootstrap" size="11">") |&gt;
-  calculate(stat = <input class="code-blank-input" data-answer="&quot;mean&quot;" data-default="&quot;mean&quot;" value="&quot;mean&quot;" size="8">)
-
-visualize(penguin_mean_dist)
+<p><strong>Stop</strong> and check in with Dr.&nbsp;O or Aidan here.</p>
+</section>
+<section id="finding-the-p-value" class="level2">
+<h2 class="anchored" data-anchor-id="finding-the-p-value">Finding the p-value</h2>
+<p>Answer Question 16 in your packet, then fill in the code below to answer Question 17.</p>
+<pre class="code-blanks"><code>null_dist |&gt;
+  visualize() + 
+  shade_p_value(<input class="code-blank-input" data-answer="sample_stat" data-default="sample_stat" value="sample_stat" size="13">, direction = "<input class="code-blank-input" data-answer="right" data-default="" value="" size="7">")
 </code></pre>
-<p>Use that distribution to answer Question 19. Then calculate a 90% confidence interval using the code below.</p>
-<pre class="code-blanks"><code>penguin_mean_dist |&gt;
-  get_confidence_interval(level = <input class="code-blank-input" data-answer="0.90" data-default="" value="" size="6">)
+<p>Now fill in the code below to answer Question 18.</p>
+<pre class="code-blanks"><code>null_dist |&gt;
+  get_p_value(<input class="code-blank-input" data-answer="sample_stat" data-default="" value="" size="13">, direction = "<input class="code-blank-input" data-answer="right" data-default="" value="" size="7">")
 </code></pre>
-<p>Answer Question 20 and <strong>check in</strong> with an instructor.</p>
-<p>You’ll repeat the same process, but you’ll estimate the median body mass instead of the mean this time. Answer Questions 21-23 as you complete the code below.</p>
-<pre class="code-blanks"><code>sample_median &lt;- palmerpenguins |&gt;
-  specify(response = <input class="code-blank-input" data-answer="body_mass_g" data-default="" value="" size="13">) |&gt;
-  calculate(stat = "<input class="code-blank-input" data-answer="median" data-default="" value="" size="8">")
-
-sample_median
-</code></pre>
-<pre class="code-blanks"><code>penguin_median_dist &lt;- palmerpenguins |&gt;
-  specify(response = <input class="code-blank-input" data-answer="body_mass_g" data-default="" value="" size="13">) |&gt;
-  generate(reps = 5000, type = "<input class="code-blank-input" data-answer="bootstrap" data-default="bootstrap" value="bootstrap" size="11">") |&gt;
-  calculate(stat = <input class="code-blank-input" data-answer="&quot;median&quot;" data-default="&quot;median&quot;" value="&quot;median&quot;" size="10">)
-
-visualize(penguin_median_dist)
-</code></pre>
-<pre class="code-blanks"><code>penguin_median_dist |&gt;
-  get_confidence_interval(level = <input class="code-blank-input" data-answer="0.90" data-default="" value="" size="6">)
-</code></pre>
+<p>Answer Question 19, then <strong>stop</strong> and check in with Dr.&nbsp;O or Aidan.</p>
+<p>You will not need R for the Drawing Conclusions section!</p>
 
 
 </section>
