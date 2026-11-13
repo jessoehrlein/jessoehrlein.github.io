@@ -278,5 +278,33 @@
     "title": "Confidence Intervals",
     "section": "Confidence Intervals for Means and Medians",
     "text": "Confidence Intervals for Means and Medians\nTo look at confidence intervals for means and medians, you’ll return to the Palmer Archipelago penguins!\nRun the code below to see a random 10 rows of the dataset.\nslice_sample(penguins, n = 10)\nAnswer Questions 16-17 in your packet, then fill in the code below to calculate the sample mean body mass.\nsample_mean &lt;- penguins |&gt;\n  specify(response = ) |&gt;\n  calculate(stat = )\n\nsample_mean\n\nUse this to answer Question 18.\nNow generate the bootstrap distribution for the mean:\npenguin_mean_dist &lt;- penguins |&gt;\n  specify(response = ) |&gt;\n  generate(reps = 5000, type = \"\") |&gt;\n  calculate(stat = )\n\nvisualize(penguin_mean_dist)\n\nUse that distribution to answer Question 19. Then calculate a 90% confidence interval using the code below.\npenguin_mean_dist |&gt;\n  get_confidence_interval(level = )\n\nAnswer Question 20 and check in with an instructor.\nYou’ll repeat the same process, but you’ll estimate the median body mass instead of the mean this time. Answer Questions 21-23 as you complete the code below.\nsample_median &lt;- penguins |&gt;\n  specify(response = ) |&gt;\n  calculate(stat = \"\")\n\nsample_median\n\npenguin_median_dist &lt;- penguins |&gt;\n  specify(response = ) |&gt;\n  generate(reps = 5000, type = \"\") |&gt;\n  calculate(stat = )\n\nvisualize(penguin_median_dist)\n\npenguin_median_dist |&gt;\n  get_confidence_interval(level = )"
+  },
+  {
+    "objectID": "paired_means_code_blanks.html",
+    "href": "paired_means_code_blanks.html",
+    "title": "Hypothesis Testing for Means",
+    "section": "",
+    "text": "You’ll work with a dataset called climate70 about the number of days with temperatures above 90 degrees across a variety of weather stations in both 1948 and 2018. All the weather stations have data for the number of days above 90 degrees in both years.\nRun the code below to see a random 10 rows of the dataset.\nslice_sample(climate70, n = 10)\nAnswer Questions 17-19 of your packet, then fill in this code to calculate the difference variable.\nclimate70_diff &lt;- climate70 |&gt;\n  mutate(dx90_diff =  - )\n\nhead(climate70_diff)\n\nAnswer Questions 20-21 in your packet. Then fill in the code below and use the distribution to answer Question 22.\nnull_dist &lt;- climate70_diff |&gt;\n  specify(response = ) |&gt;\n  hypothesize(null = ) |&gt;\n  generate(reps = 5000, type = \"permute\") |&gt;\n  calculate(stat = \"\")\n\nvisualize(null_dist)\n\nStop and check in with Dr. O or Aidan here."
+  },
+  {
+    "objectID": "paired_means_code_blanks.html#paired-means",
+    "href": "paired_means_code_blanks.html#paired-means",
+    "title": "Hypothesis Testing for Means",
+    "section": "",
+    "text": "You’ll work with a dataset called climate70 about the number of days with temperatures above 90 degrees across a variety of weather stations in both 1948 and 2018. All the weather stations have data for the number of days above 90 degrees in both years.\nRun the code below to see a random 10 rows of the dataset.\nslice_sample(climate70, n = 10)\nAnswer Questions 17-19 of your packet, then fill in this code to calculate the difference variable.\nclimate70_diff &lt;- climate70 |&gt;\n  mutate(dx90_diff =  - )\n\nhead(climate70_diff)\n\nAnswer Questions 20-21 in your packet. Then fill in the code below and use the distribution to answer Question 22.\nnull_dist &lt;- climate70_diff |&gt;\n  specify(response = ) |&gt;\n  hypothesize(null = ) |&gt;\n  generate(reps = 5000, type = \"permute\") |&gt;\n  calculate(stat = \"\")\n\nvisualize(null_dist)\n\nStop and check in with Dr. O or Aidan here."
+  },
+  {
+    "objectID": "paired_means_code_blanks.html#investigating-the-sample",
+    "href": "paired_means_code_blanks.html#investigating-the-sample",
+    "title": "Hypothesis Testing for Means",
+    "section": "Investigating the Sample",
+    "text": "Investigating the Sample\nFill in the following two code chunks, and use them to answer Questions 23-24.\nsample_stat &lt;- climate70_diff |&gt;\n  specify(response = ) |&gt;\n  calculate(stat = \"\")\n\nsample_stat\n\nggplot(climate70_diff) +\n  aes(x = ) +\n  (binwidth=2) +\n  labs(\n    x = \"Difference in Number of 90 Degree Days (2018 - 1948)\"\n  ) +\n  theme_bw()"
+  },
+  {
+    "objectID": "paired_means_code_blanks.html#finding-the-p-value",
+    "href": "paired_means_code_blanks.html#finding-the-p-value",
+    "title": "Hypothesis Testing for Means",
+    "section": "Finding the p-value",
+    "text": "Finding the p-value\nAnswer Question 25 in your packet, then fill in the code below to answer Questions 26 and 27.\nnull_dist |&gt;\n  visualize() + \n  shade_p_value(, direction = \"\")\n\nnull_dist |&gt;\n  get_p_value(, direction = \"\")"
   }
 ]

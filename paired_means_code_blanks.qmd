@@ -1,0 +1,163 @@
+---
+title: Hypothesis Testing for Means
+format: html
+filters:
+  - code-blanks
+
+code-blanks:
+  progressive-reveal: true
+  packages:
+    - dplyr
+    - ggplot2
+    - infer
+    - openintro
+  setup:
+    - library(ggplot2)
+    - library(dplyr)
+    - library(infer)
+    - library(openintro)
+---
+## Paired Means
+
+### Dataset & Null Hypothesis Sampling Distribution
+
+You'll work with a dataset called `climate70` about the number of days with temperatures above 90 degrees across a variety of weather stations in both 1948 and 2018. All the weather stations have data for the number of days above 90 degrees in both years. 
+
+Run the code below to see a random 10 rows of the dataset.
+
+```{code-blanks}
+slice_sample(climate70, n = 10)
+```
+
+Answer Questions 17-19 of your packet, then fill in this code to calculate the difference variable.
+
+```{code-blanks}
+#| blank:
+#|   target: dx90_2018
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: dx90_1948
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+climate70_diff <- climate70 |>
+  mutate(dx90_diff = dx90_2018 - dx90_1948)
+
+head(climate70_diff)
+
+```
+
+Answer Questions 20-21 in your packet. Then fill in the code below and use the distribution to answer Question 22.
+
+```{code-blanks}
+#| blank:
+#|   target: dx90_diff
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: mean
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: "paired independence"
+#|   prefill: true
+#|   occurrence: 1
+#|   match: token
+
+null_dist <- climate70_diff |>
+  specify(response = dx90_diff) |>
+  hypothesize(null = "paired independence") |>
+  generate(reps = 5000, type = "permute") |>
+  calculate(stat = "mean")
+
+visualize(null_dist)
+
+```
+
+**Stop** and check in with Dr. O or Aidan here.
+
+## Investigating the Sample
+
+Fill in the following two code chunks, and use them to answer Questions 23-24.
+
+```{code-blanks}
+#| blank:
+#|   target: dx90_diff
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: mean
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+sample_stat <- climate70_diff |>
+  specify(response = dx90_diff) |>
+  calculate(stat = "mean")
+
+sample_stat
+
+```
+
+```{code-blanks}
+#| blank:
+#|   target: dx90_diff
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: geom_histogram
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+ggplot(climate70_diff) +
+  aes(x = dx90_diff) +
+  geom_histogram(binwidth=2) +
+  labs(
+    x = "Difference in Number of 90 Degree Days (2018 - 1948)"
+  ) +
+  theme_bw()
+
+```
+
+## Finding the p-value
+
+Answer Question 25 in your packet, then fill in the code below to answer Questions 26 and 27.
+
+```{code-blanks}
+#| blank:
+#|   target: right
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: sample_stat
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: right
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+#| blank:
+#|   target: sample_stat
+#|   prefill: false
+#|   occurrence: 1
+#|   match: token
+
+null_dist |>
+  visualize() + 
+  shade_p_value(sample_stat, direction = "right")
+
+null_dist |>
+  get_p_value(sample_stat, direction = "right")
+
+```
